@@ -2,7 +2,7 @@
 
 An AI agent that drafts Western Student Association (WSA) funding requests for student organizations at Western Michigan University, so finance directors spend their time reviewing documents instead of building them from scratch.
 
-Built by the [Data Science & AI Club (DSAIC)](https://github.com/rafiaauthoi/dsaic-finance-agent) at WMU.
+Built by the [Data Science & AI Club (DSAIC)](https://www.linkedin.com/company/data-science-club-wmu) at WMU.
 
 > **Status:** Early development. We're building the data foundation from past approved funding requests.
 
