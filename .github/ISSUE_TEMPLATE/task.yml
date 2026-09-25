@@ -1,0 +1,45 @@
+name: Task
+description: A piece of planned work for the project board
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs to be done?
+      description: Describe the task in plain words.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it matter?
+      description: Which part of the WSA funding process does this help with?
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: List what must be true for this task to be finished.
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Data
+        - Evaluation
+        - Docs
+        - Feature
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: budget
+    attributes:
+      label: WSA budget type
+      options:
+        - Operational
+        - Event
+        - Conference
+        - Not specific to one type
