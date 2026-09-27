@@ -1,0 +1,1585 @@
+# WSA Allocations and RSO Finance: structured rules
+# Companion to wsa-club-finance-domain.md (canonical text). Same facts, same IDs, same source tags.
+# Generated 2026-09-27 for the DSAIC Club Finance project. Never treat a "cody", "inferred" or
+# "unconfirmed" trust level as a rule. "bylaws_f26" is the highest source; "bylaws_f24" is history only
+# (see changes_to_f26 and changes_f24_to_s26).
+
+meta:
+  title: "WSA Allocations and RSO Finance: Master Domain Reference"
+  version: "v3"
+  generated: "2026-09-27"
+  organization: "Data Science and AI Club (DSAIC), Western Michigan University"
+  canonical_text: "wsa-club-finance-domain.md"
+  precedence_high_to_low:
+    - "WSAAC Bylaws passed 2026-09-09 (bylaws_f26) and the WSA Constitution (not in hand)"
+    - "WSAAC eLearning announcement 2026-09-21 (news_0921)"
+    - "Spring 2026 workshop slides, Step 4 instructions, Fall 2026 templates"
+    - "Fall 2024 WSAAC Bylaws text (fully superseded; history only)"
+    - "OSE RSO Handbook 2024-2025"
+    - "Cody's practice notes (explain how to operate; never override rules)"
+    - "Inferred readings"
+  trust_levels:
+    official_current: "September 2026 bylaws, September 2026 announcement, Spring 2026 slides where the bylaws agree, Step 4 instructions, Fall 2026 templates"
+    official_stale: "Fall 2024 bylaws, 2024-25 handbook"
+    web: "public WMU or WSA page checked 2026-09-24"
+    cody: "practice, Sept 2026"
+    inferred: "reading not stated by any source"
+    unconfirmed: "stated, not verified"
+
+sources:
+  - id: cody
+    label: "Cody Thornell, WSA brain dump (wsa_brain_dump_1.pdf)"
+    date: "2026-09"
+    trust: cody
+  - id: bylaws_f26
+    label: "WSAAC Bylaws, passed by the WSA Assembly 2026-09-09"
+    date: "2026-09-09"
+    location: "team shared drive; WSAAC asks that the text not be reproduced, so cite by section only"
+    trust: official_current
+  - id: news_0921
+    label: "WSAAC eLearning News: New Budget Templates and Quiz (2026-09-21)"
+    date: "2026-09-21"
+    trust: official_current
+  - id: step1
+    label: "WSAAC Allocations Workshop Spring 2026, Step 1 Qualifications"
+    trust: official_current
+  - id: step2
+    label: "WSAAC Allocations Workshop Spring 2026, Step 2 Funding Opportunities"
+    trust: official_current
+  - id: step3
+    label: "WSAAC Allocations Workshop Spring 2026, Step 3 Application"
+    trust: official_current
+  - id: step4
+    label: "WSAAC Instructions for WSAAC Budget Proposals (Step 4 text)"
+    trust: official_current
+  - id: step5
+    label: "WSAAC Allocations Workshop Spring 2026, Step 5 Results and Appeals"
+    trust: official_current
+  - id: step6
+    label: "WSAAC Allocations Workshop Spring 2026, Step 6 Branding and Event Sharing"
+    trust: official_current
+  - id: step7
+    label: "WSAAC Allocations Workshop Spring 2026, Step 7 Payment and Reimbursement"
+    trust: official_current
+  - id: templates_f26
+    label: "Fall 2026 WSAAC proposal templates (Event, Operational, Conference, Collaboration .xlsx)"
+    trust: official_current
+  - id: bylaws_f24
+    label: "WSAAC Bylaws passed Fall 2024"
+    url: "https://static1.squarespace.com/static/5fb95b0fee58712598b7bce7/t/66e322ea2a0e654e89d9c746/1726161643103/WSAAC+Fall+2024+Bylaws+-+passed.pdf"
+    trust: official_stale
+  - id: handbook_2425
+    label: "OSE Registered Student Organization Handbook 2024-2025"
+    url: "https://files.wmich.edu/s3fs-public/2024-08/rso_handbook_2024-2025.pdf"
+    trust: official_stale
+  - id: web_coa
+    label: "WMU cost of attendance, 2026-27 fees"
+    url: "https://wmich.edu/finaid/cost-of-attendance"
+    checked: "2026-09-24"
+    trust: web
+  - id: web_fy25_fees
+    label: "WMU Board FY2025 tuition and fees supplement (effective Fall 2024)"
+    url: "https://files.wmich.edu/s3fs-public/attachments/u41/2024/13%20b%20Supplement%20Tuition%20and%20Fees%20Rec%20FY2025-Eff%20Fall2024%206.27.24.pdf"
+    trust: web
+  - id: web_herald_2024
+    label: "Western Herald, Student Assessment Fee added to WSA ballot (Feb 2024)"
+    url: "https://www.westernherald.com/news/article_583c381c-c557-11ee-abf2-6f7d9ae1bc87.html"
+    trust: web
+  - id: web_herald_2025
+    label: "Western Herald, WSA prepares for upcoming semester (Jan 2025)"
+    url: "https://www.westernherald.com/news/article_2ea4a8f8-d4f7-11ef-bed4-87c43c09de6d.html"
+    trust: web
+  - id: web_wsa_alloc
+    label: "WSA Allocations page"
+    url: "https://wmuwsa.org/allocations"
+    trust: web
+  - id: web_wsa_director
+    label: "WSA Director of Allocations page"
+    url: "https://wmuwsa.org/director-of-allocations"
+    trust: web
+  - id: web_ose_finances
+    label: "OSE RSO finances page"
+    url: "https://wmich.edu/studentengagement/rso/finances"
+    trust: web
+  - id: web_gsa
+    label: "GSA RSO funding page"
+    url: "https://wmich.edu/gsa/funding/rso-funding"
+    trust: web
+  - id: web_travel
+    label: "WMU travel, personal car"
+    url: "https://wmich.edu/travel/ground-travel/ground-traveling/personal-car"
+    trust: web
+  - id: not_in_hand
+    label: "Cited by the slides but not retrieved: current WSAAC Bylaws, WSA Constitution, Judicial Code, WSA Allocations Spending Guide 2025-2026, OSE Spending Guide, Allocation Distribution Request Form, WSAAC Allocations Packet, WSAAC Toolkit"
+    trust: unconfirmed
+
+organizations:
+  - id: SAF
+    name: "Student Assessment Fee"
+    role: "Per-semester student fee that funds six SAF agencies (WSA, WSAAC, Student Media Group, Graduate Student Association, Campus Activities Board, Sports Club Council)"
+    sources: [web_coa, web_herald_2024, step2]
+  - id: WSA
+    name: "Western Student Association"
+    role: "Student government: Assembly (Speaker, Secretary), Judicial Council (Chief Justice), Chief of Finance, Membership Chair, Director of Marketing and Outreach"
+    sources: [step1, step5, bylaws_f24]
+  - id: WSAAC
+    name: "WSA Allocations Commission"
+    role: "Reviews proposals, allocates SAF money to RSOs; Director and Assistant Director of Allocations"
+    web: "https://wmuwsa.org/allocations"
+    instagram: "@wmu_wsaac"
+    sources: [step5]
+  - id: OSE
+    name: "Office of Student Engagement"
+    role: "Registers RSOs, holds on-campus SAF accounts, processes every payment and reimbursement"
+    sources: [step7, handbook_2425]
+  - id: GSA_GFAC
+    name: "Graduate Student Association / Graduate Financial Allocation Committee"
+    role: "Separate SAF agency funding graduate and mixed RSOs"
+    sources: [web_gsa]
+  - id: CEAS
+    name: "College of Engineering and Applied Sciences funding"
+    role: "College-level funding and card, separate from WSA; contact the CEAS funding coordinator"
+    sources: [cody]
+  - id: SCC
+    name: "Sports Club Council"
+    role: "SAF agency for sports clubs; SCC RSOs get a lower WSAAC cap"
+    sources: [step2]
+
+contacts:
+  - role: "Director of Allocations (WSAAC)"
+    email: "wsa-directorallocations@wmich.edu"
+    note: "Role mailbox is stable; officer names change yearly"
+    sources: [web_wsa_director, step3]
+    trust: web
+  - role: "Assistant Director of Allocations (WSAAC)"
+    email: "wsa-adallocate@wmich.edu"
+    note: "Printed in the September 2026 bylaws header and appeals section; the Fall 2024 text used an underscore"
+    sources: [bylaws_f26]
+    trust: official_current
+  - role: "OSE Program Manager (payments, reimbursements)"
+    email: "ose-financials@wmich.edu"
+    email_alt: "ose_finance@wmich.edu"
+    office: "Student Center, Suite 3400"
+    phone: "(269) 387-2115"
+    hours: "Mon to Fri 8:30 a.m. to 4 p.m., by appointment"
+    note: "Step 7 slide gives ose-financials@; Step 5 slide gives ose_finance@ (OQ-05)"
+    sources: [step7, step5, handbook_2425, web_ose_finances]
+    trust: official_current
+  - role: "WSA Director of Marketing and Outreach"
+    email: "wsa-directormarketing@wmich.edu"
+    sources: [step6, bylaws_f24]
+    trust: official_current
+  - role: "RSO Development GA (OSE)"
+    email: "ose-rsodevelopment@wmich.edu"
+    sources: [handbook_2425]
+    trust: official_stale
+  - role: "WSAAC general (older)"
+    email: "wsaac-chair@wmich.edu"
+    email_alt: "wsa_ac_chair@wmich.edu"
+    phone: "(269) 387-2125"
+    sources: [handbook_2425, bylaws_f24]
+    trust: unconfirmed
+  - role: "CEAS funding coordinator"
+    note: "Name and email kept in the team's private contacts"
+    sources: [cody]
+    trust: cody
+
+saf:
+  amount_per_semester_usd: 62.00
+  applies_to: "undergraduate and graduate students"
+  academic_year: "2026-27"
+  history:
+    - { period: "before Fall 2024", amount_usd: 42.00, summer_usd: 21.00, source: web_herald_2024 }
+    - { period: "FY2025 (effective Fall 2024)", amount_usd: 55.00, source: web_fy25_fees }
+    - { period: "Fall 2026 / Spring 2027", amount_usd: 62.00, source: web_coa }
+  template_divisor_total_safs_used: 20.8692
+  template_divisor_explained: false
+
+caps:
+  - id: MON-02
+    name: "Yearly cap per RSO, all categories"
+    amount_usd: 6500
+    per: fiscal_year
+    dynamic: true
+    dynamic_note: "based on the SAF taken in by WSAAC and the RSOs served"
+    sources: [bylaws_f26, step2, cody]
+    bylaw: "Art. 6.03(a)"
+    trust: official_current
+  - id: COL-04
+    name: "Collaboration cap, separate from yearly cap"
+    amount_usd: 1500
+    per: fiscal_year_per_rso
+    sources: [bylaws_f26, step2]
+    bylaw: "Art. 6.03(a)(iv)(4)"
+    trust: official_current
+  - id: OTH-01
+    name: "Start-Up funding"
+    amount_usd: 500
+    condition: "RSO established not more than one semester, summer excluded"
+    sources: [step2]
+    bylaw: "Art. 6.03"
+    trust: official_current
+  - id: OTH-02
+    name: "Bronco Funding (WSAAC internal, not for RSO proposals)"
+    amount_usd: 2000
+    per: year
+    sources: [step2]
+    bylaw: "Art. 6.04"
+    trust: official_current
+  - id: OTH-03
+    name: "Sports clubs"
+    amount_usd: 0
+    eligible_for_wsaac: false
+    note: "funded fully by the Sports Club Council; previously $2,000"
+    sources: [bylaws_f26]
+    bylaw: "Art. 6.03(a)(v)"
+    trust: official_current
+  - id: CYC-06
+    name: "Decision outside deliberation by the Director and Assistant Director"
+    amount_usd: null
+    condition: "Commission discretion, with a pre-written statement; the older $1,250 threshold was removed"
+    sources: [bylaws_f26]
+    bylaw: "Art. 7.08"
+    trust: official_current
+  - id: EVT-01
+    name: "Event food per expected attendee"
+    amount_usd: 20
+    per: expected_attendee
+    condition: "on-campus events only (EVT-02)"
+    sources: [bylaws_f26, step2, step3]
+    bylaw: "Art. 6.03; 5.04"
+    trust: official_current
+  - id: EVT-03
+    name: "Student performer"
+    amount_usd_per_hour: 50
+    max_usd: 200
+    condition: "performer cannot be a member of the RSO"
+    sources: [bylaws_f26, step2]
+    bylaw: "Art. 6.03"
+    trust: official_current
+  - id: EVT-04
+    name: "Non-WMU performer (travel, lodging, performance)"
+    amount_usd: 1000
+    sources: [bylaws_f26, step2]
+    bylaw: "Art. 6.03"
+    trust: official_current
+  - id: EVT-05
+    name: "Online event"
+    amount_usd: 500
+    sources: [bylaws_f26, step2]
+    bylaw: "Art. 6.03"
+    trust: official_current
+  - id: EVT-06
+    name: "Event promotional items"
+    amount_usd: 250
+    per: fiscal_year
+    condition: "vendor-branded with RSO logo; clothing excluded; slides said $200"
+    sources: [bylaws_f26]
+    bylaw: "Art. 6.03(a)(i)(2)(h)"
+    trust: official_current
+  - id: EVT-07
+    name: "Off-campus event"
+    amount_usd: 500
+    per: event
+    sources: [bylaws_f26, step2]
+    bylaw: "Art. 6.03"
+    trust: official_current
+  - id: OPS-06
+    name: "Operational promotional items"
+    amount_usd: 250
+    per: fiscal_year
+    condition: "vendor-branded with RSO logo; clothing excluded from this cap"
+    sources: [bylaws_f26, step2]
+    bylaw: "Art. 6.03"
+    trust: official_current
+
+eligibility:
+  - { id: ELG-01, rule: "Registered with OSE for the current academic year", sources: [step1], bylaw: "Art. 4.01", trust: official_current }
+  - { id: ELG-02, rule: "No outstanding debt with any WMU department at time of application", sources: [step1], bylaw: "Art. 4.01", trust: official_current }
+  - { id: ELG-03, rule: "WSAAC eLearning module completed", sources: [step1], bylaw: "Art. 4.01", trust: official_current }
+  - { id: ELG-04, rule: "A WSA Representative in good standing", sources: [step1], bylaw: "Art. 4.01", trust: official_current }
+  - { id: ELG-05, rule: "No outstanding documentation from a previously funded WSAAC event or activity", sources: [step1], bylaw: "Art. 4.01", trust: official_current }
+  - { id: ELG-06, rule: "Not under a sanction that disqualifies the RSO from funding; the older two-months-per-semester limit is not in the September 2026 bylaws", sources: [bylaws_f26, bylaws_f24, cody], bylaw: "Art. 4.01(f)", trust: official_current, verify: "ask WSAAC whether any per-RSO application limit applies in practice (OQ-01)" }
+  - { id: ELG-07, rule: "Not directly receiving SAF funding through another SAF agency, unless a written agreement exists", sources: [step1], bylaw: "Guiding Principles 3; Art. 4", trust: official_current }
+  - { id: ELG-08, rule: "Assembly standing is evaluated at the RSO level", sources: [step1], bylaw: "Art. 4.01(d)", trust: official_current }
+  - { id: ELG-09, rule: "Any member may attend Assembly on the RSO's behalf; need not be the allocations rep", sources: [step1], bylaw: "Art. 4.01(d)", trust: official_current }
+  - { id: ELG-10, rule: "One individual may represent only one RSO in the Assembly", sources: [step1], bylaw: "Art. 4.01(d)", trust: official_current }
+  - { id: ELG-11, rule: "Assembly attendance expectations are in the What Is WSA Assembly module; Speaker and Secretary answer standing questions", sources: [step1, step3], trust: official_current }
+  - { id: ELG-12, rule: "One designated person completes the allocations process each cycle (submission and deliberation)", sources: [step1], bylaw: "Art. 4", trust: official_current }
+  - { id: ELG-13, rule: "One person may complete the process for only one RSO per cycle; a passing quiz applies to that one RSO", sources: [step1], bylaw: "Art. 4; 4.01(e)", trust: official_current }
+  - { id: ELG-14, rule: "Complete eLearning modules and score at least 80% on the current Final Allocations Quiz; must be retaken whenever the bylaws change, even if already passed that year; passing does not guarantee funding", sources: [step1, news_0921], bylaw: "Art. 4.01(e)", quiz_min_pct: 80, trust: official_current }
+  - { id: ELG-15, rule: "Put the Allocations Representative on the form, not the Assembly rep, unless the same person", sources: [step1], bylaw: "Art. 4", trust: official_current }
+  - { id: ELG-16, rule: "Advisors, faculty, staff and community members cannot represent the RSO", sources: [step3, bylaws_f26], bylaw: "Art. 5.04(b)(i)", trust: official_current }
+  - { id: ELG-17, rule: "All qualifications, including a passing quiz and good Assembly standing, must be met when the proposal is submitted", sources: [bylaws_f26], bylaw: "Art. 5.04(a)(i)", trust: official_current }
+  - { id: ELG-18, rule: "Include documentation that the RSO actively sought outside funding (fundraising, dues, sponsorship outreach, or a written statement of attempts); missing it is grounds for denial", sources: [bylaws_f26], bylaw: "Art. 5.04(g); 7.07(e)", trust: official_current }
+
+categories:
+  event:
+    purpose: "A specific event open to the WMU student body, free for WMU students, campus-wide benefit; not ongoing operations"
+    lead_time_business_days_after_deliberation: 10
+    food_allowed: true
+    food_conditions: ["on campus only (EVT-02)", "max $20 per expected attendee (EVT-01)"]
+    expires: "approved event date; unused funds expire when the event concludes"
+    eligible_expenses: ["space or facility rental", "performer, speaker or facilitator fees", "equipment rental (A/V, staging, lighting)", "event supplies and materials", "marketing and promotional materials", "food and refreshments directly related to the event"]
+    caps: [EVT-01, EVT-03, EVT-04, EVT-05, EVT-06, EVT-07]
+    not_funded:
+      - { id: EVT-08, item: "Prizes, giveaways and gift cards", sources: [step2] }
+      - { id: EVT-09, item: "Photographers, photobooths or videographers", sources: [step2] }
+      - { id: EVT-10, item: "Scholarships and salaries", sources: [step2] }
+      - { id: EVT-11, item: "Speakers, performers or artists who are current RSO members", sources: [step2] }
+      - { id: EVT-12, item: "Events before 10 business days after the deliberation", sources: [step2] }
+      - { id: EVT-13, item: "Events where a political candidate actively campaigns", sources: [step2] }
+      - { id: EVT-14, item: "Events that occurred in previous semesters or during the summer", sources: [step2] }
+      - { id: EVT-15, item: "All-inclusive vendor services", sources: [bylaws_f26] }
+    requirements:
+      - { id: EVT-16, rule: "speaker funding needs an introductory statement on intent, value and experience", sources: [bylaws_f26], bylaw: "Art. 5.04(e)" }
+      - { id: EVT-17, rule: "estimated attendance must be planned, not inflated; inflation can bring denial or a strike", sources: [bylaws_f26], bylaw: "Art. 6.03(a)(i)(2)(e)-(f); 7.07(d)" }
+    sources: [bylaws_f26, step2]
+    bylaw: "Art. 6.03(a)(i)"
+  operational:
+    purpose: "Day-to-day operations: clothing, office supplies, equipment; items must aid the stated mission"
+    allowed_categories: ["clothing", "office supplies", "equipment"]
+    outside_categories: "justification required (OPS-01)"
+    not_for: "any specific program or event (OPS-03)"
+    food_allowed: false
+    food_note: "Catering for meetings, hot plates and takeout belong in an event proposal (OPS-04)"
+    equipment_max_pct_of_budget: 100
+    promo_cap: OPS-06
+    line_item_flexibility: { id: OPS-07, rule: "amounts may shift between approved line items if the letter total is not exceeded, after consulting WSAAC and getting approval from the Director, Assistant Director or OSE Program Manager", bylaw: "Art. 6.03(a)(iii)(4)" }
+    expires: "last day of the semester in which the funding was issued"
+    sources: [bylaws_f26, step2, step7]
+    bylaw: "Art. 6.03(a)(iii); 5.02(b)"
+  conference:
+    purpose: "Enrolled students attending a conference for professional development"
+    allowed_categories: ["program registration", "transportation", "venue"]
+    attendee_requirement: "enrolled at least part-time (CNF-02)"
+    required_attachments: ["proof the conference exists", "completed proposal form", "attendee list: first name, last name, WIN (in the template notes box)"]
+    lead_time_business_days_after_deliberation: 10
+    food_allowed: false
+    per_diem_allowed: false
+    personal_vehicle: "not considered above WMU mileage rate policy (rate set by Accounts Payable, printed on the travel expense voucher)"
+    rental_vehicle: "gas receipts required"
+    expires: "approved conference dates; unused funds expire on the date of the conference"
+    reschedule_or_cancel: { id: CNF-08, rule: "funds may move to the rescheduled date or return to the cap if unspent, at WSAAC discretion with evidence; not for conferences organized by the RSO or WMU", bylaw: "Art. 5.02(c)" }
+    sources: [bylaws_f26, step2, step7, web_travel]
+    bylaw: "Art. 6.03(a)(ii)"
+  collaboration:
+    purpose: "Two to four RSOs putting on one event together"
+    rsos_min: 2
+    rsos_max: 4
+    cap: COL-04
+    attendance: "each RSO's WSA representative must attend deliberation or the proposal is dismissed (COL-02)"
+    budget: "one form signed by all reps; each RSO states the amount it covers per line item; template has an RSO Purchasing column (COL-03)"
+    restrictions: "same as event funding (COL-05)"
+    scope: "events held by the RSOs only; not conferences or operational purchases (OQ-08 resolved)"
+    sources: [bylaws_f26, step2, templates_f26]
+    bylaw: "Art. 6.03(a)(iv)"
+  startup:
+    cap: OTH-01
+    deliberation_required: false
+    requirement: "brief letter of purpose to the Director and Assistant Director"
+    allowed: ["office supplies", "on-campus food", "publicity", "organization registration cost"]
+    expires: "end of the academic year in which it was approved"
+    sources: [bylaws_f26, step2]
+    bylaw: "Art. 6.03(a)(vi); 5.02(d)"
+  bronco:
+    cap: OTH-02
+    for_rso_proposals: false
+    approvers: ["Director of Allocations", "Assistant Director of Allocations", "WSA Chief of Finance"]
+    proposal_contents: ["summary of funding purposes", "event details", "cost-benefit analysis", "stakeholder analysis"]
+    sources: [step2]
+    bylaw: "Art. 6.04"
+  sports_club_council:
+    cap: OTH-03
+    eligible_for_wsaac: false
+    definition: "meets two of three: competes toward a national championship, has a governing body, needs risk-management oversight"
+    sources: [bylaws_f26]
+    bylaw: "Art. 6.03(a)(v)"
+
+prohibited_always:
+  - { id: PRO-01, item: "Alcohol, tobacco, controlled substances", sources: [bylaws_f26, handbook_2425], bylaw: "GP 9(a)", trust: official_current }
+  - { id: PRO-02, item: "Weaponry or hazardous materials", sources: [bylaws_f26], bylaw: "GP 9(b)", trust: official_current }
+  - { id: PRO-03, item: "Personal benefit of individuals or private corporations", sources: [bylaws_f26], bylaw: "GP 10", trust: official_current }
+  - { id: PRO-04, item: "Charitable organizations or programs; fundraising purposes", sources: [bylaws_f26], bylaw: "GP 10", trust: official_current }
+  - { id: PRO-05, item: "Financing political candidates or campaigns", sources: [bylaws_f26, step2], bylaw: "GP 10", trust: official_current }
+  - { id: PRO-06, item: "Religious purposes (worship, devotional exercises, proselytizing)", sources: [bylaws_f26], bylaw: "GP 10", trust: official_current }
+  - { id: PRO-07, item: "Any activity contrary to Michigan or federal law", sources: [bylaws_f26], bylaw: "GP 10", trust: official_current }
+  - { id: PRO-09, item: "Fundraisers and materials used in fundraisers", sources: [bylaws_f26], bylaw: "GP 10(a)", trust: official_current }
+  - { id: PRO-10, item: "Anything benefiting an RSO advisor or WMU faculty or staff", sources: [bylaws_f26], bylaw: "GP 10(b)", trust: official_current }
+  - { id: MON-05, item: "Recovering bad debt, erasing pre-existing debt, or expenses incurred before deliberation", sources: [bylaws_f26], bylaw: "Art. 6.02(a)", trust: official_current }
+  - { id: BS-06, item: "Subscriptions (reported removed; no written rule found; OSE card bars auto-recurring payments)", sources: [cody, step7], trust: cody }
+
+cycle:
+  cadence: "one dropbox and one deliberation per month"
+  deliberations_per_semester_min: 3
+  applications_per_semester_max: null
+  applications_note: "no per-RSO limit in the September 2026 bylaws; the Fall 2024 limit was 2 plus 1 after a denial (OQ-01)"
+  first_come_first_served: true
+  proposal_due:
+    official: "before the posted eLearning dropbox due date; five university business days before deliberation"
+    practice: "first Friday of the month"
+    sources: [step3, step4, bylaws_f26, cody]
+  deliberation:
+    official: "results communicated during deliberation for RSOs required to attend, before it for those not required; no-show or late means not considered"
+    practice: "the following Friday; virtual call; quick club intro, explain items, answer flags (logo on items, subscriptions)"
+    sources: [step5, bylaws_f24, cody]
+  results_and_funding_letter:
+    official: "within five university business days after deliberation, emailed to the rep on the proposal"
+    practice: "the Friday after deliberation: green light to purchase plus funding letter"
+    sources: [step5, bylaws_f24, cody]
+  channels_for_dates: ["WSA website (stale on 2026-09-24)", "WSAAC Instagram @wmu_wsaac", "eLearning News"]
+  spring_2026_example:
+    - { round: January, application_due: "2026-01-23", deliberation: "2026-01-30" }
+    - { round: February, funding_letters: "2026-02-06", application_due: "2026-02-20", deliberation: "2026-02-27" }
+    - { round: March, funding_letters: "2026-03-06", application_due: "2026-03-20" }
+  sources: [step5]
+
+deadlines:
+  - { id: CYC-02, clock: "proposal due", rule: "five university business days before deliberation; afterwards only dates, time, venue, catering and guest list may be amended", sources: [bylaws_f26], trust: official_current }
+  - { id: CYC-07, clock: "conditional approval fixes", rule: "within 24 hours of the deliberation, or as the Commission allows", sources: [bylaws_f26], trust: official_current }
+  - { id: CYC-08, clock: "results and funding letters", rule: "within five university business days after deliberation", sources: [step5, bylaws_f26], trust: official_current }
+  - { id: EVT-12, clock: "event or conference date", rule: "at least 10 business days after the deliberation", sources: [step2], trust: official_current }
+  - { id: BRD-05, clock: "ExperienceWMU event link", rule: "public event created and link emailed to Director and Assistant Director by end of the 3rd business day after deliberation", sources: [step6], trust: official_current }
+  - { id: PAY-02, clock: "reimbursement documents", rule: "within 10 days after the event or conference; operational by the last day of the semester issued", sources: [bylaws_f26, step5], trust: official_current, ambiguity: "calendar vs business days; treat as calendar (OQ-15)" }
+  - { id: PAY-03, clock: "reimbursement processing", rule: "3 to 6 weeks", sources: [step7, cody], trust: official_current }
+  - { id: APP-02, clock: "appeal", rule: "email intent to appeal to wsa-directorallocations@wmich.edu and wsa-adallocate@wmich.edu within 10 business days of notification", sources: [bylaws_f26, step5], trust: official_current }
+  - { id: ELG-14, clock: "quiz", rule: "80% minimum, passed before submitting; retake required whenever the bylaws change", sources: [bylaws_f26, news_0921], trust: official_current }
+  - { id: PAY-11, clock: "expiration", rule: "event and collaboration: event date; operational: last day of semester issued; conference: conference date; start-up: end of academic year", sources: [bylaws_f26, step7, step2], trust: official_current }
+  - { id: STR-03, clock: "strikes and sanctions", rule: "sanction until end of fiscal year or calendar year, whichever first; strikes reset at end of fiscal year", sources: [step5], trust: official_current }
+
+submission_rules:
+  - { id: SUB-01, rule: "Use the official WSAAC template for the category; all fields filled", sources: [step3] }
+  - { id: SUB-02, rule: "Every expense itemized and clearly described; costs accurate, realistic, correctly calculated; items match the category; event food under $20 per expected attendee", sources: [step3] }
+  - { id: SUB-03, rule: "Estimates, price quotes and menus attached, directly from the vendor, speaker, etc.", sources: [step3] }
+  - { id: SUB-04, rule: ".xlsx only; no PDFs, screenshots or editing links; one proposal per file", sources: [step3, step4] }
+  - { id: SUB-05, rule: "Not using, meaningfully modifying, or leaving the template incomplete are grounds for denial; unclear budgets may get partial, conditional, or denied", sources: [step3] }
+  - { id: SUB-06, rule: "Submitting is agreement to comply with the bylaws and an affirmation of accuracy", sources: [step3] }
+  - { id: SUB-07, rule: "Submit each proposal as an individual .xlsx in the eLearning dropbox for the corresponding month before the due date", sources: [step4] }
+  - { id: SUB-08, rule: "No multiple tabs or sheets in one .xlsx; separate proposals are distinct files", sources: [step4] }
+  - { id: SUB-09, rule: "All white textboxes completely unmodified; do not delete rows or columns", sources: [step4] }
+  - { id: SUB-10, rule: "All gold textboxes filled completely; unused Item Requesting gold textboxes completely unmodified", sources: [step4] }
+  - { id: SUB-11, rule: "Never write NA or Not Applicable", sources: [step4] }
+  - { id: SUB-12, rule: "Full RSO Name(s) must match ExperienceWMU.wmich.edu/Organizations exactly; no abbreviations, acronyms or variations", sources: [step4] }
+  - { id: SUB-13, rule: "Include the Full RSO Name(s) in each .xlsx file title", sources: [step4] }
+  - { id: SUB-14, rule: "RSO Representative(s), Contact Email(s) and Typed Signature(s) align line by line", sources: [step4] }
+  - { id: SUB-15, rule: "Contact Email(s) must use an official @wmich.edu domain", sources: [step4] }
+  - { id: SUB-16, rule: "Dates in MM/DD/YYYY; never spelled out", sources: [step4] }
+  - { id: SUB-17, rule: "Use Optional Notes for supplementary details", sources: [step4] }
+  - { id: SUB-18, rule: "Include the required Conference Link and Conference List of Attendees (First Name, Last Name, WIN Number)", sources: [step4] }
+  - { id: SUB-19, rule: "List Non-Food and Food items in their designated sections per the bylaws and eLearning modules", sources: [step4] }
+  - { id: SUB-20, rule: "Every item needs Item Requesting, Vendor Name, Cost ($), Amount Requesting ($)", sources: [step4] }
+  - { id: SUB-21, rule: "Attach screenshots, vendor images and quotes outside the colorful border", sources: [step4] }
+  - { id: SUB-22, rule: "Total Requested sections calculate automatically; never overwrite the formulas", sources: [step4] }
+
+templates:
+  current_version_verified: true
+  verify_note: "Compared 2026-09-27 against the templates in eLearning Content: byte-identical (OQ-17)"
+  season: "Fall 2026"
+  filename_pattern: "Fall_2026_WSAAC_{Category}_Proposal_-_{Full RSO Name}.xlsx"
+  sheet_name: "Proposal"
+  used_range: "A1:N51"
+  header_cells: { C2: "WSAAC Proposal:", D2: "{Category}", F2: "(Fall 2026)" }
+  input_fill_rgb: "FFF1C500"
+  sheet_protection: false
+  data_validation: false
+  affirmation_text_B7: "I hereby affirm that all the information provided is accurate and that no items requested have yet been purchased."
+  common_inputs:
+    - { cell: "C4:F4", label: "Full RSO Name as displayed on http://ExperienceWMU.wmich.edu/Organizations", label_cell: C3 }
+    - { cell: "E5:F5", label: "RSO Representative", label_cell: C5 }
+    - { cell: "E6:F6", label: "Contact Email", label_cell: C6 }
+    - { cell: "D8:F8", label: "Typed Signature", label_cell: B8 }
+    - { cell: "H3:L8", label: "Optional Notes (Conference: Conference Link and Conference List of Attendees (First Name, Last Name, WIN Number))", label_cell: H2 }
+  totals:
+    L11: { label: "Total Requested for Non-Food Items", formula: "=SUM(F20:F200)" }
+    L12: { label: "Total Requested for Food Items", formula_event_collab: "=SUM(L20:L200)", value_operational_conference: 0, note_operational: "The commission shall not fund food for Operational expenses.", note_conference: "The commission shall not fund food for Conference expenses." }
+    L14: { label: "Total Requested", formula_event_collab: "=L11+L12", formula_operational_conference: "=L11" }
+    L15: { label: "Total SAFs Used", formula: "=L14/20.8692" }
+  line_items:
+    rows: { first: 20, last: 49, count: 30 }
+    non_food_columns: { item: "B:C", vendor: "D", cost: "E", amount: "F" }
+    food_columns_event: { item: "H:I", vendor: "J", cost: "K", amount: "L" }
+    collaboration_extra_column: { non_food_rso_purchasing: "C", food_rso_purchasing: "I" }
+    number_format: '_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)'
+  per_category:
+    event:
+      detail_inputs: ["D10:F10 Event Name", "D11:F11 Event Date (MM/DD/YYYY)", "D12:F12 Event Location", "D13:F13 Estimated WMU Student Attendance", "D14:F14 Did this Event already happen?", "D15:F15 Is there an Entrance Fee for WMU Students?", "D16:F16 Is any portion of this Event for purpose of Donations and/or Philanthropic reasons?"]
+      food_section: true
+    conference:
+      detail_inputs: ["D10:F10 Conference Name", "D11:F11 Conference Date (MM/DD/YYYY)", "D12:F12 Conference Location", "D13:F13 Estimated WMU Student Attendance", "D14:F14 Did this Conference already happen?", "D15:F15 RSO Meeting Day and Time", "D16:F16 RSO Meeting Location"]
+      food_section: false
+      notes_box_required: "Conference Link and Conference List of Attendees (First Name, Last Name, WIN Number)"
+    operational:
+      detail_inputs: ["D15:F15 RSO Meeting Day and Time", "D16:F16 RSO Meeting Location"]
+      food_section: false
+    collaboration:
+      detail_inputs: "same as event"
+      plural_labels: ["Full RSO Names", "RSO Representatives", "Contact Emails", "Typed Signatures"]
+      food_section: true
+      rso_purchasing_column: true
+  worked_example_step3:
+    note: "WSAAC's own example rounds Amount Requesting above Cost"
+    rows: [{ item: Projector, vendor: Amazon, cost: 29.99, amount: 30.00 }, { item: "Popcorn buckets (99)", vendor: Amazon, cost: 89.99, amount: 95.00 }, { item: Popcorn, vendor: Costco, cost: 70.00, amount: 70.00 }, { item: Soda, vendor: Costco, cost: 30.00, amount: 30.00 }]
+    total: 225.00
+    total_safs_used_shown: 3.41
+    implied_divisor: 66
+  sources: [templates_f26, step3, step4]
+
+payment:
+  principle: "Approved allocations are never issued directly to the RSO; funds are accessed through OSE (MON-01)"
+  required_form: "Allocation Distribution Request Form (reimbursements, credit card purchases, vendor payments, independent contractors, campus department payments)"
+  routes:
+    reimbursement:
+      steps: ["member pays out of pocket", "submit itemized receipt, proof of payment, documentation matching approved items", "bank statement screenshot if proof of payment missing"]
+      deadline: PAY-02
+      processing_weeks: [3, 6]
+      signer: "a designated Student Financial Manager (handbook)"
+      practice: "own card, keep receipts, submit the form; direct deposit if student worker, otherwise a check; use when there is no time to coordinate"
+      sources: [step7, step5, handbook_2425, cody]
+    ose_credit_card:
+      can: ["purchase non-food items online", "order groceries for curbside pickup", "pay invoiced vendors"]
+      cannot: ["restaurant food purchases", "payments to individuals", "auto-recurring payments"]
+      logistics: "pick up during business hours; plan ahead"
+      practice: "schedule an appointment with the OSE Program Manager or send them an Amazon wishlist"
+      sources: [step7, cody]
+    contractors:
+      who: ["DJs", "speakers", "performers", "service providers"]
+      rule: "paid by the University after services are rendered; RSOs may not pay and seek reimbursement"
+      documents: ["invoice", "W-9", "Independent Contractor Form (if applicable)"]
+      sources: [step7]
+    wmu_departments:
+      rule: "internal transfer; Allocation Distribution Request Form required; Student Center room charges handled automatically"
+      examples: ["facilities", "equipment rental", "campus services"]
+      sources: [step7]
+    ceas_card:
+      rule: "if approved for WMU CEAS Funding, send the funding letter to the CEAS funding coordinator and check out the card; keep receipts"
+      open_question: OQ-06
+      sources: [cody]
+      trust: cody
+  delays: ["missing or incorrect documentation", "expenses outside approved categories", "late submissions", "attempts to pay individuals directly"]
+  on_campus_account:
+    code: "52 627 . fund cost center (WSAAC); 52 624 (GFAC)"
+    rules: ["only for allocated items", "swept back to allocating body after the event", "no deposits except to resolve a deficit", "negative balance freezes account and RSO privileges", "only Student Financial Managers may sign for or spend funds", "false reimbursement information is referred to Public Safety and Student Conduct"]
+    sources: [handbook_2425]
+    trust: official_stale
+
+branding:
+  - { id: BRD-01, rule: "Display the WSA logo, the SAF Funded logo and the WSAAC logo on WSAAC-funded promotional materials and at the event; logos at wmuwsa.org/allocations under WSAAC Documents", sources: [step6] }
+  - { id: BRD-02, rule: "All SAF-funded events acknowledge SAF support on publicity materials", sources: [step6] }
+  - { id: BRD-03, rule: "Promotional items carry the RSO's own branding from the manufacturer or vendor", sources: [step2] }
+  - { id: BRD-04, rule: "wsa-directormarketing@wmich.edu helps with branding; encouraged channels: social media, flyers and posters, chalk, Rec Center and Student Center TVs", sources: [step6, bylaws_f24] }
+  - { id: BRD-05, rule: "Public ExperienceWMU event created and link emailed to Director and Assistant Director by end of the 3rd business day after deliberation; failure may earn a strike", sources: [step6] }
+
+appeals:
+  grounds: ["decision made in error", "in violation of the WSAAC Bylaws", "for reasons beyond the scope of the bylaws"]
+  not_grounds: "disagreement alone"
+  window_business_days: 10
+  process_current: "email intent to appeal to both the Director and Assistant Director mailboxes; appeal form managed by the Chief Justice; Chief Justice reviews and notifies"
+  routes: { bylaw_based: "Judicial Council, decision final", non_bylaw: "WSA Assembly, two-thirds majority to overturn" }
+  process_f24: "email wsa_ac_chair@ and wsa_adallocate@; Judicial Council then Appeals Council (Chief Justice, Membership Chair, Chief of Finance), decision within 10 business days, then Assembly two-thirds"
+  sources: [bylaws_f26, step5, bylaws_f24]
+
+strikes:
+  triggers: ["missing required deadlines", "failure to submit required documentation", "violations in Art. 9.01 to 9.03", "failure to share the funded event link"]
+  process: ["written statement from Director or Assistant Director with reason and next steps", "meeting with Director or Assistant Director and WSA Speaker of the Assembly (or substitute)", "sanctioning if unresolved"]
+  sanction_length: "until end of fiscal year or calendar year, whichever first"
+  reset: "end of WMU fiscal year"
+  sanction_effects_f24: ["removal of access to WSAAC funds", "internal record", "right to deny funding for the current fiscal year", "may apply again the following fiscal year", "possible further OSE scrutiny"]
+  sanctionable_outright_f24: ["falsification of proposal documents", "harassment", "attempts to deceive or manipulate WSAAC", "actions harming WSA integrity"]
+  sources: [step5, step6, step7, bylaws_f24]
+
+practice_notes:
+  - { id: PRC-01, note: "Three request types used: Operational (semester-round purchases), Conference (a trip), Event (on campus)", source: cody }
+  - { id: PRC-02, note: "Yearly cap of 6.5k", source: cody }
+  - { id: PRC-03, note: "Submissions due first Friday of the month; deliberation the following Friday (virtual call); green light and funding letter the Friday after", source: cody }
+  - { id: PRC-04, note: "Deliberation: quick club intro, explain items; committee flags things like logo on items and subscriptions being removed; tech clubs often approved", source: cody }
+  - { id: PRC-05, note: "Be vague: Bags, not Custom Embroidery Backpack; you are pigeon-holed into what you request; funding-sheet reviewers are separate from purchase approvers", source: cody }
+  - { id: PRC-06, note: "Learn the pattern from past requests; ours were not perfect; other clubs' data would help", source: cody }
+  - { id: PRC-07, note: "Only two month-cycles per semester", source: cody, corroborated_by: "bylaws_f24 4.01(g) only; not in bylaws_f26 (OQ-01)" }
+  - { id: PRC-08, note: "Reimbursement: own card, save receipts, submit the form; direct deposit if student worker, otherwise a check; 3 to 6 weeks; needed for quick purchases", source: cody }
+  - { id: PRC-09, note: "OSE card: schedule with the OSE Program Manager or send an Amazon wishlist", source: cody }
+  - { id: PRC-10, note: "CEAS card: if approved for CEAS funding, send the funding letter to the CEAS funding coordinator, check out the card, keep receipts", source: cody }
+
+changes_to_f26:
+  - { rule: "Outside funding documentation", before: "not required", now: "required with every proposal; missing it is grounds for denial", ids: [ELG-18] }
+  - { rule: "Applications per semester", before: "2 months, third after a denial", now: "no per-RSO limit in text; at least 3 deliberations per semester", ids: [ELG-06, CYC-11] }
+  - { rule: "Reimbursement documents", before: "10 days from purchase (slides)", now: "10 days after the event or conference; operational by end of semester", ids: [PAY-02] }
+  - { rule: "Event promotional items", before: "$200 (slides)", now: "$250 per fiscal year, vendor-branded, clothing excluded", ids: [EVT-06] }
+  - { rule: "Sports clubs", before: "$2,000 cap", now: "not eligible; funded by SCC", ids: [OTH-03] }
+  - { rule: "Operational line items", before: "fixed to the funding letter", now: "amounts may shift within the letter total with prior approval", ids: [OPS-07] }
+  - { rule: "Decision outside deliberation", before: "$1,250 or less", now: "Commission discretion, no threshold", ids: [CYC-06] }
+  - { rule: "Post-event report", before: "within 3 business days", now: "removed; ExperienceWMU link within 3 business days of deliberation", ids: [BRD-05] }
+  - { rule: "Speakers", before: "no stated requirement", now: "introductory statement required", ids: [EVT-16] }
+  - { rule: "Conference changes", before: "not covered", now: "rescheduled or cancelled conferences can keep or return funds with evidence", ids: [CNF-08] }
+  - { rule: "Qualifications timing", before: "before applying", now: "all met at submission, including quiz and Assembly standing", ids: [ELG-17] }
+  - { rule: "Fiscal year", before: "not stated", now: "July 1 to June 30", ids: [OQ-12] }
+
+changes_f24_to_s26:
+  - { rule: "Yearly cap", f24: "$8,000", s26: "$6,500" }
+  - { rule: "Collaboration cap", f24: "$2,500 per RSO per FY", s26: "$1,500 per RSO per FY" }
+  - { rule: "Online events", f24: "$1,000", s26: "$500" }
+  - { rule: "Off-campus events", f24: "$500 each semester", s26: "$500 per event" }
+  - { rule: "Sports Club Council RSOs", f24: "$1,000", s26: "$2,000 (Assembly vote 2025-01-15)" }
+  - { rule: "Start-up", f24: "$500 $300 (edited text); does not expire at FY end", s26: "$500; expires end of academic year" }
+  - { rule: "Operational food and promo", f24: "food, merchandise, promo capped at 50% of budget", s26: "food not eligible; promo $250 per FY" }
+  - { rule: "Receipts deadline", f24: "event/collab within 10 business days; operational/conference by end of semester; docs within 10 university business days after funds used", s26: "within 10 days of purchase, all types" }
+  - { rule: "Post-event duty", f24: "funding report or survey within 3 university business days after the event", s26: "public ExperienceWMU link within 3 business days after deliberation" }
+  - { rule: "Strikes", f24: "written statement, meeting (Speaker or Secretary), sanction rest of semester; reset start of academic year", s26: "written statement, meeting (Speaker or substitute), sanction until end of FY or calendar year; reset end of FY" }
+  - { rule: "Appeals", f24: "email chair and AD; Judicial Council, Appeals Council, Assembly two-thirds", s26: "email Director; form managed by Chief Justice; bylaw-based final at Judicial Council; others to Assembly two-thirds" }
+  - { rule: "Article numbering", f24: "Art. 7 Deliberation Process; Art. 8 Results (8.02 Advertising, 8.03 Sanctioning, 8.04 Appeals); Art. 9 Amendments", s26: "Art. 8 results, appeals, reimbursement; Art. 9 compliance and strikes" }
+  - { rule: "Only in F24 text", f24: "two applications per semester (4.01(g)); $1,250 exemption (7.08); 5-day submission (5.04(a)); 24-hour conditional fixes (7.06(c)); guiding-principle bans; all-inclusive vendor services; no-show rule (7.04(a))", s26: "not restated; assume in force until current bylaws are in hand" }
+
+open_questions:
+  - { id: OQ-01, status: open, question: "Two cycles per semester?", answer: "In Bylaws F24 4.01(g) but not in Bylaws F26; ask WSAAC whether any per-RSO limit applies in practice" }
+  - { id: OQ-02, status: resolved, question: "Current SAF amount?", answer: "$62.00 per semester, 2026-27, undergraduate and graduate" }
+  - { id: OQ-03, status: resolved, question: "Director of Allocations contact?", answer: "wsa-directorallocations@wmich.edu" }
+  - { id: OQ-04, status: resolved, question: "Bylaws text?", answer: "Fall 2024 version found; superseded on numbers; current version behind eLearning" }
+  - { id: OQ-05, status: open, question: "Which OSE finance mailbox is live: ose-financials@wmich.edu or ose_finance@wmich.edu?" }
+  - { id: OQ-06, status: open, question: "CEAS card: which money it spends and the CEAS funding coordinator's process" }
+  - { id: OQ-07, status: open, question: "What 20.8692 represents in Total SAFs Used" }
+  - { id: OQ-08, status: resolved, question: "What 'collaboration funding will not fund events or conferences' excludes", answer: "Collaboration covers events the RSOs hold, not conferences or operational (Bylaws F26 6.03(a)(iv)(1))" }
+  - { id: OQ-09, status: open, question: "Where the line sits between a general item name and one too vague to fund; needs past DSAIC proposals and funding letters" }
+  - { id: OQ-10, status: open, question: "Is rounding Amount Requesting above Cost accepted (WSAAC's example does it)?" }
+  - { id: OQ-11, status: open, question: "Fall 2026 calendar: dropbox due, deliberation and letter dates" }
+  - { id: OQ-12, status: resolved, question: "WMU fiscal year dates", answer: "July 1 to June 30 (Bylaws F26 5.02(a))" }
+  - { id: OQ-13, status: resolved, question: "Do the $1,250 exemption, 24-hour conditional window, 5-day submission rule and post-event report still exist?", answer: "24-hour window and 5-day rule remain; $1,250 threshold and post-event report removed (Bylaws F26)" }
+  - { id: OQ-14, status: open, question: "DSAIC's Assembly rep, Allocations rep and Student Financial Managers this semester; Fall 2026 quiz status" }
+  - { id: OQ-15, status: open, question: "Reimbursement documents: the 10 days now run from the event or conference (Bylaws F26 7.05(a)); calendar or business days?" }
+  - { id: OQ-16, status: resolved, question: "Text of the bylaws passed September 2026", answer: "In hand; see changes_to_f26" }
+  - { id: OQ-17, status: resolved, question: "Are the templates read for section 6.2 the current versions WSAAC posted 2026-09-21?", answer: "Yes, byte-identical" }
+
+blind_spots:
+  - { id: BS-01, topic: "GSA/GFAC as a second source", detail: "Mixed RSOs (under 50% graduate) get up to $500 operational and $3,000 events per academic year; requires 8 weeks active, RSO Orientation, GSA General Assembly attendance (one absence per semester); may collide with ELG-07 since GSA is a SAF agency; handbook shows RSOs can hold both WSAAC (52 627) and GFAC (52 624) accounts", sources: [web_gsa, step1, handbook_2425], action: "ask WSAAC before applying to GFAC" }
+  - { id: BS-02, topic: "Student Financial Managers", detail: "1 to 2 officers are the only members who may sign for and spend on-campus funds", sources: [handbook_2425], action: "record who they are for DSAIC" }
+  - { id: BS-03, topic: "On-campus account mechanics", detail: "allocation lands in an OSE account restricted to allocated items and swept afterward; item names on the funding letter are the spend authorization", sources: [handbook_2425] }
+  - { id: BS-04, topic: "Sales tax on out-of-pocket purchases", detail: "no source says whether OSE reimburses sales tax a member paid", sources: [], action: "ask the OSE Program Manager", trust: inferred }
+  - { id: BS-05, topic: "Guiding-principle bans", detail: "alcohol, controlled substances, weapons, personal benefit, charity, fundraising, political, religious; restated in Bylaws F26 Guiding Principles 9 and 10", sources: [bylaws_f26, handbook_2425], status: closed }
+  - { id: BS-06, topic: "Subscriptions, memberships, software, cloud credits, API keys", detail: "no written rule; Cody reports subscriptions removed; OSE card bars auto-recurring payments", sources: [cody, step7] }
+  - { id: BS-07, topic: "Conditional approvals", detail: "24 hours after deliberation to submit required changes; someone must be reachable the day after", sources: [bylaws_f26] }
+  - { id: BS-08, topic: "Stale public pages", detail: "wmuwsa.org/allocations still headlines Fall 2023 deliberation dates; do not scrape it for dates", sources: [web_wsa_alloc] }
+  - { id: BS-09, topic: "Officer names", detail: "role mailboxes are stable; names are not", sources: [web_wsa_director] }
+  - { id: BS-10, topic: "Debt anywhere on campus blocks eligibility", detail: "ELG-02 covers any WMU department", sources: [step1] }
+
+# >>> rules_index (generated from wsa-club-finance-domain.md; do not edit by hand)
+rules_index:
+- id: MON-01
+  section: 2. How the money moves
+  text: Approved allocations are never issued directly to the RSO. Funds are accessed only through OSE.
+  tags:
+  - Step 7, Art. 8; OSE Spending Guide
+- id: MON-02
+  section: 2. How the money moves
+  text: 'Yearly cap: $6,500 per RSO per fiscal year across all categories. Collaboration funding has its own separate $1,500 cap.'
+  tags:
+  - Step 2, Art. 6.01, 6.03
+  - Cody
+- id: MON-03
+  section: 2. How the money moves
+  text: Funding is supplemental. It is not meant to fully fund an activity, it depends on remaining SAF funds and Commission approval, and WSAAC reserves the right to partially fund or deny. Decisions are based on eligibility, justification and compliance.
+  tags:
+  - Step 2, Art. 6.01, 6.02
+- id: MON-04
+  section: 2. How the money moves
+  text: Nothing bought before deliberation is covered. The affirmation on every form says no requested items have been purchased yet.
+  tags:
+  - Step 2, Art. 6
+  - Templates F26
+- id: MON-05
+  section: 2. How the money moves
+  text: The Commission will not allocate funds to recover from bad debt or erase pre-existing debt, nor cover expenses incurred before deliberation.
+  tags:
+  - Bylaws F26 §6.02(a)
+- id: MON-06
+  section: 2. How the money moves
+  text: Approved money expires if not used in the category's window, and expired money cannot be reimbursed.
+  tags:
+  - Step 7, Art. 8; Spending Guide
+- id: MON-07
+  section: 2. How the money moves
+  text: SAF funds are the only money allowed in an RSO's on-campus account; no deposits except to resolve a deficit, and a negative balance freezes the account and the RSO's privileges. Self-generated money (dues, donations) lives in an off-campus bank account under the RSO's own EIN.
+  tags:
+  - Handbook 24-25
+- id: MON-08
+  section: 2. How the money moves
+  text: Providing false information when seeking reimbursement is referred to WMU Public Safety and the Office of Student Conduct.
+  tags:
+  - Handbook 24-25
+- id: ELG-01
+  section: 3. Eligibility and standing
+  text: Registered with the Office of Student Engagement for the current academic year.
+  tags:
+  - Step 1, Art. 4.01
+- id: ELG-02
+  section: 3. Eligibility and standing
+  text: No outstanding debt with any WMU department at the time of application.
+  tags:
+  - Step 1, Art. 4.01
+- id: ELG-03
+  section: 3. Eligibility and standing
+  text: WSAAC eLearning module completed.
+  tags:
+  - Step 1, Art. 4.01
+- id: ELG-04
+  section: 3. Eligibility and standing
+  text: A WSA Representative in good standing.
+  tags:
+  - Step 1, Art. 4.01
+- id: ELG-05
+  section: 3. Eligibility and standing
+  text: No outstanding documentation from a previously funded WSAAC event or activity.
+  tags:
+  - Step 1, Art. 4.01
+- id: ELG-06
+  section: 3. Eligibility and standing
+  text: Not under a sanction that disqualifies the RSO from funding (see STR-04). The older limit of two months of applications per semester, with a third after a denial, is not in the September 2026 bylaws.
+  tags:
+  - Bylaws F26 §4.01(f)
+  - Bylaws F24 §4.01(g)
+  - Cody
+- id: ELG-07
+  section: 3. Eligibility and standing
+  text: Not directly receiving SAF funding through another SAF agency, unless a written agreement (an Assembly-passed bill or formal funding agreement) exists.
+  tags:
+  - Step 1, Guiding Principles §3; Art. 4
+- id: ELG-08
+  section: 3. Eligibility and standing
+  text: Good standing with the WSA Assembly is evaluated at the RSO level, not per individual.
+  tags:
+  - Step 1, Art. 4.01(d)
+- id: ELG-09
+  section: 3. Eligibility and standing
+  text: Any member may attend Assembly on the RSO's behalf, and it does not have to be the person doing allocations.
+  tags:
+  - Step 1, Art. 4.01(d)
+- id: ELG-10
+  section: 3. Eligibility and standing
+  text: One individual may represent only one RSO in the Assembly.
+  tags:
+  - Step 1, Art. 4.01(d)
+- id: ELG-11
+  section: 3. Eligibility and standing
+  text: Attendance expectations live in the "What Is WSA?" Assembly module. The Speaker and Secretary of the Assembly are the contacts for standing questions.
+  tags:
+  - Step 1
+  - Step 3
+- id: ELG-12
+  section: 3. Eligibility and standing
+  text: Each cycle the RSO designates one person to complete the allocations process, including submission and deliberation.
+  tags:
+  - Step 1, Art. 4
+- id: ELG-13
+  section: 3. Eligibility and standing
+  text: One person may complete the process for only one RSO per cycle, and a passing quiz score applies to only that one RSO for that cycle.
+  tags:
+  - Step 1, Art. 4, 4.01(e)
+- id: ELG-14
+  section: 3. Eligibility and standing
+  text: Complete the eLearning modules and score at least 80% on the current Final Allocations Quiz. Passing confirms understanding; it does not guarantee funding. When the bylaws change, the quiz is updated and must be retaken even if the RSO already passed that year, as happened after the September 2026 bylaws revision.
+  tags:
+  - Step 1, Art. 4.01(e)
+  - News 09-21
+- id: ELG-15
+  section: 3. Eligibility and standing
+  text: Put the Allocations Representative on the form, not the Assembly rep, unless they are the same person.
+  tags:
+  - Step 1, Art. 4
+- id: ELG-16
+  section: 3. Eligibility and standing
+  text: Advisors, faculty, staff and community members cannot represent the RSO.
+  tags:
+  - Step 3, Art. 5.04
+  - Bylaws F26 §5.04(b)(i)
+- id: ELG-17
+  section: 3. Eligibility and standing
+  text: Every qualification, including a passing quiz score and good Assembly standing, must already be met when the proposal is submitted.
+  tags:
+  - Bylaws F26 §5.04(a)(i)
+- id: ELG-18
+  section: 3. Eligibility and standing
+  text: 'The proposal must include documentation that the RSO has actively sought outside funding: fundraising, dues collection, sponsorship outreach, or a written statement of attempts made. WSAAC may deny a request from an RSO that has not looked for outside funding.'
+  tags:
+  - Bylaws F26 §5.04(g), 7.07(e)
+- id: EVT-01
+  section: 4. Funding categories, caps and restrictions
+  text: 'Food: no more than $20 per expected attendee.'
+  tags:
+  - Step 2, Art. 6.03
+  - Step 3, Art. 5.04
+- id: EVT-02
+  section: 4. Funding categories, caps and restrictions
+  text: Food and drink are funded only if the event is held on Western's campus.
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-03
+  section: 4. Funding categories, caps and restrictions
+  text: 'Student performer: $50 per hour up to $200, and the performer cannot be a member of the RSO.'
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-04
+  section: 4. Funding categories, caps and restrictions
+  text: 'Non-WMU performer: $1,000 for performer costs including travel, lodging and the performance.'
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-05
+  section: 4. Funding categories, caps and restrictions
+  text: 'Online events (Zoom speakers, presentations): $500.'
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-06
+  section: 4. Funding categories, caps and restrictions
+  text: 'Promotional items: branded by the vendor with the RSO logo, no more than $250 per fiscal year, clothing excluded. (The Spring 2026 slides said $200.)'
+  tags:
+  - Bylaws F26 §6.03(a)(i)(2)(h)
+  - Step 2
+- id: EVT-07
+  section: 4. Funding categories, caps and restrictions
+  text: 'Off-campus events: $500 per event.'
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-08
+  section: 4. Funding categories, caps and restrictions
+  text: Prizes, giveaways and gift cards.
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-09
+  section: 4. Funding categories, caps and restrictions
+  text: Photographers, photobooths or videographers.
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-10
+  section: 4. Funding categories, caps and restrictions
+  text: Scholarships and salaries.
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-11
+  section: 4. Funding categories, caps and restrictions
+  text: Speakers, performers or artists who are current RSO members.
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-12
+  section: 4. Funding categories, caps and restrictions
+  text: Events that occur before 10 business days after the deliberation in which funding was requested.
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-13
+  section: 4. Funding categories, caps and restrictions
+  text: Events where a political candidate actively campaigns.
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-14
+  section: 4. Funding categories, caps and restrictions
+  text: Events that occurred in previous semesters or during the summer.
+  tags:
+  - Step 2, Art. 6.03
+- id: EVT-15
+  section: 4. Funding categories, caps and restrictions
+  text: All-inclusive vendor services.
+  tags:
+  - Bylaws F26 §6.03(a)(i)(3)(f)
+- id: EVT-16
+  section: 4. Funding categories, caps and restrictions
+  text: Speaker funding needs an introductory statement on the speaker's intent, value and experience before the proposal will be deliberated.
+  tags:
+  - Bylaws F26 §5.04(e)
+- id: EVT-17
+  section: 4. Funding categories, caps and restrictions
+  text: Estimated attendance must be planned, not inflated. Inflating it to get more food money can lead to denial or a strike.
+  tags:
+  - Bylaws F26 §6.03(a)(i)(2)(e)-(f), 7.07(d)
+- id: OPS-01
+  section: 4. Funding categories, caps and restrictions
+  text: Restricted to clothing, office supplies and equipment. Anything outside those three needs a justification.
+  tags:
+  - Step 2, Art. 6.03
+- id: OPS-02
+  section: 4. Funding categories, caps and restrictions
+  text: Items must aid the RSO in accomplishing its stated mission and goals.
+  tags:
+  - Step 2, Art. 6.03
+- id: OPS-03
+  section: 4. Funding categories, caps and restrictions
+  text: Cannot be used for any specific program or event.
+  tags:
+  - Step 2, Art. 6.03, 7.07
+- id: OPS-04
+  section: 4. Funding categories, caps and restrictions
+  text: Food is not eligible. Catering for individual meetings, hot plates and takeout belong in an event proposal.
+  tags:
+  - Step 2, Art. 6.03
+- id: OPS-05
+  section: 4. Funding categories, caps and restrictions
+  text: Equipment can be requested for 100% of the budget.
+  tags:
+  - Step 2, Art. 6.03
+- id: OPS-06
+  section: 4. Funding categories, caps and restrictions
+  text: Promotional items must be branded by the vendor with the RSO logo and cannot exceed $250 per fiscal year (clothing is excluded from that limit).
+  tags:
+  - Bylaws F26 §6.03(a)(iii)(1)(c)
+- id: OPS-07
+  section: 4. Funding categories, caps and restrictions
+  text: After approval, the RSO may buy line items in different amounts than the funding letter shows, as long as the total does not exceed the letter's total, and only after consulting WSAAC and getting approval from the Director, Assistant Director or OSE Program Manager.
+  tags:
+  - Bylaws F26 §6.03(a)(iii)(4)
+- id: CNF-01
+  section: 4. Funding categories, caps and restrictions
+  text: Restricted to program registration, transportation and venue.
+  tags:
+  - Step 2, Art. 6.03
+- id: CNF-02
+  section: 4. Funding categories, caps and restrictions
+  text: Attendees must be enrolled at least part-time.
+  tags:
+  - Step 2, Art. 6.03
+- id: CNF-03
+  section: 4. Funding categories, caps and restrictions
+  text: Submit proof the conference exists, a completed proposal form, and a list of attendees (first name, last name, WIN number). On the Fall 2026 template the conference link and attendee list go in the notes box.
+  tags:
+  - Step 2, Art. 6.03
+  - Step 4 instr
+  - Templates F26
+- id: CNF-04
+  section: 4. Funding categories, caps and restrictions
+  text: Must occur at least 10 business days after the deliberation.
+  tags:
+  - Step 2, Art. 6.03
+- id: CNF-05
+  section: 4. Funding categories, caps and restrictions
+  text: No food or per diem, for any reason.
+  tags:
+  - Step 2, Art. 6.03
+- id: CNF-06
+  section: 4. Funding categories, caps and restrictions
+  text: Personal vehicle reimbursements above WMU's mileage rate policy are not considered. The WMU rate is set by Accounts Payable and printed on the travel expense voucher; it is not a fixed public number.
+  tags:
+  - Step 2, Art. 6.03
+  - 'Web: wmich.edu/travel'
+- id: CNF-07
+  section: 4. Funding categories, caps and restrictions
+  text: Rental vehicle reimbursements need gas receipts.
+  tags:
+  - Bylaws F26 §6.03(a)(ii)(1)(a)
+- id: CNF-08
+  section: 4. Funding categories, caps and restrictions
+  text: If a conference is rescheduled or cancelled, the money can go to the rescheduled date, or back to the RSO's cap if none was spent, at WSAAC's discretion and with evidence of the change. This does not apply to conferences organized by the RSO or by WMU.
+  tags:
+  - Bylaws F26 §5.02(c)
+- id: COL-01
+  section: 4. Funding categories, caps and restrictions
+  text: Two to four RSOs per event.
+  tags:
+  - Step 2, Art. 6.03
+- id: COL-02
+  section: 4. Funding categories, caps and restrictions
+  text: Each RSO's WSA representative must attend the deliberation; if one does not show, the whole proposal is dismissed.
+  tags:
+  - Step 2, Art. 6.03
+- id: COL-03
+  section: 4. Funding categories, caps and restrictions
+  text: One budget form, filled and signed by all reps, reflecting overall event costs and which RSO is seeking funds for which line. Each RSO states the specific amount it will cover per line item (the template has an "RSO Purchasing" column for this).
+  tags:
+  - Step 2, Art. 6.03
+  - Templates F26
+- id: COL-04
+  section: 4. Funding categories, caps and restrictions
+  text: Cap is $1,500 per RSO per fiscal year, separate from the $6,500 cap.
+  tags:
+  - Step 2, Art. 6.03
+- id: COL-05
+  section: 4. Funding categories, caps and restrictions
+  text: Restricted by the same requirements as event funding (Art. 6.03 a (i.2) and (i.3)).
+  tags:
+  - Step 2, Art. 6.03
+- id: OTH-01
+  section: 4. Funding categories, caps and restrictions
+  text: 'Start-Up: $500 for RSOs established not more than a semester (excluding summer). No deliberation required; turn in a brief letter of purpose to the Director and Assistant Director. Unused start-up money expires at the end of the academic year. Restricted to office supplies, on-campus food, publicity, and registration costs such as national organization fees.'
+  tags:
+  - Step 2, Art. 6.03
+  - Bylaws F26 §6.03(a)(vi), 5.02(d)
+- id: OTH-02
+  section: 4. Funding categories, caps and restrictions
+  text: 'Bronco Funding: up to $2,000 per year for WSAAC-created events, approved by the Director, Assistant Director and WSA Chief of Finance. Requires a summary of funding purposes, event details, a cost-benefit analysis and a stakeholder analysis. Not for RSO proposals.'
+  tags:
+  - Step 2, Art. 6.04
+- id: OTH-03
+  section: 4. Funding categories, caps and restrictions
+  text: 'Sports clubs are no longer eligible for any WSAAC funding and are funded fully by the Sports Club Council. An RSO counts as a sports club if it meets two of three criteria: competition toward a national championship, a governing body, and risk-management oversight. (The Spring 2026 slides allowed $2,000.)'
+  tags:
+  - Bylaws F26 §6.03(a)(v)
+  - Step 2
+- id: PRO-01
+  section: 4. Funding categories, caps and restrictions
+  text: Alcohol, tobacco, or any other controlled substance as defined by the U.S. DEA.
+  tags:
+  - Bylaws F26, Guiding Principle 9(a)
+  - Handbook 24-25
+- id: PRO-02
+  section: 4. Funding categories, caps and restrictions
+  text: Weaponry or hazardous materials.
+  tags:
+  - Bylaws F26, Guiding Principle 9(b)
+- id: PRO-03
+  section: 4. Funding categories, caps and restrictions
+  text: Personal benefit of individuals or private corporations.
+  tags:
+  - Bylaws F26, Guiding Principle 10
+- id: PRO-04
+  section: 4. Funding categories, caps and restrictions
+  text: Charitable organizations or programs, and fundraising purposes. This is why the event form asks whether any part of the event is for donations or philanthropic reasons.
+  tags:
+  - Bylaws F26, Guiding Principle 10
+  - Templates F26
+  - Inferred
+- id: PRO-05
+  section: 4. Funding categories, caps and restrictions
+  text: Financing political candidates or campaigns.
+  tags:
+  - Bylaws F26, Guiding Principle 10
+  - Step 2, Art. 6.03
+- id: PRO-06
+  section: 4. Funding categories, caps and restrictions
+  text: Religious purposes (worship, devotional exercises, proselytizing).
+  tags:
+  - Bylaws F26, Guiding Principle 10
+- id: PRO-07
+  section: 4. Funding categories, caps and restrictions
+  text: Any activity contrary to Michigan or federal law.
+  tags:
+  - Bylaws F26, Guiding Principle 10
+- id: PRO-08
+  section: 4. Funding categories, caps and restrictions
+  text: Events with an entrance fee for WMU students are not "free for WMU students", so the form asks.
+  tags:
+  - Step 2, Art. 6.02
+  - Templates F26
+  - Bylaws F26, Guiding Principle 5
+- id: PRO-09
+  section: 4. Funding categories, caps and restrictions
+  text: Fundraisers, and materials used in fundraisers.
+  tags:
+  - Bylaws F26, Guiding Principle 10(a)
+- id: PRO-10
+  section: 4. Funding categories, caps and restrictions
+  text: Anything where an RSO advisor or WMU faculty or staff member is the beneficiary.
+  tags:
+  - Bylaws F26, Guiding Principle 10(b)
+- id: PRO-11
+  section: 4. Funding categories, caps and restrictions
+  text: 'Expected rather than required: use local vendors where possible to reduce costs and support the community.'
+  tags:
+  - Bylaws F26, Guiding Principle 6
+- id: CYC-01
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: Proposals are submitted to an eLearning dropbox for each round, one round per month, before the posted due date. Late submissions are not considered.
+  tags:
+  - Step 3, Art. 5.04
+  - Step 4 instr
+- id: CYC-02
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: The budget request is due five university business days before the deliberation. After submission, only dates, time, venue, catering details and guest list can be amended, at WSAAC's discretion. Consistent with the observed Friday-to-Friday spacing.
+  tags:
+  - Bylaws F26 §5.04(a)
+- id: CYC-03
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: The Commission Director sends the deliberation schedule to RSOs at least two university business days before the deliberation. Time slots, and funding itself, are first-come, first-served, so submitting early matters.
+  tags:
+  - Bylaws F26 §5.03(a), 6.01
+- id: CYC-04
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: A deliberation session follows. RSOs required to attend hear results during deliberation; RSOs not required to attend hear before it.
+  tags:
+  - Step 5, Art. 8
+- id: CYC-05
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: If no representative is present during the allocated time, the RSO is not considered for funding. An alternative WSA representative may attend if the RSO tells WSAAC before the time slot.
+  tags:
+  - Bylaws F26 §7.04(a)
+- id: CYC-06
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: At the Commission's discretion, the Director and Assistant Director may vote on a request outside deliberations using a pre-written statement covering the deliberation questions; if the RSO is given a deliberation time anyway, the representative must attend. The September 2026 bylaws dropped the older $1,250 threshold.
+  tags:
+  - Bylaws F26 §7.08
+  - Bylaws F24 §7.08
+- id: CYC-07
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: Changes required by a conditional approval must be made and submitted to the Director and Assistant Director within 24 hours of the deliberation, or as the Commission allows.
+  tags:
+  - Bylaws F26 §7.06(c)
+- id: CYC-08
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: Official results and funding letters go out within five university business days after deliberation, by email to the representative on the proposal.
+  tags:
+  - Step 5, Art. 8
+  - Bylaws F26 §8.01
+- id: CYC-09
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: Dates and updates are posted on the WSA website, the WSAAC Instagram and eLearning "News". The public allocations page still showed a Fall 2023 deliberation-dates heading on 2026-09-24, so eLearning and Instagram are the live channels.
+  tags:
+  - Step 5, Art. 8
+  - 'Web: wmuwsa.org/allocations'
+- id: CYC-10
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: Funding letters do not determine decisions; they are for recordkeeping and reimbursement.
+  tags:
+  - Step 5, Art. 8
+- id: CYC-11
+  section: '5. The monthly cycle: deadlines, deliberation, results'
+  text: Each semester has at least three deliberations (summer excluded), with dates set by the Director and posted on the Commission's web page before the semester starts.
+  tags:
+  - Bylaws F26 §5.01
+- id: SUB-01
+  section: '6. Building a proposal: the templates and submission rules'
+  text: The official WSAAC budget template for the category, with all fields filled.
+  tags:
+  - Step 3, Art. 5.04
+- id: SUB-02
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Every expense itemized and clearly described; costs accurate, realistic and correctly calculated; items that match the selected category; event food under $20 per expected attendee.
+  tags:
+  - Step 3, Art. 5.04
+- id: SUB-03
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Estimates, price quotes and menus attached, and they must come directly from the vendor, speaker, etc.
+  tags:
+  - Step 3, Art. 5.04
+- id: SUB-04
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Submitted in .xlsx only. PDFs, screenshots and editing links are not accepted. Multiple proposals go in separate files, never as multiple sheets in one workbook.
+  tags:
+  - Step 3, Art. 5.04
+  - Step 4 instr
+- id: SUB-05
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Not using the official template, meaningfully modifying it, or leaving it incomplete are each grounds for denial. Unclear or inconsistent budgets can lead to partial funding, conditional funding, or denial.
+  tags:
+  - Step 3, Art. 5.04, 7.07
+- id: SUB-06
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Submitting is an agreement to comply with the bylaws and an affirmation that everything is accurate and complete.
+  tags:
+  - Step 3, Art. 5.04
+- id: TPL-01
+  section: '6. Building a proposal: the templates and submission rules'
+  text: 'The affirmation text on every form: "I hereby affirm that all the information provided is accurate and that no items requested have yet been purchased."'
+  tags:
+  - Templates F26
+- id: TPL-02
+  section: '6. Building a proposal: the templates and submission rules'
+  text: 'Cost vs Amount Requesting: cost is what the item costs, amount requesting is what you are asking WSAAC for. In WSAAC''s own worked example a $29.99 projector is requested at $30.00 and $89.99 of popcorn buckets at $95.00, so modest rounding up appears to be accepted.'
+  tags:
+  - Step 3
+  - Inferred
+- id: TPL-03
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Total SAFs Used divides the total by 20.8692. Neither the templates nor the slides explain the number. It is not the current SAF ($62.00) or the FY2025 SAF ($55.00); the older example on the slides implied a divisor near 66 ($225 shown as 3.41 SAFs). Treat the cell as informational.
+  tags:
+  - Templates F26
+  - Step 3
+  - 'Web: wmich.edu'
+  - Unconfirmed
+- id: TPL-04
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Yes or no questions (already happened, entrance fee, donations, philanthropic) are there to catch ineligible events early. Date and location cannot be "to be determined" and estimated attendance is required.
+  tags:
+  - Step 3
+  - Templates F26
+- id: TPL-05
+  section: '6. Building a proposal: the templates and submission rules'
+  text: 'Amounts use the accounting number format ($ #,##0.00); the SUM ranges run to row 200 even though only 30 gold rows exist, so extra rows would total but would violate the do-not-modify rule.'
+  tags:
+  - Templates F26
+  - Step 4 instr
+- id: SUB-07
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Submit each budget proposal as an individual .xlsx file in the eLearning dropbox for the corresponding month, before the dropbox due date.
+  tags:
+  - Step 4 instr
+- id: SUB-08
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Do not submit multiple tabs or sheets in a single .xlsx file; separate proposals are distinct files.
+  tags:
+  - Step 4 instr
+- id: SUB-09
+  section: '6. Building a proposal: the templates and submission rules'
+  text: All white textboxes must be completely unmodified. Do not delete any rows or columns.
+  tags:
+  - Step 4 instr
+- id: SUB-10
+  section: '6. Building a proposal: the templates and submission rules'
+  text: All gold textboxes must be filled out completely. Any unused "Item Requesting" gold textboxes must be completely unmodified.
+  tags:
+  - Step 4 instr
+- id: SUB-11
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Do not write "NA" or "Not Applicable".
+  tags:
+  - Step 4 instr
+- id: SUB-12
+  section: '6. Building a proposal: the templates and submission rules'
+  text: All "Full RSO Name(s)" must match exactly as displayed on ExperienceWMU.wmich.edu/Organizations. Strictly no abbreviations, no acronyms, no variations.
+  tags:
+  - Step 4 instr
+- id: SUB-13
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Include the Full RSO Name(s) in each .xlsx file title.
+  tags:
+  - Step 4 instr
+- id: SUB-14
+  section: '6. Building a proposal: the templates and submission rules'
+  text: All RSO Representative(s), Contact Email(s) and Typed Signature(s) must align line by line.
+  tags:
+  - Step 4 instr
+- id: SUB-15
+  section: '6. Building a proposal: the templates and submission rules'
+  text: All Contact Email(s) must use an official @wmich.edu domain.
+  tags:
+  - Step 4 instr
+- id: SUB-16
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Use MM/DD/YYYY for all dates (for example 06/10/2026). Do not spell out dates.
+  tags:
+  - Step 4 instr
+- id: SUB-17
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Use the Optional Notes section for supplementary details.
+  tags:
+  - Step 4 instr
+- id: SUB-18
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Include the required Conference Link and Conference List of Attendees (First Name, Last Name, WIN Number).
+  tags:
+  - Step 4 instr
+- id: SUB-19
+  section: '6. Building a proposal: the templates and submission rules'
+  text: List all applicable Non-Food Items and Food Items in their designated sections, in compliance with the WSAAC Bylaws and eLearning modules.
+  tags:
+  - Step 4 instr
+- id: SUB-20
+  section: '6. Building a proposal: the templates and submission rules'
+  text: 'Every requested item needs all four details: Item Requesting, Vendor Name, Cost ($), Amount Requesting ($).'
+  tags:
+  - Step 4 instr
+- id: SUB-21
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Attach all required screenshots, vendor images and item amount quotes outside the colorful border.
+  tags:
+  - Step 4 instr
+- id: SUB-22
+  section: '6. Building a proposal: the templates and submission rules'
+  text: All Total Requested sections calculate automatically. Do not manually overwrite these formulas.
+  tags:
+  - Step 4 instr
+- id: RES-01
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: 'Issued after deliberation by the Director and Assistant Director, emailed to the representative on the proposal, with a detailed breakdown of approved items and amounts (the type of funding and the specific items, for example caterer, printer or booth rental, and the total). Keep it: OSE matches receipts to the approved items, and it is the document the CEAS office wants before handing over their card.'
+  tags:
+  - Step 5, Art. 8
+  - 'Web: wmich.edu/studentengagement/wsaallocationinformation'
+  - Cody
+- id: APP-01
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: 'Grounds: the decision was made in error, in violation of the WSAAC Bylaws, or for reasons beyond the scope of the bylaws. Disagreeing with the outcome is not grounds on its own.'
+  tags:
+  - Step 5, Art. 8
+- id: APP-02
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: 'Process: email the intent to appeal to both the Director and Assistant Director mailboxes within 10 business days of notification; the Director provides an appeal form managed by the Chief Justice; fill it out from a @wmich email with the grounds; the Chief Justice reviews and notifies the appellant. The Commission stays out of it unless asked for information.'
+  tags:
+  - Bylaws F26 §8.04(a)(i)
+  - Step 5, Art. 8; Judicial Code
+- id: APP-03
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: Bylaw-based decisions are reviewed by the Judicial Council and that decision is final. Non-bylaw decisions go to the WSA Assembly, where a two-thirds majority is needed to overturn.
+  tags:
+  - Step 5, Art. 8
+- id: APP-04
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: The Fall 2024 version routed appeals to wsa_ac_chair@wmich.edu and wsa_adallocate@wmich.edu, through the Judicial Council to an Appeals Council (Chief Justice, Membership Chair, Chief of Finance) with a 10-business-day decision, then to the Assembly. Sanctioning decisions were appealable the same way. Superseded in the slides; kept for context.
+  tags:
+  - Bylaws F24 §8.04
+- id: STR-01
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: Strikes are issued at the Commission's discretion for missing deadlines, failing to submit required documentation, and the violations in Art. 9.01 to 9.03 (the event-sharing rule is called out specifically).
+  tags:
+  - Step 5, Art. 9
+  - Step 6
+- id: STR-02
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: 'Process: a written statement from the Director or Assistant Director with the reason and next steps, then a meeting with the Director or Assistant Director and the WSA Speaker of the Assembly (or a substitute the Speaker appoints; the older bylaws named the Secretary).'
+  tags:
+  - Step 5, Art. 9
+  - Bylaws F24 §6.03(b)
+- id: STR-03
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: 'Unresolved strikes can lead to sanctioning, which lasts until the end of the fiscal year or calendar year, whichever comes first. Strikes can be appealed under Art. 8.04 and reset at the end of WMU''s fiscal year. (Fall 2024 text: sanction for the rest of the semester, reset at the start of the academic year.)'
+  tags:
+  - Step 5, Art. 8, 9
+  - Bylaws F26 §9.02
+  - Bylaws F24
+- id: STR-04
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: Sanctions mean removal of access to WSAAC funds, an internal record, and the right to deny funding for the current fiscal year; a sanctioned RSO may apply again the following fiscal year and may face further OSE scrutiny. Falsified documents, harassment, attempts to deceive or manipulate WSAAC, and a third strike are sanctionable outright.
+  tags:
+  - Bylaws F26 §9.03
+- id: STR-05
+  section: '7. After the decision: funding letters, appeals, strikes'
+  text: Failing to follow funding terms, submit documentation on time, or coordinate payments through OSE can affect reimbursement, future funding, or result in a strike.
+  tags:
+  - Step 7, Art. 8, 9
+- id: BRD-01
+  section: 8. Branding and event obligations
+  text: 'Display three logos: the WSA logo, the SAF Funded logo, and the WSAAC logo. They go on promotional materials funded by WSAAC and at the event when applicable. Logos are at wmuwsa.org/allocations under "WSAAC Documents".'
+  tags:
+  - Step 6, Art. 6
+- id: BRD-02
+  section: 8. Branding and event obligations
+  text: All SAF-funded events must include clear acknowledgment of SAF support on publicity materials.
+  tags:
+  - Step 6, Art. 6
+- id: BRD-03
+  section: 8. Branding and event obligations
+  text: Promotional items must carry the RSO's own branding from the manufacturer or vendor. This is why "are you putting your logo on this?" comes up at deliberation.
+  tags:
+  - Step 2, Art. 6.03
+  - Cody
+- id: BRD-04
+  section: 8. Branding and event obligations
+  text: 'Encouraged channels: social media, flyers and posters, chalk advertising, TVs in the Rec Center and Student Center. wsa-directormarketing@wmich.edu helps with branding, logos and promotion; the older bylaws said RSOs submit publicity materials to the Director of Marketing and Outreach for supervision.'
+  tags:
+  - Step 6
+  - Bylaws F24 §8.02
+- id: BRD-05
+  section: 8. Branding and event obligations
+  text: 'Event sharing: if an event is funded at deliberation, create a public ExperienceWMU event and email the link to the Director and Assistant Director of Allocations by the end of the third business day after deliberation. Missing this may result in a strike.'
+  tags:
+  - Step 6, Art. 9
+- id: PAY-01
+  section: 9. Spending the money
+  text: 'An RSO member pays out of pocket and submits: an itemized receipt, proof of payment, and documentation matching the approved items. If proof of payment is missing, a bank statement screenshot is required in addition to the receipt.'
+  tags:
+  - Step 7, OSE Spending Guide; Art. 8
+- id: PAY-02
+  section: 9. Spending the money
+  text: 'Deadline: reimbursement documents to OSE within 10 days after the event or conference; for operational funding, by the last day of the semester it was issued. Missed deadlines can bring strikes and sanctions. The Spring 2026 slides said 10 days from the purchase date, so submitting soon after buying keeps both readings satisfied.'
+  tags:
+  - Bylaws F26 §7.05(a), 8.03
+  - Step 5, Art. 8
+- id: PAY-03
+  section: 9. Spending the money
+  text: 'Typical processing time: 3 to 6 weeks.'
+  tags:
+  - Step 7, OSE Spending Guide
+  - Cody
+- id: PAY-04
+  section: 9. Spending the money
+  text: Send questions, receipts and documents to the OSE Program Manager at ose-financials@wmich.edu.
+  tags:
+  - Step 7
+- id: PAY-05
+  section: 9. Spending the money
+  text: Only a designated Student Financial Manager (an officer) may sign for and spend RSO account funds.
+  tags:
+  - Handbook 24-25
+- id: PAY-06
+  section: 9. Spending the money
+  text: The OSE Program Manager can purchase non-food items online, order groceries for curbside pickup, and pay invoiced vendors on a department credit card.
+  tags:
+  - Step 7, OSE Spending Guide
+- id: PAY-07
+  section: 9. Spending the money
+  text: 'Restrictions: no restaurant food purchases, no payments to individuals, no auto-recurring payments.'
+  tags:
+  - Step 7, OSE Spending Guide
+- id: PAY-08
+  section: 9. Spending the money
+  text: The RSO must pick items up during business hours and plan ahead.
+  tags:
+  - Step 7, OSE Spending Guide
+- id: PAY-09
+  section: 9. Spending the money
+  text: 'Independent contractors (DJs, speakers, performers, service providers) must be paid by the university, after services are rendered. RSOs may not pay a contractor themselves and seek reimbursement. Required documents: invoice, W-9, and the Independent Contractor Form if applicable. Attempting to pay individuals directly is one of the listed causes of payment delays.'
+  tags:
+  - Step 7, OSE Spending Guide
+- id: PAY-10
+  section: 9. Spending the money
+  text: When a WMU department provides the service (facilities, equipment rental, campus services), funds are transferred internally and the Allocation Distribution Request Form is still required. Student Center room charges are handled automatically.
+  tags:
+  - Step 7, OSE Spending Guide
+- id: PAY-11
+  section: 9. Spending the money
+  text: Event and collaboration money is valid only for the approved event date and expires when the event concludes. Operational money expires the last day of the semester in which it was issued. Conference money is valid only for the approved dates and expires after travel concludes. Expired money cannot be reimbursed.
+  tags:
+  - Step 7, Art. 8; Spending Guide
+  - Bylaws F26 §5.02(b)
+- id: PAY-12
+  section: 9. Spending the money
+  text: Unused or expired funds are returned to the Commission; SAF money left in the on-campus account after an event is swept back to WSAAC.
+  tags:
+  - Bylaws F26 §5.02(e)
+  - Handbook 24-25
+- id: PAY-13
+  section: 9. Spending the money
+  text: 'Delays come from missing or incorrect documentation, expenses outside the approved categories, late submissions, and attempts to pay individuals directly. OSE''s advice: plan early and communicate with them.'
+  tags:
+  - Step 7, OSE Spending Guide
+- id: PAY-14
+  section: 9. Spending the money
+  text: RSOs are responsible for following the approved funding terms, submitting documentation on time, and coordinating payments through OSE.
+  tags:
+  - Step 7, Art. 8, 9
+- id: OQ-02
+  section: 13. Open questions, blind spots and gaps
+  text: 'Current SAF: $62.00 per semester for 2026-27, undergraduate and graduate.'
+  tags:
+  - 'Web: wmich.edu cost of attendance'
+  status: resolved
+- id: OQ-03
+  section: 13. Open questions, blind spots and gaps
+  text: 'Director of Allocations mailbox: wsa-directorallocations@wmich.edu.'
+  tags:
+  - 'Web: wmuwsa.org'
+  - Step 3
+  status: resolved
+- id: OQ-04
+  section: 13. Open questions, blind spots and gaps
+  text: Fall 2024 bylaws text located (superseded on numbers). Current bylaws, Judicial Code, Allocations Packet, Toolkit and OSE Spending Guide are linked from wmuwsa.org/allocations and eLearning but were not retrievable here.
+  tags:
+  - 'Web: wmuwsa.org/allocations'
+  status: resolved
+- id: OQ-08
+  section: 13. Open questions, blind spots and gaps
+  text: Collaboration funding is for events the RSOs hold, not conferences or operational purchases.
+  tags:
+  - Bylaws F26 §6.03(a)(iv)(1)
+  status: resolved
+- id: OQ-12
+  section: 13. Open questions, blind spots and gaps
+  text: 'Fiscal year: July 1 through June 30.'
+  tags:
+  - Bylaws F26 §5.02(a)
+  status: resolved
+- id: OQ-13
+  section: 13. Open questions, blind spots and gaps
+  text: The 24-hour conditional window and the 5-business-day submission rule remain; the $1,250 threshold and the post-event report are gone.
+  tags:
+  - Bylaws F26 §5.04(a), 7.06(c), 7.08, 7.05
+  status: resolved
+- id: OQ-16
+  section: 13. Open questions, blind spots and gaps
+  text: The September 2026 bylaws are in hand and this file has been checked against them; see section 12a.
+  tags:
+  - Bylaws F26
+  status: resolved
+- id: OQ-17
+  section: 13. Open questions, blind spots and gaps
+  text: The current eLearning templates are byte-identical to the ones read for section 6.2.
+  tags:
+  - News 09-21
+  - Templates F26
+  status: resolved
+- id: OQ-01
+  section: 13. Open questions, blind spots and gaps
+  text: 'Two cycles per semester: the rule was in the Fall 2024 bylaws §4.01(g) but is not in the September 2026 bylaws. Ask WSAAC whether any per-RSO limit still applies in practice.'
+  tags:
+  - Bylaws F24
+  - Bylaws F26
+  - Cody
+  status: reopened
+- id: OQ-05
+  section: 13. Open questions, blind spots and gaps
+  text: 'Which OSE finance mailbox is live: ose-financials@wmich.edu or ose_finance@wmich.edu (the Program Manager''s direct address works either way).'
+  tags:
+  - Step 5
+  - Step 7
+- id: OQ-06
+  section: 13. Open questions, blind spots and gaps
+  text: 'CEAS card: which money it spends, and the CEAS funding coordinator''s exact process.'
+  tags:
+  - Cody
+- id: OQ-07
+  section: 13. Open questions, blind spots and gaps
+  text: What 20.8692 represents in "Total SAFs Used".
+  tags:
+  - Templates F26
+- id: OQ-09
+  section: 13. Open questions, blind spots and gaps
+  text: 'Where the line sits between a usefully general item name and one too vague to fund. Needs real examples: past DSAIC proposals with their funding letters, and other clubs'' data.'
+  tags:
+  - Cody
+- id: OQ-10
+  section: 13. Open questions, blind spots and gaps
+  text: Whether rounding Amount Requesting above Cost is accepted practice (WSAAC's own example does it).
+  tags:
+  - Step 3
+- id: OQ-11
+  section: 13. Open questions, blind spots and gaps
+  text: 'The Fall 2026 calendar: actual dropbox due dates, deliberation dates and letter dates (eLearning News or Instagram).'
+  tags:
+  - Step 5
+- id: OQ-14
+  section: 13. Open questions, blind spots and gaps
+  text: Who DSAIC's Assembly rep, Allocations rep and Student Financial Managers are this semester, and whether the Fall 2026 quiz is done.
+  tags:
+  - Handbook 24-25
+  - Step 1
+- id: OQ-15
+  section: 13. Open questions, blind spots and gaps
+  text: The bylaws now count the 10 days from the event or conference rather than from purchase, but still do not say calendar or business days. Treat it as calendar days to be safe.
+  tags:
+  - Bylaws F26 §7.05(a)
+  - Step 5
+- id: BS-01
+  section: 13. Open questions, blind spots and gaps
+  text: Second funding source. GSA's GFAC funds mixed RSOs (under 50% graduate members) up to $500 operational and $3,000 for events per academic year, if the RSO has been active eight weeks, completed RSO Orientation, and sends a rep to GSA General Assembly (one absence per semester allowed). But WSAAC's rule ELG-07 excludes RSOs that directly receive SAF funding through another SAF agency, and GSA is a SAF agency. Whether GFAC money trips that rule is unanswered; the handbook shows RSOs can hold both a WSAAC (52 627) and a GFAC (52 624) on-campus account, which suggests it is allowed in practice. Ask WSAAC before applying to GFAC.
+  tags:
+  - 'Web: wmich.edu/gsa'
+  - Step 1
+  - Handbook 24-25
+  - Inferred
+- id: BS-02
+  section: 13. Open questions, blind spots and gaps
+  text: Student Financial Managers. The handbook requires SAF-funded RSOs to designate one or two officers who alone may sign for and spend on-campus funds. The slides never mention it. DSAIC should know who these are and record it.
+  tags:
+  - Handbook 24-25
+- id: BS-03
+  section: 13. Open questions, blind spots and gaps
+  text: 'On-campus account mechanics. Allocations land in an OSE-held account restricted to the allocated items and swept afterward; no deposits; negative balances freeze privileges. This is the real constraint behind "be vague": the funding letter''s item names are the spend authorization.'
+  tags:
+  - Handbook 24-25
+- id: BS-04
+  section: 13. Open questions, blind spots and gaps
+  text: Sales tax. WMU is a tax-exempt purchaser when OSE buys directly; a member paying out of pocket pays sales tax, and no source in hand says whether OSE reimburses it. Ask the OSE Program Manager.
+  tags:
+  - Inferred
+- id: BS-05
+  section: 13. Open questions, blind spots and gaps
+  text: Guiding-principle bans. Alcohol, controlled substances, weapons, personal benefit, charity, fundraising, political and religious purposes are unfundable. The September 2026 bylaws restate them as Guiding Principles 9 and 10, so this gap is closed.
+  tags:
+  - Bylaws F26, Guiding Principles 9-10
+  - Handbook 24-25
+- id: BS-06
+  section: 13. Open questions, blind spots and gaps
+  text: Subscriptions and memberships. No written rule found; Cody reports subscriptions were removed, and the OSE card bars auto-recurring payments. Software, cloud credits and API keys, which DSAIC would plausibly want, sit in this gap.
+  tags:
+  - Cody
+  - Step 7
+- id: BS-07
+  section: 13. Open questions, blind spots and gaps
+  text: Conditional approvals. The bylaws give 24 hours after deliberation to submit required changes, so someone needs to be reachable the day after deliberation.
+  tags:
+  - Bylaws F26 §7.06(c)
+- id: BS-08
+  section: 13. Open questions, blind spots and gaps
+  text: Stale public pages. wmuwsa.org/allocations still headlines Fall 2023 deliberation dates; do not scrape it for dates.
+  tags:
+  - 'Web: wmuwsa.org/allocations'
+- id: BS-09
+  section: 13. Open questions, blind spots and gaps
+  text: Officer names. The WSA site lists a Director of Allocations who graduates in 2026; role mailboxes are stable, names are not.
+  tags:
+  - 'Web: wmuwsa.org'
+- id: BS-10
+  section: 13. Open questions, blind spots and gaps
+  text: Debt anywhere on campus blocks eligibility. ELG-02 covers any WMU department, not just OSE. A forgotten room charge or library fine on the RSO's account is enough.
+  tags:
+  - Step 1, Art. 4.01
+  - Inferred
