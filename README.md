@@ -20,6 +20,15 @@ For a finance director, that means hours of administrative data entry, repeated 
 4. **Flags problems early.** Anything that breaks a WSA rule, or matches a common reason proposals get rejected, is highlighted before submission.
 5. **A human makes the final call.** The finance director reviews, edits, and submits. The agent never submits anything on its own.
 
+## Project documents
+
+| Document | What it covers |
+|---|---|
+| [Project Brief](docs/project/01-project-brief.md) | Why we're building it, who it's for, and what it is |
+| [Refresher Guide](docs/project/02-refresher-guide.md) | WSA funding, Git and GitHub, and how the team works, explained from zero |
+| [Project Charter](docs/project/03-project-charter.md) | Roles, expectations, deliverables, phases, and risks |
+| [WSA Guidelines](docs/wsa-guidelines/README.md) | WSA's funding rules, checked against the current bylaws |
+
 ## Roadmap
 
 - [ ] **Phase 1: Data foundation.** Collect and anonymize past approved requests; document WSA rules for each budget type
@@ -41,6 +50,7 @@ data/
   processed/        cleaned real data (never committed)
   sample/           anonymized example data
 docs/
+  project/          project brief, refresher guide, charter
   wsa-guidelines/   WSA funding rules, checked against the current bylaws
 orgs/               per-organization settings
 src/finance_agent/  agent code
@@ -53,7 +63,7 @@ Real funding requests, receipts, and generated drafts never go in this repositor
 
 ## Getting started
 
-New to the project? Start with [docs/getting-started.md](docs/getting-started.md), then read [CONTRIBUTING.md](CONTRIBUTING.md).
+New to the project? Start with the [Project Brief](docs/project/01-project-brief.md), then [docs/getting-started.md](docs/getting-started.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Team
 
