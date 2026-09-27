@@ -18,6 +18,12 @@ Every fact carries a source tag in square brackets. The tags are the whole trust
 | [Templates F26] | The four Fall 2026 WSAAC proposal .xlsx templates, read cell by cell. | Current official form structure. |
 | [Bylaws F24 §x] | WSAAC Bylaws passed Fall 2024. Fully superseded by the September 2026 bylaws; kept only to explain history. | Do not rely on it. Where a line still cites only this source, check it against [Bylaws F26]. |
 | [Handbook 24-25] | OSE Registered Student Organization Handbook, 2024 to 2025 edition. | Official OSE rules on accounts and conduct; two editions old. |
+| [Spending Guide 25-26] | OSE's WSA Allocations Spending Guide 2025-2026, from the WSA eLearning page. | Current official OSE guidance on how to spend. |
+| [Mistakes] | WSAAC's "Common Proposal Mistakes" and correct-submission examples, from eLearning. The examples use an older template layout. | Current official guidance on what gets rejected. |
+| [Overview] | Spring 2026 Allocations Workshop Overview module. | Current official guidance. |
+| [Assembly] | Spring 2026 "Assembly & Good Standing" module. | Current official guidance on standing. |
+| [Other Funding] | WSAAC's "Other Funding Resources" list (marked as a working draft; WSAAC is not responsible for outdated entries). | Useful leads, not rules. |
+| [Budget Tracker] | WSAAC's RSO Budget Tracker spreadsheet, from eLearning. | Official tracking format. |
 | [Web: source] | A public WMU or WSA web page checked on 2026-09-24. | Current as of that date; recheck before relying on a person's name. |
 | [News 09-21] | WSAAC announcement in the eLearning News feed, posted 2026-09-21. | Current official guidance; newer than the Spring 2026 slides. |
 | [Cody] | Cody's practice notes from running RSO finances (Sept 2026). | How it actually works. Describes practice, does not create permissions. |
@@ -92,7 +98,8 @@ Three organizations touch every dollar: WSA and its Allocations Commission decid
 | --- | --- | --- |
 | Director of Allocations (WSAAC) | wsa-directorallocations@wmich.edu. | [Web: wmuwsa.org/director-of-allocations] Same address as the sample form in [Step 3]. Officer names change yearly; the role mailbox is the stable contact. |
 | Assistant Director of Allocations (WSAAC) | wsa-adallocate@wmich.edu | [Bylaws F26 header, §8.04(a)(i)] Printed in the current bylaws; the Fall 2024 text used an underscore instead of a hyphen. |
-| OSE Program Manager (payments, reimbursements) | ose-financials@wmich.edu. Office of Student Engagement, Student Center Suite 3400, (269) 387-2115, appointments Mon to Fri 8:30 a.m. to 4 p.m. | [Step 7] [Handbook 24-25] [Web: wmich.edu/studentengagement/rso/finances] The Step 5 slide gives ose_finance@wmich.edu instead; see OQ-05. |
+| OSE Program Manager (payments, reimbursements) | ose-financials@wmich.edu, (269) 387-2119. Office of Student Engagement, Student Center Suite 3400. Drop-in office hours on weekday afternoons (roughly 2:00 to 5:00 p.m.; Tuesday and Thursday start at 2:30), or book an appointment. Supports 125+ RSOs a semester, so plan ahead. | [Spending Guide 25-26] [Handbook 24-25] Confirms the ose-financials mailbox (OQ-05). The older web page listed (269) 387-2115. |
+| Speaker and Secretary of the Assembly | wsa-speaker@wmich.edu, wsa-secretary@wmich.edu | [Assembly] Questions about attendance and standing. |
 | WSA Director of Marketing and Outreach | wsa-directormarketing@wmich.edu | [Step 6] [Bylaws F26 §8.02] |
 | RSO Development GA (OSE) | ose-rsodevelopment@wmich.edu | [Handbook 24-25] Registration and account verification letters. |
 | WSAAC general (older) | wsaac-chair@wmich.edu, (269) 387-2125; wsa_ac_chair@wmich.edu appears in the Fall 2024 bylaws. | [Handbook 24-25] [Bylaws F24 §8.04] Possibly stale. [Unconfirmed] |
@@ -143,7 +150,9 @@ Before any proposal, the RSO has to clear the gate in Bylaws Article 4. Miss one
 - **ELG-08** Good standing with the WSA Assembly is evaluated at the RSO level, not per individual. [Step 1, Art. 4.01(d)]
 - **ELG-09** Any member may attend Assembly on the RSO's behalf, and it does not have to be the person doing allocations. [Step 1, Art. 4.01(d)]
 - **ELG-10** One individual may represent only one RSO in the Assembly. [Step 1, Art. 4.01(d)]
-- **ELG-11** Attendance expectations live in the "What Is WSA?" Assembly module. The Speaker and Secretary of the Assembly are the contacts for standing questions. [Step 1] [Step 3]
+- **ELG-11** Attendance expectations live in the "Assembly & Good Standing" module. The Speaker and Secretary of the Assembly are the contacts for standing questions. [Step 1] [Step 3] [Assembly]
+- **ELG-19** To gain standing, the RSO's representative submits the Intent to Represent form. RSO Assembly Members get voting status once it is submitted; General Assembly Members also need three consecutive meetings. Without the form the RSO has No Standing and is not eligible for allocations. [Assembly]
+- **ELG-20** More than two unexcused absences in the academic year puts the RSO in Bad Standing, which blocks allocations. To fix it, attend two consecutive meetings; voting rights return at the third. [Assembly]
 
 ### Allocations representation and the quiz
 
@@ -154,6 +163,8 @@ Before any proposal, the RSO has to clear the gate in Bylaws Article 4. Miss one
 - **ELG-16** Advisors, faculty, staff and community members cannot represent the RSO. [Step 3, Art. 5.04] [Bylaws F26 §5.04(b)(i)]
 - **ELG-17** Every qualification, including a passing quiz score and good Assembly standing, must already be met when the proposal is submitted. [Bylaws F26 §5.04(a)(i)]
 - **ELG-18** The proposal must include documentation that the RSO has actively sought outside funding: fundraising, dues collection, sponsorship outreach, or a written statement of attempts made. WSAAC may deny a request from an RSO that has not looked for outside funding. [Bylaws F26 §5.04(g), 7.07(e)]
+
+> **Where outside funding can come from:** WSAAC's own list names WSA Partnerships (through the WSA Chief of Finance), the Student Sustainability Grant, GSA/GFAC RSO funding (RSOs with at least one graduate student), CAB Collaborations (proposal at least 5 Mondays before the event) and CAB social media promotion (3 weeks before), plus college-level funding at Arts and Sciences, Haworth College of Business and the Lee Honors College. Member dues, fundraising and sponsorship outreach count too. Any of these, or a written record of trying them, is the proof ELG-18 asks for. [Other Funding] [Overview]
 
 > **Note:** The 2024 to 2025 RSO Handbook describes an older eligibility set (active at least eight weeks before a budget request; the Treasurer completes RSO Orientation). The Spring 2026 slides do not mention either, so treat them as superseded, but the eight-week rule still applies to GSA/GFAC funding. [Handbook 24-25] [Web: wmich.edu/gsa]
 
@@ -173,7 +184,7 @@ WSAAC lists seven categories. Four have proposal templates and matter to us: Eve
 
 ### 4.1 Event funding in detail
 
-Eligible expenses include space or facility rental, performer, speaker or facilitator fees, equipment rental (A/V, staging, lighting), event supplies and materials, marketing and promotional materials, and food and refreshments when directly related to the event. Everything must be reasonable and directly related, and the event should be meaningful, inclusive, impactful and unique to the student population. [Step 2, Art. 6.02]
+Eligible expenses include space or facility rental, performer, speaker or facilitator fees, equipment rental (A/V, staging, lighting), event supplies and materials, marketing and promotional materials, and food and refreshments when directly related to the event. Everything must be reasonable and directly related, and the event should be meaningful, inclusive, impactful and unique to the student population. [Step 2, Art. 6.02] Events are expected to be on campus unless a legitimate reason is approved. [Overview]
 
 Hard caps on event items:
 
@@ -363,6 +374,21 @@ These are WSAAC's instructions, grouped the way they group them. WSAAC reposted 
 
 > **Note:** This is the one place practice and the letter of the rules pull in opposite directions. SUB-02 and SUB-03 want every item itemized, clearly described, with a vendor quote attached; the practical advice is to keep the item name generic so the purchase can flex later. The working reconciliation is probably a generic item name ("Bags", "Sensors", "Dev boards") plus a real vendor quote for a representative item, with the Optional Notes box carrying any justification. The on-campus account can only be spent on the allocated items [Handbook 24-25], so the item name on the funding letter is what OSE will match receipts against. Where exactly the line sits between "general" and "too vague to fund" is OQ-09. [Inferred]
 
+### 6.5 Common mistakes that get proposals rejected
+
+WSAAC publishes these as the mistakes it sees most. Each one is something a checker can catch before submission. [Mistakes]
+
+- **SUB-23** No file actually uploaded to the dropbox. A link is not a submission. [Mistakes]
+- **SUB-24** Outdated or incorrect template formatting. [Mistakes]
+- **SUB-25** A vague line item with no vendor, for example "Mileage" with the vendor blank. [Mistakes]
+- **SUB-26** Extra money requested without a matching item description. [Mistakes]
+- **SUB-27** Incomplete identity fields: not the full RSO name, an invalid email, no typed signature. [Mistakes] [Step 4 instr]
+- **SUB-28** A line item missing its vendor or its Amount Requesting. [Mistakes]
+- **SUB-29** More than one sheet in a workbook, or several proposals in one file. [Mistakes] [Bylaws F26 §5.04(c)(i)]
+- **SUB-30** A screenshot pasted into Excel instead of a filled-in template. Screenshots are not accepted even inside a workbook. [Mistakes] [Bylaws F26 §5.04(c)(ii)]
+
+> **Note:** WSAAC's correct-submission examples show the optional notes used as a short pitch: what the RSO does, then what the money is for, and for a collaboration, how the cost is split with the partner RSO. They also show Amount Requesting rounded up from Cost ($29.99 requested as $30.00), which supports OQ-10. The examples use an older template layout (for example an "Event Date and Time" field), so copy their wording, not their cell positions. [Mistakes] [Inferred]
+
 ## 7. After the decision: funding letters, appeals, strikes
 
 ### Funding letters
@@ -438,6 +464,16 @@ Approved allocations are not issued to the RSO. Funds are accessed through OSE b
 - **PAY-12** Unused or expired funds are returned to the Commission; SAF money left in the on-campus account after an event is swept back to WSAAC. [Bylaws F26 §5.02(e)] [Handbook 24-25]
 - **PAY-13** Delays come from missing or incorrect documentation, expenses outside the approved categories, late submissions, and attempts to pay individuals directly. OSE's advice: plan early and communicate with them. [Step 7, OSE Spending Guide]
 - **PAY-14** RSOs are responsible for following the approved funding terms, submitting documentation on time, and coordinating payments through OSE. [Step 7, Art. 8, 9]
+- **PAY-15** Every payment, purchase or reimbursement starts with the Allocation Distribution Request Form. The exceptions are custom items and travel bookings, which are best done in person with the OSE Program Manager. [Spending Guide 25-26]
+- **PAY-16** A reimbursement receipt must show the date of purchase, an itemized list, the total, and proof of payment (a zero balance due or the card's last four digits). If the receipt does not prove payment, add a bank screenshot; a bank screenshot on its own is never enough. [Spending Guide 25-26]
+- **PAY-17** OSE's card can buy non-food items online (shipped to campus, picked up at OSE) and groceries for curbside pickup, but never restaurant food. For restaurants, either pay and get reimbursed, or use a restaurant that invoices the university. OSE lists past ones, including Condado Taco, Cottage Inn, Jets Pizza, Qdoba, Papa John's and Jimmy John's. [Spending Guide 25-26]
+- **PAY-18** Order early. Campus deliveries take longer than home deliveries and the campus mail room does not receive packages on weekends. [Spending Guide 25-26]
+- **PAY-19** A current WMU student, faculty or staff member, or a recent WMU employee doing similar work, is not an independent contractor. Paying them goes through Human Resources, not the contractor process. This also matches EVT-11 on RSO members as performers. [Spending Guide 25-26]
+- **PAY-20** When a campus department provides a service (custodial, room rental, public safety), a Service Agreement Form is needed along with the distribution request. [Spending Guide 25-26]
+
+### 9.7 Tracking what was spent
+
+- **TRK-01** WSAAC's RSO Budget Tracker has one row per approved budget item: the item, the Amount Approved from the funding letter, up to five receipt columns, and an Amount Remaining that subtracts the receipts. A total at the bottom shows what is left across the allocation. This is the format the project's purchase-tracking phase should follow. [Budget Tracker]
 
 ## 10. Numbers and deadlines at a glance
 
@@ -540,6 +576,7 @@ Each item has an ID so it can be tracked to closure. Status is as of 2026-09-24.
 
 ### Resolved by this pass
 
+- **OQ-05 (resolved)** The live OSE finance mailbox is ose-financials@wmich.edu. [Spending Guide 25-26]
 - **OQ-02 (resolved)** Current SAF: $62.00 per semester for 2026-27, undergraduate and graduate. [Web: wmich.edu cost of attendance]
 - **OQ-03 (resolved)** Director of Allocations mailbox: wsa-directorallocations@wmich.edu. [Web: wmuwsa.org] [Step 3]
 - **OQ-04 (resolved)** Fall 2024 bylaws text located (superseded on numbers). Current bylaws, Judicial Code, Allocations Packet, Toolkit and OSE Spending Guide are linked from wmuwsa.org/allocations and eLearning but were not retrievable here. [Web: wmuwsa.org/allocations]
@@ -552,7 +589,6 @@ Each item has an ID so it can be tracked to closure. Status is as of 2026-09-24.
 ### Still open
 
 - **OQ-01 (reopened)** Two cycles per semester: the rule was in the Fall 2024 bylaws §4.01(g) but is not in the September 2026 bylaws. Ask WSAAC whether any per-RSO limit still applies in practice. [Bylaws F24] [Bylaws F26] [Cody]
-- **OQ-05** Which OSE finance mailbox is live: ose-financials@wmich.edu or ose_finance@wmich.edu (the Program Manager's direct address works either way). [Step 5] [Step 7]
 - **OQ-06** CEAS card: which money it spends, and the CEAS funding coordinator's exact process. [Cody]
 - **OQ-07** What 20.8692 represents in "Total SAFs Used". [Templates F26]
 - **OQ-09** Where the line sits between a usefully general item name and one too vague to fund. Needs real examples: past DSAIC proposals with their funding letters, and other clubs' data. [Cody]
@@ -614,6 +650,7 @@ What was checked on 2026-09-24, what changed from the first version of this docu
 - Cody Thornell, WSA brain dump (wsa_brain_dump_1.pdf), September 2026.
 - WSAAC Allocations Workshop, Spring 2026: Step 1 Qualifications; Step 2 Funding Opportunities; Step 3 Application; Step 5 Results and Appeals; Step 6 Branding and Event Sharing; Step 7 Payment and Reimbursement.
 - WSAAC, Instructions for WSAAC Budget Proposals (Step 4), as provided by Cody.
+- From the WSA eLearning page (exported 2026-09-27): Allocations Workshop Overview; What is the WSA?; Assembly & Good Standing; Common Proposal Mistakes and submission examples; Other Funding Resources (working draft); WSA Allocations Spending Guide 2025-2026 (OSE); RSO Budget Tracker (.xlsx); WSA, WSAAC and SAF Funded logos.
 - Fall 2026 WSAAC proposal templates: Event, Operational, Conference, Collaboration (.xlsx).
 - WSAAC Bylaws, passed by the WSA Assembly 2026-09-09 ("WSAAC Fall 26 Bylaws Current"), from the WSA eLearning page. Kept in the team's shared drive; not reproduced here at WSAAC's request.
 - eLearning News, "New Budget Templates and QUIZ!", posted 2026-09-21.

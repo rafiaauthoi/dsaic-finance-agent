@@ -36,6 +36,12 @@ sources:
     date: "2026-09-09"
     location: "team shared drive; WSAAC asks that the text not be reproduced, so cite by section only"
     trust: official_current
+  - { id: spending_guide_2526, label: "OSE WSA Allocations Spending Guide 2025-2026 (eLearning)", trust: official_current }
+  - { id: mistakes, label: "WSAAC Common Proposal Mistakes and submission examples (eLearning; examples use an older template layout)", trust: official_current }
+  - { id: overview, label: "Spring 2026 Allocations Workshop Overview (eLearning)", trust: official_current }
+  - { id: assembly, label: "Spring 2026 Assembly & Good Standing module (eLearning)", trust: official_current }
+  - { id: other_funding, label: "WSAAC Other Funding Resources (eLearning; working draft)", trust: web }
+  - { id: budget_tracker, label: "WSAAC RSO Budget Tracker (eLearning .xlsx)", trust: official_current }
   - id: news_0921
     label: "WSAAC eLearning News: New Budget Templates and Quiz (2026-09-21)"
     date: "2026-09-21"
@@ -158,12 +164,17 @@ contacts:
     trust: official_current
   - role: "OSE Program Manager (payments, reimbursements)"
     email: "ose-financials@wmich.edu"
-    email_alt: "ose_finance@wmich.edu"
     office: "Student Center, Suite 3400"
-    phone: "(269) 387-2115"
-    hours: "Mon to Fri 8:30 a.m. to 4 p.m., by appointment"
-    note: "Step 7 slide gives ose-financials@; Step 5 slide gives ose_finance@ (OQ-05)"
-    sources: [step7, step5, handbook_2425, web_ose_finances]
+    phone: "(269) 387-2119"
+    phone_older: "(269) 387-2115"
+    hours: "drop-in weekday afternoons, roughly 2:00 to 5:00 p.m. (Tue and Thu from 2:30), or by appointment"
+    note: "Spending Guide 2025-26 confirms ose-financials@ (OQ-05 resolved); supports 125+ RSOs a semester"
+    sources: [spending_guide_2526, step7, handbook_2425, web_ose_finances]
+    trust: official_current
+  - role: "Speaker and Secretary of the Assembly (standing questions)"
+    email: "wsa-speaker@wmich.edu"
+    email_alt: "wsa-secretary@wmich.edu"
+    sources: [assembly]
     trust: official_current
   - role: "WSA Director of Marketing and Outreach"
     email: "wsa-directormarketing@wmich.edu"
@@ -312,6 +323,8 @@ eligibility:
   - { id: ELG-16, rule: "Advisors, faculty, staff and community members cannot represent the RSO", sources: [step3, bylaws_f26], bylaw: "Art. 5.04(b)(i)", trust: official_current }
   - { id: ELG-17, rule: "All qualifications, including a passing quiz and good Assembly standing, must be met when the proposal is submitted", sources: [bylaws_f26], bylaw: "Art. 5.04(a)(i)", trust: official_current }
   - { id: ELG-18, rule: "Include documentation that the RSO actively sought outside funding (fundraising, dues, sponsorship outreach, or a written statement of attempts); missing it is grounds for denial", sources: [bylaws_f26], bylaw: "Art. 5.04(g); 7.07(e)", trust: official_current }
+  - { id: ELG-19, rule: "Representative submits the Intent to Represent form; without it the RSO has No Standing and cannot get allocations", sources: [assembly], trust: official_current }
+  - { id: ELG-20, rule: "More than 2 unexcused Assembly absences in the academic year means Bad Standing; fix by attending 2 consecutive meetings, voting restored at the third", sources: [assembly], trust: official_current }
 
 categories:
   event:
@@ -470,6 +483,14 @@ submission_rules:
   - { id: SUB-20, rule: "Every item needs Item Requesting, Vendor Name, Cost ($), Amount Requesting ($)", sources: [step4] }
   - { id: SUB-21, rule: "Attach screenshots, vendor images and quotes outside the colorful border", sources: [step4] }
   - { id: SUB-22, rule: "Total Requested sections calculate automatically; never overwrite the formulas", sources: [step4] }
+  - { id: SUB-23, rule: "An actual file must be uploaded; links are not submissions", sources: [mistakes] }
+  - { id: SUB-24, rule: "No outdated or incorrect template formatting", sources: [mistakes] }
+  - { id: SUB-25, rule: "No vague line items without a vendor (for example Mileage with no vendor)", sources: [mistakes] }
+  - { id: SUB-26, rule: "No extra money requested without a matching item description", sources: [mistakes] }
+  - { id: SUB-27, rule: "Identity fields complete: full RSO name, valid email, typed signature", sources: [mistakes, step4] }
+  - { id: SUB-28, rule: "Every line item has a vendor and an Amount Requesting", sources: [mistakes] }
+  - { id: SUB-29, rule: "One sheet per workbook, one proposal per file", sources: [mistakes, bylaws_f26] }
+  - { id: SUB-30, rule: "No screenshots, even pasted into Excel", sources: [mistakes, bylaws_f26] }
 
 templates:
   current_version_verified: true
@@ -555,6 +576,20 @@ payment:
       open_question: OQ-06
       sources: [cody]
       trust: cody
+  distribution_form_exceptions: { id: PAY-15, rule: "custom items and travel bookings are best done in person with the OSE Program Manager", sources: [spending_guide_2526] }
+  receipt_requirements: { id: PAY-16, required: ["date of purchase", "itemized list", "total", "proof of payment (zero balance due or card last 4 digits)"], bank_screenshot: "only as a supplement when the receipt lacks proof of payment; never on its own", sources: [spending_guide_2526] }
+  restaurant_food: { id: PAY-17, ose_card: false, options: ["pay and get reimbursed", "use a restaurant that invoices the university"], restaurants_that_have_invoiced: ["Condado Taco", "Erbelli's", "Cottage Inn", "Big Burrito", "Que Buenos", "Wally's", "Jimmy John's", "Little Caesars", "Papa John's", "Mi Pueblo", "Nonla Burger", "Jets Pizza", "Qdoba", "Fiesta Burrito", "Rasa Ria"], sources: [spending_guide_2526] }
+  shipping: { id: PAY-18, rule: "order early; campus deliveries are slower and the mail room does not receive packages on weekends", sources: [spending_guide_2526] }
+  wmu_people_not_contractors: { id: PAY-19, rule: "current WMU students, faculty, staff, or recent employees doing similar work are paid through HR, not as independent contractors", sources: [spending_guide_2526] }
+  campus_department_service: { id: PAY-20, rule: "Service Agreement Form required when a department provides a service", sources: [spending_guide_2526] }
+  budget_tracker:
+    id: TRK-01
+    columns: ["Budget Items", "Amount Approved", "Amount Remaining", "Receipt 1", "Receipt 2", "Receipt 3", "Receipt 4", "Receipt 5"]
+    amount_remaining_formula: "Amount Approved - SUM(receipts)"
+    total: "Total Remaining = SUM(Amount Remaining)"
+    rows: 15
+    use: "basis for the purchase-tracking phase"
+    sources: [budget_tracker]
   delays: ["missing or incorrect documentation", "expenses outside approved categories", "late submissions", "attempts to pay individuals directly"]
   on_campus_account:
     code: "52 627 . fund cost center (WSAAC); 52 624 (GFAC)"
@@ -633,12 +668,12 @@ open_questions:
   - { id: OQ-02, status: resolved, question: "Current SAF amount?", answer: "$62.00 per semester, 2026-27, undergraduate and graduate" }
   - { id: OQ-03, status: resolved, question: "Director of Allocations contact?", answer: "wsa-directorallocations@wmich.edu" }
   - { id: OQ-04, status: resolved, question: "Bylaws text?", answer: "Fall 2024 version found; superseded on numbers; current version behind eLearning" }
-  - { id: OQ-05, status: open, question: "Which OSE finance mailbox is live: ose-financials@wmich.edu or ose_finance@wmich.edu?" }
+  - { id: OQ-05, status: resolved, question: "Which OSE finance mailbox is live?", answer: "ose-financials@wmich.edu (Spending Guide 2025-26)" }
   - { id: OQ-06, status: open, question: "CEAS card: which money it spends and the CEAS funding coordinator's process" }
   - { id: OQ-07, status: open, question: "What 20.8692 represents in Total SAFs Used" }
   - { id: OQ-08, status: resolved, question: "What 'collaboration funding will not fund events or conferences' excludes", answer: "Collaboration covers events the RSOs hold, not conferences or operational (Bylaws F26 6.03(a)(iv)(1))" }
   - { id: OQ-09, status: open, question: "Where the line sits between a general item name and one too vague to fund; needs past DSAIC proposals and funding letters" }
-  - { id: OQ-10, status: open, question: "Is rounding Amount Requesting above Cost accepted (WSAAC's example does it)?" }
+  - { id: OQ-10, status: open, evidence: "WSAAC submission examples round $29.99 up to $30.00", question: "Is rounding Amount Requesting above Cost accepted (WSAAC's example does it)?" }
   - { id: OQ-11, status: open, question: "Fall 2026 calendar: dropbox due, deliberation and letter dates" }
   - { id: OQ-12, status: resolved, question: "WMU fiscal year dates", answer: "July 1 to June 30 (Bylaws F26 5.02(a))" }
   - { id: OQ-13, status: resolved, question: "Do the $1,250 exemption, 24-hour conditional window, 5-day submission rule and post-event report still exist?", answer: "24-hour window and 5-day rule remain; $1,250 threshold and post-event report removed (Bylaws F26)" }
@@ -757,10 +792,21 @@ rules_index:
   - Step 1, Art. 4.01(d)
 - id: ELG-11
   section: 3. Eligibility and standing
-  text: Attendance expectations live in the "What Is WSA?" Assembly module. The Speaker and Secretary of the Assembly are the contacts for standing questions.
+  text: Attendance expectations live in the "Assembly & Good Standing" module. The Speaker and Secretary of the Assembly are the contacts for standing questions.
   tags:
   - Step 1
   - Step 3
+  - Assembly
+- id: ELG-19
+  section: 3. Eligibility and standing
+  text: To gain standing, the RSO's representative submits the Intent to Represent form. RSO Assembly Members get voting status once it is submitted; General Assembly Members also need three consecutive meetings. Without the form the RSO has No Standing and is not eligible for allocations.
+  tags:
+  - Assembly
+- id: ELG-20
+  section: 3. Eligibility and standing
+  text: More than two unexcused absences in the academic year puts the RSO in Bad Standing, which blocks allocations. To fix it, attend two consecutive meetings; voting rights return at the third.
+  tags:
+  - Assembly
 - id: ELG-12
   section: 3. Eligibility and standing
   text: Each cycle the RSO designates one person to complete the allocations process, including submission and deliberation.
@@ -1268,6 +1314,49 @@ rules_index:
   text: All Total Requested sections calculate automatically. Do not manually overwrite these formulas.
   tags:
   - Step 4 instr
+- id: SUB-23
+  section: '6. Building a proposal: the templates and submission rules'
+  text: No file actually uploaded to the dropbox. A link is not a submission.
+  tags:
+  - Mistakes
+- id: SUB-24
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Outdated or incorrect template formatting.
+  tags:
+  - Mistakes
+- id: SUB-25
+  section: '6. Building a proposal: the templates and submission rules'
+  text: A vague line item with no vendor, for example "Mileage" with the vendor blank.
+  tags:
+  - Mistakes
+- id: SUB-26
+  section: '6. Building a proposal: the templates and submission rules'
+  text: Extra money requested without a matching item description.
+  tags:
+  - Mistakes
+- id: SUB-27
+  section: '6. Building a proposal: the templates and submission rules'
+  text: 'Incomplete identity fields: not the full RSO name, an invalid email, no typed signature.'
+  tags:
+  - Mistakes
+  - Step 4 instr
+- id: SUB-28
+  section: '6. Building a proposal: the templates and submission rules'
+  text: A line item missing its vendor or its Amount Requesting.
+  tags:
+  - Mistakes
+- id: SUB-29
+  section: '6. Building a proposal: the templates and submission rules'
+  text: More than one sheet in a workbook, or several proposals in one file.
+  tags:
+  - Mistakes
+  - Bylaws F26 §5.04(c)(i)
+- id: SUB-30
+  section: '6. Building a proposal: the templates and submission rules'
+  text: A screenshot pasted into Excel instead of a filled-in template. Screenshots are not accepted even inside a workbook.
+  tags:
+  - Mistakes
+  - Bylaws F26 §5.04(c)(ii)
 - id: RES-01
   section: '7. After the decision: funding letters, appeals, strikes'
   text: 'Issued after deliberation by the Director and Assistant Director, emailed to the representative on the proposal, with a detailed breakdown of approved items and amounts (the type of funding and the specific items, for example caterer, printer or booth rental, and the total). Keep it: OSE matches receipts to the approved items, and it is the document the CEAS office wants before handing over their card.'
@@ -1426,6 +1515,47 @@ rules_index:
   text: RSOs are responsible for following the approved funding terms, submitting documentation on time, and coordinating payments through OSE.
   tags:
   - Step 7, Art. 8, 9
+- id: PAY-15
+  section: 9. Spending the money
+  text: Every payment, purchase or reimbursement starts with the Allocation Distribution Request Form. The exceptions are custom items and travel bookings, which are best done in person with the OSE Program Manager.
+  tags:
+  - Spending Guide 25-26
+- id: PAY-16
+  section: 9. Spending the money
+  text: A reimbursement receipt must show the date of purchase, an itemized list, the total, and proof of payment (a zero balance due or the card's last four digits). If the receipt does not prove payment, add a bank screenshot; a bank screenshot on its own is never enough.
+  tags:
+  - Spending Guide 25-26
+- id: PAY-17
+  section: 9. Spending the money
+  text: OSE's card can buy non-food items online (shipped to campus, picked up at OSE) and groceries for curbside pickup, but never restaurant food. For restaurants, either pay and get reimbursed, or use a restaurant that invoices the university. OSE lists past ones, including Condado Taco, Cottage Inn, Jets Pizza, Qdoba, Papa John's and Jimmy John's.
+  tags:
+  - Spending Guide 25-26
+- id: PAY-18
+  section: 9. Spending the money
+  text: Order early. Campus deliveries take longer than home deliveries and the campus mail room does not receive packages on weekends.
+  tags:
+  - Spending Guide 25-26
+- id: PAY-19
+  section: 9. Spending the money
+  text: A current WMU student, faculty or staff member, or a recent WMU employee doing similar work, is not an independent contractor. Paying them goes through Human Resources, not the contractor process. This also matches EVT-11 on RSO members as performers.
+  tags:
+  - Spending Guide 25-26
+- id: PAY-20
+  section: 9. Spending the money
+  text: When a campus department provides a service (custodial, room rental, public safety), a Service Agreement Form is needed along with the distribution request.
+  tags:
+  - Spending Guide 25-26
+- id: TRK-01
+  section: 9. Spending the money
+  text: 'WSAAC''s RSO Budget Tracker has one row per approved budget item: the item, the Amount Approved from the funding letter, up to five receipt columns, and an Amount Remaining that subtracts the receipts. A total at the bottom shows what is left across the allocation. This is the format the project''s purchase-tracking phase should follow.'
+  tags:
+  - Budget Tracker
+- id: OQ-05
+  section: 13. Open questions, blind spots and gaps
+  text: The live OSE finance mailbox is ose-financials@wmich.edu.
+  tags:
+  - Spending Guide 25-26
+  status: resolved
 - id: OQ-02
   section: 13. Open questions, blind spots and gaps
   text: 'Current SAF: $62.00 per semester for 2026-27, undergraduate and graduate.'
@@ -1484,12 +1614,6 @@ rules_index:
   - Bylaws F26
   - Cody
   status: reopened
-- id: OQ-05
-  section: 13. Open questions, blind spots and gaps
-  text: 'Which OSE finance mailbox is live: ose-financials@wmich.edu or ose_finance@wmich.edu (the Program Manager''s direct address works either way).'
-  tags:
-  - Step 5
-  - Step 7
 - id: OQ-06
   section: 13. Open questions, blind spots and gaps
   text: 'CEAS card: which money it spends, and the CEAS funding coordinator''s exact process.'
