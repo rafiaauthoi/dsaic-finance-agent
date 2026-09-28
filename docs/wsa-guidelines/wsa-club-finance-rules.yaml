@@ -1,12 +1,12 @@
 # WSA Allocations and RSO Finance: structured rules
 # Companion to wsa-club-finance-domain.md (canonical text). Same facts, same IDs, same source tags.
-# Generated 2026-09-27 for the DSAIC Club Finance project. Never treat a "cody", "inferred" or
+# Generated 2026-09-27 for the DSAIC Club Finance project. Never treat a "dsaic_team", "inferred" or
 # "unconfirmed" trust level as a rule. "bylaws_f26" is the highest source; "bylaws_f24" is history only
 # (see changes_to_f26 and changes_f24_to_s26).
 
 meta:
   title: "WSA Allocations and RSO Finance: Master Domain Reference"
-  version: "v3"
+  version: "v4"
   generated: "2026-09-27"
   organization: "Data Science and AI Club (DSAIC), Western Michigan University"
   canonical_text: "wsa-club-finance-domain.md"
@@ -16,21 +16,21 @@ meta:
     - "Spring 2026 workshop slides, Step 4 instructions, Fall 2026 templates"
     - "Fall 2024 WSAAC Bylaws text (fully superseded; history only)"
     - "OSE RSO Handbook 2024-2025"
-    - "Cody's practice notes (explain how to operate; never override rules)"
+    - "DSAIC team practice notes (explain how to operate; never override rules)"
     - "Inferred readings"
   trust_levels:
     official_current: "September 2026 bylaws, September 2026 announcement, Spring 2026 slides where the bylaws agree, Step 4 instructions, Fall 2026 templates"
     official_stale: "Fall 2024 bylaws, 2024-25 handbook"
     web: "public WMU or WSA page checked 2026-09-24"
-    cody: "practice, Sept 2026"
+    dsaic_team: "team practice notes, Sept 2026"
     inferred: "reading not stated by any source"
     unconfirmed: "stated, not verified"
 
 sources:
-  - id: cody
-    label: "Cody Thornell, WSA brain dump (wsa_brain_dump_1.pdf)"
+  - id: dsaic_team
+    label: "DSAIC team practice notes on WSA allocations"
     date: "2026-09"
-    trust: cody
+    trust: dsaic_team
   - id: bylaws_f26
     label: "WSAAC Bylaws, passed by the WSA Assembly 2026-09-09"
     date: "2026-09-09"
@@ -145,7 +145,7 @@ organizations:
   - id: CEAS
     name: "College of Engineering and Applied Sciences funding"
     role: "College-level funding and card, separate from WSA; contact the CEAS funding coordinator"
-    sources: [cody]
+    sources: [dsaic_team]
   - id: SCC
     name: "Sports Club Council"
     role: "SAF agency for sports clubs; SCC RSOs get a lower WSAAC cap"
@@ -192,8 +192,8 @@ contacts:
     trust: unconfirmed
   - role: "CEAS funding coordinator"
     note: "Name and email kept in the team's private contacts"
-    sources: [cody]
-    trust: cody
+    sources: [dsaic_team]
+    trust: dsaic_team
 
 saf:
   amount_per_semester_usd: 62.00
@@ -213,7 +213,7 @@ caps:
     per: fiscal_year
     dynamic: true
     dynamic_note: "based on the SAF taken in by WSAAC and the RSOs served"
-    sources: [bylaws_f26, step2, cody]
+    sources: [bylaws_f26, step2, dsaic_team]
     bylaw: "Art. 6.03(a)"
     trust: official_current
   - id: COL-04
@@ -310,7 +310,7 @@ eligibility:
   - { id: ELG-03, rule: "WSAAC eLearning module completed", sources: [step1], bylaw: "Art. 4.01", trust: official_current }
   - { id: ELG-04, rule: "A WSA Representative in good standing", sources: [step1], bylaw: "Art. 4.01", trust: official_current }
   - { id: ELG-05, rule: "No outstanding documentation from a previously funded WSAAC event or activity", sources: [step1], bylaw: "Art. 4.01", trust: official_current }
-  - { id: ELG-06, rule: "Not under a sanction that disqualifies the RSO from funding; the older two-months-per-semester limit is not in the September 2026 bylaws", sources: [bylaws_f26, bylaws_f24, cody], bylaw: "Art. 4.01(f)", trust: official_current, verify: "ask WSAAC whether any per-RSO application limit applies in practice (OQ-01)" }
+  - { id: ELG-06, rule: "Not under a sanction that disqualifies the RSO from funding; the older two-months-per-semester limit is not in the September 2026 bylaws", sources: [bylaws_f26, bylaws_f24, dsaic_team], bylaw: "Art. 4.01(f)", trust: official_current, verify: "ask WSAAC whether any per-RSO application limit applies in practice (OQ-01)" }
   - { id: ELG-07, rule: "Not directly receiving SAF funding through another SAF agency, unless a written agreement exists", sources: [step1], bylaw: "Guiding Principles 3; Art. 4", trust: official_current }
   - { id: ELG-08, rule: "Assembly standing is evaluated at the RSO level", sources: [step1], bylaw: "Art. 4.01(d)", trust: official_current }
   - { id: ELG-09, rule: "Any member may attend Assembly on the RSO's behalf; need not be the allocations rep", sources: [step1], bylaw: "Art. 4.01(d)", trust: official_current }
@@ -420,7 +420,7 @@ prohibited_always:
   - { id: PRO-09, item: "Fundraisers and materials used in fundraisers", sources: [bylaws_f26], bylaw: "GP 10(a)", trust: official_current }
   - { id: PRO-10, item: "Anything benefiting an RSO advisor or WMU faculty or staff", sources: [bylaws_f26], bylaw: "GP 10(b)", trust: official_current }
   - { id: MON-05, item: "Recovering bad debt, erasing pre-existing debt, or expenses incurred before deliberation", sources: [bylaws_f26], bylaw: "Art. 6.02(a)", trust: official_current }
-  - { id: BS-06, item: "Subscriptions (reported removed; no written rule found; OSE card bars auto-recurring payments)", sources: [cody, step7], trust: cody }
+  - { id: BS-06, item: "Subscriptions (reported removed; no written rule found; OSE card bars auto-recurring payments)", sources: [dsaic_team, step7], trust: dsaic_team }
 
 cycle:
   cadence: "one dropbox and one deliberation per month"
@@ -431,15 +431,15 @@ cycle:
   proposal_due:
     official: "before the posted eLearning dropbox due date; five university business days before deliberation"
     practice: "first Friday of the month"
-    sources: [step3, step4, bylaws_f26, cody]
+    sources: [step3, step4, bylaws_f26, dsaic_team]
   deliberation:
     official: "results communicated during deliberation for RSOs required to attend, before it for those not required; no-show or late means not considered"
     practice: "the following Friday; virtual call; quick club intro, explain items, answer flags (logo on items, subscriptions)"
-    sources: [step5, bylaws_f24, cody]
+    sources: [step5, bylaws_f24, dsaic_team]
   results_and_funding_letter:
     official: "within five university business days after deliberation, emailed to the rep on the proposal"
     practice: "the Friday after deliberation: green light to purchase plus funding letter"
-    sources: [step5, bylaws_f24, cody]
+    sources: [step5, bylaws_f24, dsaic_team]
   channels_for_dates: ["WSA website (stale on 2026-09-24)", "WSAAC Instagram @wmu_wsaac", "eLearning News"]
   spring_2026_example:
     - { round: January, application_due: "2026-01-23", deliberation: "2026-01-30" }
@@ -454,7 +454,7 @@ deadlines:
   - { id: EVT-12, clock: "event or conference date", rule: "at least 10 business days after the deliberation", sources: [step2], trust: official_current }
   - { id: BRD-05, clock: "ExperienceWMU event link", rule: "public event created and link emailed to Director and Assistant Director by end of the 3rd business day after deliberation", sources: [step6], trust: official_current }
   - { id: PAY-02, clock: "reimbursement documents", rule: "within 10 days after the event or conference; operational by the last day of the semester issued", sources: [bylaws_f26, step5], trust: official_current, ambiguity: "calendar vs business days; treat as calendar (OQ-15)" }
-  - { id: PAY-03, clock: "reimbursement processing", rule: "3 to 6 weeks", sources: [step7, cody], trust: official_current }
+  - { id: PAY-03, clock: "reimbursement processing", rule: "3 to 6 weeks", sources: [step7, dsaic_team], trust: official_current }
   - { id: APP-02, clock: "appeal", rule: "email intent to appeal to wsa-directorallocations@wmich.edu and wsa-adallocate@wmich.edu within 10 business days of notification", sources: [bylaws_f26, step5], trust: official_current }
   - { id: ELG-14, clock: "quiz", rule: "80% minimum, passed before submitting; retake required whenever the bylaws change", sources: [bylaws_f26, news_0921], trust: official_current }
   - { id: PAY-11, clock: "expiration", rule: "event and collaboration: event date; operational: last day of semester issued; conference: conference date; start-up: end of academic year", sources: [bylaws_f26, step7, step2], trust: official_current }
@@ -555,13 +555,13 @@ payment:
       processing_weeks: [3, 6]
       signer: "a designated Student Financial Manager (handbook)"
       practice: "own card, keep receipts, submit the form; direct deposit if student worker, otherwise a check; use when there is no time to coordinate"
-      sources: [step7, step5, handbook_2425, cody]
+      sources: [step7, step5, handbook_2425, dsaic_team]
     ose_credit_card:
       can: ["purchase non-food items online", "order groceries for curbside pickup", "pay invoiced vendors"]
       cannot: ["restaurant food purchases", "payments to individuals", "auto-recurring payments"]
       logistics: "pick up during business hours; plan ahead"
       practice: "schedule an appointment with the OSE Program Manager or send them an Amazon wishlist"
-      sources: [step7, cody]
+      sources: [step7, dsaic_team]
     contractors:
       who: ["DJs", "speakers", "performers", "service providers"]
       rule: "paid by the University after services are rendered; RSOs may not pay and seek reimbursement"
@@ -574,8 +574,8 @@ payment:
     ceas_card:
       rule: "if approved for WMU CEAS Funding, send the funding letter to the CEAS funding coordinator and check out the card; keep receipts"
       open_question: OQ-06
-      sources: [cody]
-      trust: cody
+      sources: [dsaic_team]
+      trust: dsaic_team
   distribution_form_exceptions: { id: PAY-15, rule: "custom items and travel bookings are best done in person with the OSE Program Manager", sources: [spending_guide_2526] }
   receipt_requirements: { id: PAY-16, required: ["date of purchase", "itemized list", "total", "proof of payment (zero balance due or card last 4 digits)"], bank_screenshot: "only as a supplement when the receipt lacks proof of payment; never on its own", sources: [spending_guide_2526] }
   restaurant_food: { id: PAY-17, ose_card: false, options: ["pay and get reimbursed", "use a restaurant that invoices the university"], restaurants_that_have_invoiced: ["Condado Taco", "Erbelli's", "Cottage Inn", "Big Burrito", "Que Buenos", "Wally's", "Jimmy John's", "Little Caesars", "Papa John's", "Mi Pueblo", "Nonla Burger", "Jets Pizza", "Qdoba", "Fiesta Burrito", "Rasa Ria"], sources: [spending_guide_2526] }
@@ -623,16 +623,16 @@ strikes:
   sources: [step5, step6, step7, bylaws_f24]
 
 practice_notes:
-  - { id: PRC-01, note: "Three request types used: Operational (semester-round purchases), Conference (a trip), Event (on campus)", source: cody }
-  - { id: PRC-02, note: "Yearly cap of 6.5k", source: cody }
-  - { id: PRC-03, note: "Submissions due first Friday of the month; deliberation the following Friday (virtual call); green light and funding letter the Friday after", source: cody }
-  - { id: PRC-04, note: "Deliberation: quick club intro, explain items; committee flags things like logo on items and subscriptions being removed; tech clubs often approved", source: cody }
-  - { id: PRC-05, note: "Be vague: Bags, not Custom Embroidery Backpack; you are pigeon-holed into what you request; funding-sheet reviewers are separate from purchase approvers", source: cody }
-  - { id: PRC-06, note: "Learn the pattern from past requests; ours were not perfect; other clubs' data would help", source: cody }
-  - { id: PRC-07, note: "Only two month-cycles per semester", source: cody, corroborated_by: "bylaws_f24 4.01(g) only; not in bylaws_f26 (OQ-01)" }
-  - { id: PRC-08, note: "Reimbursement: own card, save receipts, submit the form; direct deposit if student worker, otherwise a check; 3 to 6 weeks; needed for quick purchases", source: cody }
-  - { id: PRC-09, note: "OSE card: schedule with the OSE Program Manager or send an Amazon wishlist", source: cody }
-  - { id: PRC-10, note: "CEAS card: if approved for CEAS funding, send the funding letter to the CEAS funding coordinator, check out the card, keep receipts", source: cody }
+  - { id: PRC-01, note: "Three request types used: Operational (semester-round purchases), Conference (a trip), Event (on campus)", source: dsaic_team }
+  - { id: PRC-02, note: "Yearly cap of 6.5k", source: dsaic_team }
+  - { id: PRC-03, note: "Submissions due first Friday of the month; deliberation the following Friday (virtual call); green light and funding letter the Friday after", source: dsaic_team }
+  - { id: PRC-04, note: "Deliberation: quick club intro, explain items; committee flags things like logo on items and subscriptions being removed; tech clubs often approved", source: dsaic_team }
+  - { id: PRC-05, note: "Name items clearly at the level you will buy them (Bags, not Custom Embroidery Backpack), attach a real vendor quote, put the justification in the notes; reviewers and purchase processors are separate groups, so write for both; operational amounts can shift with approval (OPS-07)", source: dsaic_team }
+  - { id: PRC-06, note: "Learn the pattern from past requests; ours were not perfect; other clubs' data would help", source: dsaic_team }
+  - { id: PRC-07, note: "Only two month-cycles per semester", source: dsaic_team, corroborated_by: "bylaws_f24 4.01(g) only; not in bylaws_f26 (OQ-01)" }
+  - { id: PRC-08, note: "Reimbursement: own card, save receipts, submit the form; direct deposit if student worker, otherwise a check; 3 to 6 weeks; needed for quick purchases", source: dsaic_team }
+  - { id: PRC-09, note: "OSE card: schedule with the OSE Program Manager or send an Amazon wishlist", source: dsaic_team }
+  - { id: PRC-10, note: "CEAS card: if approved for CEAS funding, send the funding letter to the CEAS funding coordinator, check out the card, keep receipts", source: dsaic_team }
 
 changes_to_f26:
   - { rule: "Outside funding documentation", before: "not required", now: "required with every proposal; missing it is grounds for denial", ids: [ELG-18] }
@@ -688,7 +688,7 @@ blind_spots:
   - { id: BS-03, topic: "On-campus account mechanics", detail: "allocation lands in an OSE account restricted to allocated items and swept afterward; item names on the funding letter are the spend authorization", sources: [handbook_2425] }
   - { id: BS-04, topic: "Sales tax on out-of-pocket purchases", detail: "no source says whether OSE reimburses sales tax a member paid", sources: [], action: "ask the OSE Program Manager", trust: inferred }
   - { id: BS-05, topic: "Guiding-principle bans", detail: "alcohol, controlled substances, weapons, personal benefit, charity, fundraising, political, religious; restated in Bylaws F26 Guiding Principles 9 and 10", sources: [bylaws_f26, handbook_2425], status: closed }
-  - { id: BS-06, topic: "Subscriptions, memberships, software, cloud credits, API keys", detail: "no written rule; Cody reports subscriptions removed; OSE card bars auto-recurring payments", sources: [cody, step7] }
+  - { id: BS-06, topic: "Subscriptions, memberships, software, cloud credits, API keys", detail: "no written rule; the team reports subscriptions removed; OSE card bars auto-recurring payments", sources: [dsaic_team, step7] }
   - { id: BS-07, topic: "Conditional approvals", detail: "24 hours after deliberation to submit required changes; someone must be reachable the day after", sources: [bylaws_f26] }
   - { id: BS-08, topic: "Stale public pages", detail: "wmuwsa.org/allocations still headlines Fall 2023 deliberation dates; do not scrape it for dates", sources: [web_wsa_alloc] }
   - { id: BS-09, topic: "Officer names", detail: "role mailboxes are stable; names are not", sources: [web_wsa_director] }
@@ -706,7 +706,7 @@ rules_index:
   text: 'Yearly cap: $6,500 per RSO per fiscal year across all categories. Collaboration funding has its own separate $1,500 cap.'
   tags:
   - Step 2, Art. 6.01, 6.03
-  - Cody
+  - DSAIC Team
 - id: MON-03
   section: 2. How the money moves
   text: Funding is supplemental. It is not meant to fully fund an activity, it depends on remaining SAF funds and Commission approval, and WSAAC reserves the right to partially fund or deny. Decisions are based on eligibility, justification and compliance.
@@ -769,7 +769,7 @@ rules_index:
   tags:
   - Bylaws F26 §4.01(f)
   - Bylaws F24 §4.01(g)
-  - Cody
+  - DSAIC Team
 - id: ELG-07
   section: 3. Eligibility and standing
   text: Not directly receiving SAF funding through another SAF agency, unless a written agreement (an Assembly-passed bill or formal funding agreement) exists.
@@ -1363,7 +1363,7 @@ rules_index:
   tags:
   - Step 5, Art. 8
   - 'Web: wmich.edu/studentengagement/wsaallocationinformation'
-  - Cody
+  - DSAIC Team
 - id: APP-01
   section: '7. After the decision: funding letters, appeals, strikes'
   text: 'Grounds: the decision was made in error, in violation of the WSAAC Bylaws, or for reasons beyond the scope of the bylaws. Disagreeing with the outcome is not grounds on its own.'
@@ -1429,7 +1429,7 @@ rules_index:
   text: Promotional items must carry the RSO's own branding from the manufacturer or vendor. This is why "are you putting your logo on this?" comes up at deliberation.
   tags:
   - Step 2, Art. 6.03
-  - Cody
+  - DSAIC Team
 - id: BRD-04
   section: 8. Branding and event obligations
   text: 'Encouraged channels: social media, flyers and posters, chalk advertising, TVs in the Rec Center and Student Center. wsa-directormarketing@wmich.edu helps with branding, logos and promotion; the older bylaws said RSOs submit publicity materials to the Director of Marketing and Outreach for supervision.'
@@ -1457,7 +1457,7 @@ rules_index:
   text: 'Typical processing time: 3 to 6 weeks.'
   tags:
   - Step 7, OSE Spending Guide
-  - Cody
+  - DSAIC Team
 - id: PAY-04
   section: 9. Spending the money
   text: Send questions, receipts and documents to the OSE Program Manager at ose-financials@wmich.edu.
@@ -1612,13 +1612,13 @@ rules_index:
   tags:
   - Bylaws F24
   - Bylaws F26
-  - Cody
+  - DSAIC Team
   status: reopened
 - id: OQ-06
   section: 13. Open questions, blind spots and gaps
   text: 'CEAS card: which money it spends, and the CEAS funding coordinator''s exact process.'
   tags:
-  - Cody
+  - DSAIC Team
 - id: OQ-07
   section: 13. Open questions, blind spots and gaps
   text: What 20.8692 represents in "Total SAFs Used".
@@ -1628,7 +1628,7 @@ rules_index:
   section: 13. Open questions, blind spots and gaps
   text: 'Where the line sits between a usefully general item name and one too vague to fund. Needs real examples: past DSAIC proposals with their funding letters, and other clubs'' data.'
   tags:
-  - Cody
+  - DSAIC Team
 - id: OQ-10
   section: 13. Open questions, blind spots and gaps
   text: Whether rounding Amount Requesting above Cost is accepted practice (WSAAC's own example does it).
@@ -1666,7 +1666,7 @@ rules_index:
   - Handbook 24-25
 - id: BS-03
   section: 13. Open questions, blind spots and gaps
-  text: 'On-campus account mechanics. Allocations land in an OSE-held account restricted to the allocated items and swept afterward; no deposits; negative balances freeze privileges. This is the real constraint behind "be vague": the funding letter''s item names are the spend authorization.'
+  text: 'On-campus account mechanics. Allocations land in an OSE-held account restricted to the allocated items and swept afterward; no deposits; negative balances freeze privileges. This is why item names matter: the funding letter''s item names are the spend authorization.'
   tags:
   - Handbook 24-25
 - id: BS-04
@@ -1682,9 +1682,9 @@ rules_index:
   - Handbook 24-25
 - id: BS-06
   section: 13. Open questions, blind spots and gaps
-  text: Subscriptions and memberships. No written rule found; Cody reports subscriptions were removed, and the OSE card bars auto-recurring payments. Software, cloud credits and API keys, which DSAIC would plausibly want, sit in this gap.
+  text: Subscriptions and memberships. No written rule found; the team reports subscriptions were removed, and the OSE card bars auto-recurring payments. Software, cloud credits and API keys, which DSAIC would plausibly want, sit in this gap.
   tags:
-  - Cody
+  - DSAIC Team
   - Step 7
 - id: BS-07
   section: 13. Open questions, blind spots and gaps

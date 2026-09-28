@@ -1,6 +1,6 @@
 # WSA Allocations and RSO Finance: Master Domain Reference
 
-_v3, 2026-09-27. Data Science and AI Club (DSAIC), Western Michigan University. Compiled from Cody Thornell's brain dump (Sept 2026), the WSAAC Bylaws passed by the WSA Assembly on 2026-09-09, the WSAAC eLearning announcement of 2026-09-21, the WSAAC Allocations Workshop modules (Spring 2026, Steps 1 to 7), the Fall 2026 WSAAC proposal templates, the Fall 2024 WSAAC Bylaws, the OSE RSO Handbook 2024 to 2025, and public WMU and WSA web pages checked on 2026-09-24._
+_v4, 2026-09-27. Data Science and AI Club (DSAIC), Western Michigan University. Compiled from the DSAIC team's practice notes (Sept 2026), the WSAAC Bylaws passed by the WSA Assembly on 2026-09-09, the WSAAC eLearning announcement of 2026-09-21, the WSAAC Allocations Workshop modules (Spring 2026, Steps 1 to 7), the Fall 2026 WSAAC proposal templates, the Fall 2024 WSAAC Bylaws, the OSE RSO Handbook 2024 to 2025, and public WMU and WSA web pages checked on 2026-09-24._
 
 > Machine-readable companion: `wsa-club-finance-rules.yaml` holds the same caps, deadlines, contacts, template schema and open questions as structured data. A formatted Word copy lives in the team's shared drive. All versions come from one content model; this markdown file is the canonical text.
 
@@ -8,7 +8,7 @@ This is the domain document for club finances: how money gets from the Student A
 
 ### How to read this file
 
-Every fact carries a source tag in square brackets. The tags are the whole trust model, so an agent should never repeat a fact without its tag and should never treat a [Cody], [Inferred] or [Unconfirmed] line as a rule.
+Every fact carries a source tag in square brackets. The tags are the whole trust model, so an agent should never repeat a fact without its tag and should never treat a [DSAIC Team], [Inferred] or [Unconfirmed] line as a rule.
 
 | Tag | Meaning | Trust level |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ Every fact carries a source tag in square brackets. The tags are the whole trust
 | [Budget Tracker] | WSAAC's RSO Budget Tracker spreadsheet, from eLearning. | Official tracking format. |
 | [Web: source] | A public WMU or WSA web page checked on 2026-09-24. | Current as of that date; recheck before relying on a person's name. |
 | [News 09-21] | WSAAC announcement in the eLearning News feed, posted 2026-09-21. | Current official guidance; newer than the Spring 2026 slides. |
-| [Cody] | Cody's practice notes from running RSO finances (Sept 2026). | How it actually works. Describes practice, does not create permissions. |
+| [DSAIC Team] | The DSAIC team's practice notes from running RSO finances (Sept 2026). | How it actually works. Describes practice, does not create permissions. |
 | [Inferred] | A reading of the sources that no source states outright. | Low. Confirm before acting. |
 | [Unconfirmed] | Stated by someone, not verified. | Low. Listed again in section 13. |
 
@@ -37,17 +37,17 @@ Every fact carries a source tag in square brackets. The tags are the whole trust
 ### Quick facts
 
 - **Money source:** the Student Assessment Fee (SAF), $62.00 per student per semester for Fall 2026 and Spring 2027, paid by undergraduate and graduate students. [Web: wmich.edu cost of attendance]
-- **Yearly cap:** $6,500 per RSO per fiscal year across all categories, described as a dynamic cap based on the SAF WSAAC takes in and the RSOs it serves; collaboration is a separate $1,500. [Bylaws F26 §6.03(a)] [Cody]
+- **Yearly cap:** $6,500 per RSO per fiscal year across all categories, described as a dynamic cap based on the SAF WSAAC takes in and the RSOs it serves; collaboration is a separate $1,500. [Bylaws F26 §6.03(a)] [DSAIC Team]
 - **Fiscal year:** July 1 to June 30. Caps and strikes reset on it. [Bylaws F26 §5.02(a)]
-- **Rounds:** one dropbox and one deliberation per month, with at least three deliberations each semester. The September 2026 bylaws set no limit on how many months an RSO may apply; the older two-cycles rule is gone from the text, though Cody reports it in practice (OQ-01). [Step 3] [Bylaws F26 §5.01] [Cody]
+- **Rounds:** one dropbox and one deliberation per month, with at least three deliberations each semester. The September 2026 bylaws set no limit on how many months an RSO may apply; the older two-cycles rule is gone from the text, though the team reports it in practice (OQ-01). [Step 3] [Bylaws F26 §5.01] [DSAIC Team]
 - **Outside funding:** every proposal must include proof the RSO has sought other money (fundraising, dues, sponsorship outreach, or a written statement of attempts). Missing it is grounds for denial. [Bylaws F26 §5.04(g), 7.07(e)]
-- **Rhythm:** proposal due (Cody: first Friday), deliberation the next Friday, funding letter about a week later. [Cody] [Step 5 schedule example]
+- **Rhythm:** proposal due (in practice: first Friday), deliberation the next Friday, funding letter about a week later. [DSAIC Team] [Step 5 schedule example]
 - **Lead time:** an event or conference must be at least 10 business days after the deliberation. [Step 2, Art. 6.02, 6.03]
 - **Money never touches the club:** everything is paid by reimbursement or by OSE directly, against the funding letter. [Step 7, Art. 8]
 - **Receipts:** reimbursement documents to OSE within 10 days after the event or conference; operational paperwork by the last day of the semester the funding was issued. Reimbursement takes 3 to 6 weeks. [Bylaws F26 §7.05(a), 8.03] [Step 7]
 - **Food:** events only, on campus only, max $20 per expected attendee; never for operational or conference. [Step 2, Art. 6.03]
 - **Branding:** WSA, SAF Funded and WSAAC logos on funded promo materials and at the event; public ExperienceWMU event link emailed within 3 business days of deliberation. [Step 6, Art. 6, 9]
-- **Wording:** keep item names general enough to survive a change of plan ("Bags", not "Custom Embroidery Backpack"). [Cody]
+- **Wording:** name items clearly at the level you will buy them ("Bags", not "Custom Embroidery Backpack"), with a real vendor quote attached and the justification in the notes. [DSAIC Team]
 
 ### Contents
 
@@ -76,7 +76,7 @@ Three organizations touch every dollar: WSA and its Allocations Commission decid
 | --- | --- | --- |
 | **SAF** (Student Assessment Fee) | A per-semester fee every WMU student pays: $62.00 for Fall 2026 and Spring 2027, undergraduate and graduate alike. It funds six SAF agencies: WSA, WSAAC, Student Media Group, Graduate Student Association, Campus Activities Board and Sports Club Council. [Web: wmich.edu cost of attendance] [Web: Western Herald, Feb 2024] The Step 2 slides describe WSAAC and SCC as funded through the undergraduate SAF. [Step 2] | It is the only source of the money. Branding rules exist so students can see where their fee went. [Step 6] |
 | **WSA** (Western Student Association) | Student government. Has an Assembly (run by a Speaker and Secretary), a Judicial Council under a Chief Justice, a Chief of Finance, a Membership Chair and a Director of Marketing and Outreach. [Step 1] [Step 5] [Bylaws F24 §8.02, 8.04] | Assembly standing is an eligibility requirement. The Judicial Council and Assembly hear appeals. Marketing (wsa-directormarketing@wmich.edu) helps with logos and promotion. [Step 6] |
-| **WSAAC** (WSA Allocations Commission) | The WSA agency that reviews proposals and allocates SAF money to RSOs. Led by a Director of Allocations and an Assistant Director of Allocations. Web: wmuwsa.org/allocations. Instagram: @wmu_wsaac. [Step 5] | They run deliberations, issue funding letters and strikes, and receive event links. Cody calls them "the WSA approval committee". [Cody] |
+| **WSAAC** (WSA Allocations Commission) | The WSA agency that reviews proposals and allocates SAF money to RSOs. Led by a Director of Allocations and an Assistant Director of Allocations. Web: wmuwsa.org/allocations. Instagram: @wmu_wsaac. [Step 5] | They run deliberations, issue funding letters and strikes, and receive event links. The team calls them "the WSA approval committee". [DSAIC Team] |
 | **OSE** (Office of Student Engagement) | The university office that registers RSOs each year, holds the on-campus SAF accounts, and processes every payment and reimbursement. Point person: the OSE Program Manager. [Step 7] [Handbook 24-25] | No money ever reaches the club directly. Every purchase goes through OSE by reimbursement, the OSE credit card, a vendor payment, or an internal transfer. [Step 7, Art. 8] |
 | **RSO** (Registered Student Organization) | A student org registered with OSE for the current academic year. DSAIC is one. [Step 1, Art. 4.01] | Registration, no outstanding debt, and no missing documentation from earlier funding are all preconditions for applying. [Step 1, Art. 4.01] |
 | **Assembly Representative** | Any member who attends WSA Assembly meetings on the RSO's behalf. Standing is evaluated at the RSO level, not per person. One person may represent only one RSO. [Step 1, Art. 4.01(d)] | Keeps the club in good standing so it stays eligible. Does not have to be the same person who does allocations. |
@@ -84,10 +84,10 @@ Three organizations touch every dollar: WSA and its Allocations Commission decid
 | **Student Financial Managers** | SAF-funded RSOs must appoint one or two officers as Student Financial Managers. They are the only members authorized to sign for and spend funds from the RSO's on-campus accounts. [Handbook 24-25] | Whoever submits reimbursements and payment requests for DSAIC needs to be one of these. Not mentioned in the workshop slides. |
 | **eLearning** | WMU's learning management system. Hosts the WSAAC training modules, the Final Allocations Quiz, the monthly submission dropboxes, and the "News" feed. [Step 1] [Step 3] [Step 5] | Where proposals are actually submitted, and where dates get posted. |
 | **ExperienceWMU** | WMU's campus organization portal (ExperienceWMU.wmich.edu/Organizations). [Step 4 instr] | The RSO name on every form must match this listing exactly. Funded events must be posted here as public events. [Step 6] |
-| **Funding letter** | Issued by the Director and Assistant Director after deliberation, listing approved items and amounts. [Step 5, Art. 8] | Needed for reimbursement, for the OSE card, and for the CEAS card checkout. It records the decision; it does not make it. [Step 5] [Cody] |
+| **Funding letter** | Issued by the Director and Assistant Director after deliberation, listing approved items and amounts. [Step 5, Art. 8] | Needed for reimbursement, for the OSE card, and for the CEAS card checkout. It records the decision; it does not make it. [Step 5] [DSAIC Team] |
 | **Allocation Distribution Request Form** | The OSE form required for every payment or reimbursement from an allocation. [Step 7, OSE Spending Guide] | Reimbursements, card purchases, vendor payments, contractors and campus department payments all start with it. |
 | **On-campus SAF account** | An OSE-held account created once an RSO gets WSAAC funding; the WSAAC account is coded 52 627 plus a fund cost center. It can only be used for the allocated items and is swept back to WSAAC after the event. [Handbook 24-25] | This is the account the funding letter unlocks. It is not a club bank account. |
-| **CEAS funding** | College of Engineering and Applied Sciences funding, separate from WSA. Contact: the CEAS funding coordinator (name in the team's private contacts). [Cody] | A second pot of money and a nicer way to spend: the college card instead of your own. [Cody] |
+| **CEAS funding** | College of Engineering and Applied Sciences funding, separate from WSA. Contact: the CEAS funding coordinator (name in the team's private contacts). [DSAIC Team] | A second pot of money and a nicer way to spend: the college card instead of your own. [DSAIC Team] |
 | **GSA / GFAC** | The Graduate Student Association's Graduate Financial Allocation Committee, another SAF agency that funds graduate and mixed RSOs. [Web: wmich.edu/gsa/funding/rso-funding] | A possible second source for DSAIC, with an eligibility wrinkle; see section 13. |
 | **SCC** (Sports Club Council) | A separate SAF-funded body for sports clubs. [Step 2] | Not relevant to DSAIC except that SCC-affiliated RSOs get a lower WSAAC cap ($2,000). [Step 2] |
 | **Fiscal year** | July 1 through June 30. [Bylaws F26 §5.02(a)] | The $6,500 cap, the $1,500 collaboration cap, the $250 promo cap and strike counts all reset on it. [Step 2] [Step 5] |
@@ -103,7 +103,7 @@ Three organizations touch every dollar: WSA and its Allocations Commission decid
 | WSA Director of Marketing and Outreach | wsa-directormarketing@wmich.edu | [Step 6] [Bylaws F26 §8.02] |
 | RSO Development GA (OSE) | ose-rsodevelopment@wmich.edu | [Handbook 24-25] Registration and account verification letters. |
 | WSAAC general (older) | wsaac-chair@wmich.edu, (269) 387-2125; wsa_ac_chair@wmich.edu appears in the Fall 2024 bylaws. | [Handbook 24-25] [Bylaws F24 §8.04] Possibly stale. [Unconfirmed] |
-| CEAS funding coordinator | Name and email kept in the team's private contacts | [Cody] |
+| CEAS funding coordinator | Name and email kept in the team's private contacts | [DSAIC Team] |
 
 ## 2. How the money moves
 
@@ -121,7 +121,7 @@ The whole system in one line: students pay the SAF, WSAAC allocates a portion of
 ### Ground rules that shape everything
 
 - **MON-01** Approved allocations are never issued directly to the RSO. Funds are accessed only through OSE. [Step 7, Art. 8; OSE Spending Guide]
-- **MON-02** Yearly cap: $6,500 per RSO per fiscal year across all categories. Collaboration funding has its own separate $1,500 cap. [Step 2, Art. 6.01, 6.03] [Cody]
+- **MON-02** Yearly cap: $6,500 per RSO per fiscal year across all categories. Collaboration funding has its own separate $1,500 cap. [Step 2, Art. 6.01, 6.03] [DSAIC Team]
 - **MON-03** Funding is supplemental. It is not meant to fully fund an activity, it depends on remaining SAF funds and Commission approval, and WSAAC reserves the right to partially fund or deny. Decisions are based on eligibility, justification and compliance. [Step 2, Art. 6.01, 6.02]
 - **MON-04** Nothing bought before deliberation is covered. The affirmation on every form says no requested items have been purchased yet. [Step 2, Art. 6] [Templates F26]
 - **MON-05** The Commission will not allocate funds to recover from bad debt or erase pre-existing debt, nor cover expenses incurred before deliberation. [Bylaws F26 §6.02(a)]
@@ -129,7 +129,7 @@ The whole system in one line: students pay the SAF, WSAAC allocates a portion of
 - **MON-07** SAF funds are the only money allowed in an RSO's on-campus account; no deposits except to resolve a deficit, and a negative balance freezes the account and the RSO's privileges. Self-generated money (dues, donations) lives in an off-campus bank account under the RSO's own EIN. [Handbook 24-25]
 - **MON-08** Providing false information when seeking reimbursement is referred to WMU Public Safety and the Office of Student Conduct. [Handbook 24-25]
 
-> **In practice (Cody):** Yearly cap of 6.5k. Three types of requests we use: Operational for general semester-round purchases, Conference for planning a trip somewhere, Event for an event on campus grounds. The people who evaluate the funding sheet are separate from the people who approve and make the purchases, so the wording that gets you through deliberation and the wording that lets you buy what you actually need are two different problems (see section 6). [Cody]
+> **In practice (DSAIC Team):** Yearly cap of 6.5k. Three types of requests we use: Operational for general semester-round purchases, Conference for planning a trip somewhere, Event for an event on campus grounds. The people who evaluate the funding sheet are separate from the people who approve and make the purchases, so the wording that gets you through deliberation and the wording that lets you buy what you actually need are two different problems (see section 6). [DSAIC Team]
 
 ## 3. Eligibility and standing
 
@@ -142,7 +142,7 @@ Before any proposal, the RSO has to clear the gate in Bylaws Article 4. Miss one
 3. **ELG-03** WSAAC eLearning module completed. [Step 1, Art. 4.01]
 4. **ELG-04** A WSA Representative in good standing. [Step 1, Art. 4.01]
 5. **ELG-05** No outstanding documentation from a previously funded WSAAC event or activity. [Step 1, Art. 4.01]
-6. **ELG-06** Not under a sanction that disqualifies the RSO from funding (see STR-04). [Bylaws F26 §4.01(f)] The older limit of two months of applications per semester, with a third after a denial, is not in the September 2026 bylaws. [Bylaws F24 §4.01(g)] [Cody]
+6. **ELG-06** Not under a sanction that disqualifies the RSO from funding (see STR-04). [Bylaws F26 §4.01(f)] The older limit of two months of applications per semester, with a third after a denial, is not in the September 2026 bylaws. [Bylaws F24 §4.01(g)] [DSAIC Team]
 7. **ELG-07** Not directly receiving SAF funding through another SAF agency, unless a written agreement (an Assembly-passed bill or formal funding agreement) exists. [Step 1, Guiding Principles §3; Art. 4]
 
 ### Assembly representation
@@ -219,9 +219,9 @@ The Commission shall not fund:
 - **OPS-06** Promotional items must be branded by the vendor with the RSO logo and cannot exceed $250 per fiscal year (clothing is excluded from that limit). [Bylaws F26 §6.03(a)(iii)(1)(c)]
 - **OPS-07** After approval, the RSO may buy line items in different amounts than the funding letter shows, as long as the total does not exceed the letter's total, and only after consulting WSAAC and getting approval from the Director, Assistant Director or OSE Program Manager. [Bylaws F26 §6.03(a)(iii)(4)]
 
-> **In practice (Cody):** Operational is the general semester-round purchase round. The committee's main concerns at deliberation are things like "are you putting your logo on this?" and "we are removing the ability to do subscriptions", so branded merch and anything subscription-shaped are the two things to expect questions on. For tech clubs they often approve. [Cody]
+> **In practice (DSAIC Team):** Operational is the general semester-round purchase round. The committee's main concerns at deliberation are things like "are you putting your logo on this?" and "we are removing the ability to do subscriptions", so branded merch and anything subscription-shaped are the two things to expect questions on. For tech clubs they often approve. [DSAIC Team]
 
-> **Note:** Subscriptions are not named anywhere in the slides or the Fall 2024 bylaws. The nearest written rule is the OSE card's "no auto-recurring payments" [Step 7]. Treat subscriptions as unfundable on Cody's report until a written rule turns up. [Cody] [Inferred]
+> **Note:** Subscriptions are not named anywhere in the slides or the Fall 2024 bylaws. The nearest written rule is the OSE card's "no auto-recurring payments" [Step 7]. Treat subscriptions as unfundable on the team's report until a written rule turns up. [DSAIC Team] [Inferred]
 
 ### 4.3 Conference funding in detail
 
@@ -234,7 +234,7 @@ The Commission shall not fund:
 - **CNF-07** Rental vehicle reimbursements need gas receipts. [Bylaws F26 §6.03(a)(ii)(1)(a)]
 - **CNF-08** If a conference is rescheduled or cancelled, the money can go to the rescheduled date, or back to the RSO's cap if none was spent, at WSAAC's discretion and with evidence of the change. This does not apply to conferences organized by the RSO or by WMU. [Bylaws F26 §5.02(c)]
 
-> **In practice (Cody):** Conference is the round for planning a trip visiting somewhere. [Cody]
+> **In practice (DSAIC Team):** Conference is the round for planning a trip visiting somewhere. [DSAIC Team]
 
 ### 4.4 Collaboration funding in detail
 
@@ -286,9 +286,9 @@ The September 2026 bylaws restate these as Guiding Principles 9 and 10, so they 
 
 The Spring 2026 schedule that WSAAC posted on Instagram shows the rhythm: January application due 1/23 and deliberation 1/30; February funding letters released 2/06, applications due 2/20, deliberation 2/27; March funding letters 3/06, applications due 3/20. So roughly: due on a Friday, deliberation the next Friday, letters about a week after that, and the next round's due date two to three weeks later. [Step 5]
 
-> **In practice (Cody):** Funding submissions are due the first Friday of the month. The following Friday is the deliberation session: a virtual call with the committee where they flag anything they want to talk about. You give a quick intro of the club and explain the items. The Friday after that we get the green light to purchase and the funding letter. You can only submit two month-cycles per semester. [Cody]
+> **In practice (DSAIC Team):** Funding submissions are due the first Friday of the month. The following Friday is the deliberation session: a virtual call with the committee where they flag anything they want to talk about. You give a quick intro of the club and explain the items. The Friday after that we get the green light to purchase and the funding letter. You can only submit two month-cycles per semester. [DSAIC Team]
 
-> **Note:** The two-cycles-per-semester limit was in the Fall 2024 bylaws but is not in the September 2026 bylaws. Cody's note may describe older practice; ask WSAAC before planning more than two rounds in a semester (OQ-01). [Bylaws F24 §4.01(g)] [Bylaws F26] [Cody]
+> **Note:** The two-cycles-per-semester limit was in the Fall 2024 bylaws but is not in the September 2026 bylaws. The team's note may describe older practice; ask WSAAC before planning more than two rounds in a semester (OQ-01). [Bylaws F24 §4.01(g)] [Bylaws F26] [DSAIC Team]
 
 ### Timing rules that hang off the deliberation date
 
@@ -301,7 +301,7 @@ The Spring 2026 schedule that WSAAC posted on Instagram shows the rhythm: Januar
 | ExperienceWMU event link | Create a public event and email the link to the Director and Assistant Director by the end of the 3rd business day after deliberation. Failure may earn a strike. | [Step 6, Art. 9; GP §3] |
 | Post-event report | None. The Fall 2024 report or survey requirement is gone; the September 2026 bylaws put the ExperienceWMU link in its place (row above). | [Bylaws F26 §7.05(b)] |
 | Reimbursement documents | Within 10 days after the event or conference; operational by the last day of the semester the funding was issued. Missing it can mean strikes. The Spring 2026 slides said 10 days from the date of purchase; the bylaws win. | [Bylaws F26 §7.05(a), 8.03] [Step 5] |
-| Reimbursement processing | Typically 3 to 6 weeks. | [Step 7, OSE Spending Guide] [Cody] |
+| Reimbursement processing | Typically 3 to 6 weeks. | [Step 7, OSE Spending Guide] [DSAIC Team] |
 | Appeal | Email intent to appeal to both wsa-directorallocations@wmich.edu and wsa-adallocate@wmich.edu within 10 business days of notification. | [Bylaws F26 §8.04(a)(i)] |
 | Quiz | 80% minimum, passed before submitting; retake whenever the bylaws change. | [Bylaws F26 §4.01(e), 5.04(a)(i)] [News 09-21] |
 
@@ -370,9 +370,9 @@ These are WSAAC's instructions, grouped the way they group them. WSAAC reposted 
 
 ### 6.4 How to word a request
 
-> **In practice (Cody):** Be vague. Use something that gives the general idea of what we need to buy, like "Bags", not something too specific like "Custom Embroidery Backpack". Things change, and you are pigeon-holed into exactly what you requested. The people making the funding sheet are separate from the people who approve and make purchases. Taking note of our past requests to learn the pattern would be good, but we may not have been perfect with it, and other clubs' data would help. [Cody]
+> **In practice (DSAIC Team):** Name each item clearly at the level you will actually buy it, like "Bags" rather than "Custom Embroidery Backpack", and attach a real vendor quote for a representative product. Plans change between submission and purchase, and the funding letter's item names are what OSE matches receipts against, so an item name that is accurate but not tied to one exact product leaves room to adjust. Put the justification in the Optional Notes box. The people who review the proposal are separate from the people who process the purchase, so the request needs to read clearly to both. Studying past approved requests, ours and other clubs', is the best way to learn what level of detail works. [DSAIC Team]
 
-> **Note:** This is the one place practice and the letter of the rules pull in opposite directions. SUB-02 and SUB-03 want every item itemized, clearly described, with a vendor quote attached; the practical advice is to keep the item name generic so the purchase can flex later. The working reconciliation is probably a generic item name ("Bags", "Sensors", "Dev boards") plus a real vendor quote for a representative item, with the Optional Notes box carrying any justification. The on-campus account can only be spent on the allocated items [Handbook 24-25], so the item name on the funding letter is what OSE will match receipts against. Where exactly the line sits between "general" and "too vague to fund" is OQ-09. [Inferred]
+> **Note:** This fits the rules: SUB-02 and SUB-03 want every item itemized, clearly described and backed by a vendor quote, and a clear item name with a real quote does exactly that. Item names that are too vague get rejected (SUB-25), so "Supplies" alone is not enough; "Bags", "Sensors" or "Dev boards" with a quote is. For operational funding, the September 2026 bylaws also allow shifting amounts between approved line items within the letter's total, with prior approval (OPS-07). The on-campus account can only be spent on the allocated items [Handbook 24-25]. How specific a name needs to be is OQ-09. [Bylaws F26 §6.03(a)(iii)(4)] [Inferred]
 
 ### 6.5 Common mistakes that get proposals rejected
 
@@ -393,7 +393,7 @@ WSAAC publishes these as the mistakes it sees most. Each one is something a chec
 
 ### Funding letters
 
-**RES-01** Issued after deliberation by the Director and Assistant Director, emailed to the representative on the proposal, with a detailed breakdown of approved items and amounts (the type of funding and the specific items, for example caterer, printer or booth rental, and the total). Keep it: OSE matches receipts to the approved items, and it is the document the CEAS office wants before handing over their card. [Step 5, Art. 8] [Web: wmich.edu/studentengagement/wsaallocationinformation] [Cody]
+**RES-01** Issued after deliberation by the Director and Assistant Director, emailed to the representative on the proposal, with a detailed breakdown of approved items and amounts (the type of funding and the specific items, for example caterer, printer or booth rental, and the total). Keep it: OSE matches receipts to the approved items, and it is the document the CEAS office wants before handing over their card. [Step 5, Art. 8] [Web: wmich.edu/studentengagement/wsaallocationinformation] [DSAIC Team]
 
 ### Appeals
 
@@ -416,7 +416,7 @@ WSAAC money is SAF money, and the branding rules exist so students can see how t
 
 - **BRD-01** Display three logos: the WSA logo, the SAF Funded logo, and the WSAAC logo. They go on promotional materials funded by WSAAC and at the event when applicable. Logos are at wmuwsa.org/allocations under "WSAAC Documents". [Step 6, Art. 6]
 - **BRD-02** All SAF-funded events must include clear acknowledgment of SAF support on publicity materials. [Step 6, Art. 6]
-- **BRD-03** Promotional items must carry the RSO's own branding from the manufacturer or vendor. [Step 2, Art. 6.03] This is why "are you putting your logo on this?" comes up at deliberation. [Cody]
+- **BRD-03** Promotional items must carry the RSO's own branding from the manufacturer or vendor. [Step 2, Art. 6.03] This is why "are you putting your logo on this?" comes up at deliberation. [DSAIC Team]
 - **BRD-04** Encouraged channels: social media, flyers and posters, chalk advertising, TVs in the Rec Center and Student Center. wsa-directormarketing@wmich.edu helps with branding, logos and promotion; the older bylaws said RSOs submit publicity materials to the Director of Marketing and Outreach for supervision. [Step 6] [Bylaws F24 §8.02]
 - **BRD-05** Event sharing: if an event is funded at deliberation, create a public ExperienceWMU event and email the link to the Director and Assistant Director of Allocations by the end of the third business day after deliberation. Missing this may result in a strike. [Step 6, Art. 9]
 
@@ -428,11 +428,11 @@ Approved allocations are not issued to the RSO. Funds are accessed through OSE b
 
 - **PAY-01** An RSO member pays out of pocket and submits: an itemized receipt, proof of payment, and documentation matching the approved items. If proof of payment is missing, a bank statement screenshot is required in addition to the receipt. [Step 7, OSE Spending Guide; Art. 8]
 - **PAY-02** Deadline: reimbursement documents to OSE within 10 days after the event or conference; for operational funding, by the last day of the semester it was issued. Missed deadlines can bring strikes and sanctions. The Spring 2026 slides said 10 days from the purchase date, so submitting soon after buying keeps both readings satisfied. [Bylaws F26 §7.05(a), 8.03] [Step 5, Art. 8]
-- **PAY-03** Typical processing time: 3 to 6 weeks. [Step 7, OSE Spending Guide] [Cody]
+- **PAY-03** Typical processing time: 3 to 6 weeks. [Step 7, OSE Spending Guide] [DSAIC Team]
 - **PAY-04** Send questions, receipts and documents to the OSE Program Manager at ose-financials@wmich.edu. [Step 7]
 - **PAY-05** Only a designated Student Financial Manager (an officer) may sign for and spend RSO account funds. [Handbook 24-25]
 
-> **In practice (Cody):** Reimbursement is straightforward: buy things on your own card, save receipts, submit them in a form. It works well if you are a student worker because you get direct deposit; otherwise you receive a check. The main downside is using your own money and waiting 3 to 6 weeks to see it back. But it is what you need when purchasing quickly with no time to coordinate. [Cody]
+> **In practice (DSAIC Team):** Reimbursement is straightforward: buy things on your own card, save receipts, submit them in a form. It works well if you are a student worker because you get direct deposit; otherwise you receive a check. The main downside is using your own money and waiting 3 to 6 weeks to see it back. But it is what you need when purchasing quickly with no time to coordinate. [DSAIC Team]
 
 > **Note:** The Step 5 slide gives the OSE finance address as ose_finance@wmich.edu; the Step 7 slide gives ose-financials@wmich.edu; the handbook also lists the Program Manager's direct address. Confirm which shared mailbox is live before baking either into a template or a tool (OQ-05). [Step 5] [Step 7] [Handbook 24-25]
 
@@ -442,7 +442,7 @@ Approved allocations are not issued to the RSO. Funds are accessed through OSE b
 - **PAY-07** Restrictions: no restaurant food purchases, no payments to individuals, no auto-recurring payments. [Step 7, OSE Spending Guide]
 - **PAY-08** The RSO must pick items up during business hours and plan ahead. [Step 7, OSE Spending Guide]
 
-> **In practice (Cody):** OSE card: you can schedule an appointment with the OSE Program Manager, or send them an Amazon wishlist and they can purchase things for you. [Cody]
+> **In practice (DSAIC Team):** OSE card: you can schedule an appointment with the OSE Program Manager, or send them an Amazon wishlist and they can purchase things for you. [DSAIC Team]
 
 ### 9.3 Individuals and contractors
 
@@ -454,7 +454,7 @@ Approved allocations are not issued to the RSO. Funds are accessed through OSE b
 
 ### 9.5 The CEAS card
 
-> **In practice (Cody):** If the club is approved for WMU CEAS Funding, you may check out the card after sending your funding letter to the CEAS funding coordinator. Really nice balance: make sure to keep receipts, because they basically do the reimbursement process for you, but let you use their card. [Cody]
+> **In practice (DSAIC Team):** If the club is approved for WMU CEAS Funding, you may check out the card after sending your funding letter to the CEAS funding coordinator. Really nice balance: make sure to keep receipts, because they basically do the reimbursement process for you, but let you use their card. [DSAIC Team]
 
 > **Note:** Two things to pin down (OQ-06). First, whether the CEAS card spends CEAS money only, or can be used to execute a WSA-approved purchase with the WSA funding letter as the authorization (the note reads like the latter). Second, the exact checkout steps with the CEAS funding coordinator and what they need back afterward. [Inferred]
 
@@ -507,24 +507,24 @@ Approved allocations are not issued to the RSO. Funds are accessed through OSE b
 | Sanction length | Until end of fiscal year or calendar year, whichever first | [Step 5, Art. 8, 9] |
 | Template line-item capacity | 30 rows per section | [Templates F26] |
 | "Total SAFs Used" divisor | 20.8692 | [Templates F26] |
-| Monthly rhythm (practice) | Due first Friday; deliberation next Friday; green light and letter the Friday after | [Cody] |
+| Monthly rhythm (practice) | Due first Friday; deliberation next Friday; green light and letter the Friday after | [DSAIC Team] |
 
 ## 11. Official versus in practice
 
 The same ground covered from both sides, so the differences are visible in one place.
 
-| Topic | Official (slides and bylaws) | In practice (Cody) |
+| Topic | Official (slides and bylaws) | In practice (DSAIC Team) |
 | --- | --- | --- |
-| Categories | Seven categories with their own rules and caps. [Step 2] | Three we use: Operational (semester-round purchases), Conference (a trip), Event (on campus). [Cody] |
-| Deadlines | Monthly dropbox with a posted due date, five business days before deliberation; late is not considered. [Step 3] [Bylaws F26 §5.04(a)] | Due first Friday of the month; deliberation the following Friday; green light plus funding letter the Friday after. [Cody] |
-| How many rounds | No per-RSO limit in the September 2026 bylaws; at least three deliberations per semester. The Fall 2024 text allowed two months plus a third after a denial. [Bylaws F26 §5.01] [Bylaws F24 §4.01(g)] | Two month-cycles per semester. [Cody] |
-| Deliberation | A session where funding decisions are made; required RSOs attend and hear results there; no-shows are not considered. [Step 5] [Bylaws F26 §7.04(a)] | A virtual call. Quick club intro, explain the items, answer whatever they flag (logo on items, subscriptions no longer allowed). Tech clubs are usually approved. [Cody] |
-| Item descriptions | Itemized, clearly described, vendor quote attached, items matched to the category. [Step 3] | Keep names general ("Bags") so the purchase can change later without being locked to one exact product. [Cody] |
-| Who reviews vs who buys | WSAAC deliberates and issues the letter; OSE processes payment against the approved items. [Step 5] [Step 7] | Two separate groups of people; write for both. [Cody] |
-| Reimbursement | Itemized receipt, proof of payment, matching documentation, within 10 days, 3 to 6 weeks. [Step 5] [Step 7] | Own card, keep receipts, submit the form. Direct deposit if you are a student worker, otherwise a check. Use it when there is no time to coordinate. [Cody] |
-| Direct payment | OSE Program Manager buys online, curbside groceries, invoiced vendors; no restaurants, individuals or recurring payments. [Step 7] | Book time with the OSE Program Manager or send them an Amazon wishlist. [Cody] |
-| College funding | Not covered. | CEAS funding via the CEAS funding coordinator; check out the CEAS card after sending the funding letter; keep receipts. [Cody] |
-| Learning from history | Not covered. | Study past requests to learn what passes; ours were not perfect; other clubs' data would help. [Cody] |
+| Categories | Seven categories with their own rules and caps. [Step 2] | Three we use: Operational (semester-round purchases), Conference (a trip), Event (on campus). [DSAIC Team] |
+| Deadlines | Monthly dropbox with a posted due date, five business days before deliberation; late is not considered. [Step 3] [Bylaws F26 §5.04(a)] | Due first Friday of the month; deliberation the following Friday; green light plus funding letter the Friday after. [DSAIC Team] |
+| How many rounds | No per-RSO limit in the September 2026 bylaws; at least three deliberations per semester. The Fall 2024 text allowed two months plus a third after a denial. [Bylaws F26 §5.01] [Bylaws F24 §4.01(g)] | Two month-cycles per semester. [DSAIC Team] |
+| Deliberation | A session where funding decisions are made; required RSOs attend and hear results there; no-shows are not considered. [Step 5] [Bylaws F26 §7.04(a)] | A virtual call. Quick club intro, explain the items, answer whatever they flag (logo on items, subscriptions no longer allowed). Tech clubs are usually approved. [DSAIC Team] |
+| Item descriptions | Itemized, clearly described, vendor quote attached, items matched to the category. [Step 3] | Clear item names at the level you will buy ("Bags"), a real vendor quote, justification in the notes; operational amounts can shift with approval (OPS-07). [DSAIC Team] |
+| Who reviews vs who buys | WSAAC deliberates and issues the letter; OSE processes payment against the approved items. [Step 5] [Step 7] | Two separate groups of people; write for both. [DSAIC Team] |
+| Reimbursement | Itemized receipt, proof of payment, matching documentation, within 10 days, 3 to 6 weeks. [Step 5] [Step 7] | Own card, keep receipts, submit the form. Direct deposit if you are a student worker, otherwise a check. Use it when there is no time to coordinate. [DSAIC Team] |
+| Direct payment | OSE Program Manager buys online, curbside groceries, invoiced vendors; no restaurants, individuals or recurring payments. [Step 7] | Book time with the OSE Program Manager or send them an Amazon wishlist. [DSAIC Team] |
+| College funding | Not covered. | CEAS funding via the CEAS funding coordinator; check out the CEAS card after sending the funding letter; keep receipts. [DSAIC Team] |
+| Learning from history | Not covered. | Study past requests to learn what passes; ours were not perfect; other clubs' data would help. [DSAIC Team] |
 
 ## 12a. What the September 2026 bylaws changed
 
@@ -547,7 +547,7 @@ The WSA Assembly passed new WSAAC bylaws on 2026-09-09. They are the highest sou
 | Assistant Director mailbox | wsa_adallocate@wmich.edu (unconfirmed) | wsa-adallocate@wmich.edu |
 | Fiscal year | Not stated | July 1 to June 30 |
 
-> **Note:** OPS-07 matters for how requests are worded. Cody's advice to keep item names general exists because the RSO is locked into what the funding letter says. The new bylaws give operational funding an official way to shift amounts between approved line items, with approval. That makes a clear item name plus a real vendor quote, the approach in the section 6.4 note, easier to live with. [Bylaws F26 §6.03(a)(iii)(4)] [Inferred]
+> **Note:** OPS-07 matters for how requests are worded. Because the funding letter's item names limit what can be bought, the team used to lean toward very general names. The new bylaws give operational funding an official way to shift amounts between approved line items, with approval, so a clear item name plus a real vendor quote (section 6.4) now covers most changes of plan. [Bylaws F26 §6.03(a)(iii)(4)] [Inferred]
 
 ## 12. What changed between the Fall 2024 bylaws and the Spring 2026 slides
 
@@ -588,10 +588,10 @@ Each item has an ID so it can be tracked to closure. Status is as of 2026-09-24.
 
 ### Still open
 
-- **OQ-01 (reopened)** Two cycles per semester: the rule was in the Fall 2024 bylaws §4.01(g) but is not in the September 2026 bylaws. Ask WSAAC whether any per-RSO limit still applies in practice. [Bylaws F24] [Bylaws F26] [Cody]
-- **OQ-06** CEAS card: which money it spends, and the CEAS funding coordinator's exact process. [Cody]
+- **OQ-01 (reopened)** Two cycles per semester: the rule was in the Fall 2024 bylaws §4.01(g) but is not in the September 2026 bylaws. Ask WSAAC whether any per-RSO limit still applies in practice. [Bylaws F24] [Bylaws F26] [DSAIC Team]
+- **OQ-06** CEAS card: which money it spends, and the CEAS funding coordinator's exact process. [DSAIC Team]
 - **OQ-07** What 20.8692 represents in "Total SAFs Used". [Templates F26]
-- **OQ-09** Where the line sits between a usefully general item name and one too vague to fund. Needs real examples: past DSAIC proposals with their funding letters, and other clubs' data. [Cody]
+- **OQ-09** Where the line sits between a usefully general item name and one too vague to fund. Needs real examples: past DSAIC proposals with their funding letters, and other clubs' data. [DSAIC Team]
 - **OQ-10** Whether rounding Amount Requesting above Cost is accepted practice (WSAAC's own example does it). [Step 3]
 - **OQ-11** The Fall 2026 calendar: actual dropbox due dates, deliberation dates and letter dates (eLearning News or Instagram). [Step 5]
 - **OQ-14** Who DSAIC's Assembly rep, Allocations rep and Student Financial Managers are this semester, and whether the Fall 2026 quiz is done. [Handbook 24-25] [Step 1]
@@ -601,10 +601,10 @@ Each item has an ID so it can be tracked to closure. Status is as of 2026-09-24.
 
 - **BS-01 Second funding source.** GSA's GFAC funds mixed RSOs (under 50% graduate members) up to $500 operational and $3,000 for events per academic year, if the RSO has been active eight weeks, completed RSO Orientation, and sends a rep to GSA General Assembly (one absence per semester allowed). But WSAAC's rule ELG-07 excludes RSOs that directly receive SAF funding through another SAF agency, and GSA is a SAF agency. Whether GFAC money trips that rule is unanswered; the handbook shows RSOs can hold both a WSAAC (52 627) and a GFAC (52 624) on-campus account, which suggests it is allowed in practice. Ask WSAAC before applying to GFAC. [Web: wmich.edu/gsa] [Step 1] [Handbook 24-25] [Inferred]
 - **BS-02 Student Financial Managers.** The handbook requires SAF-funded RSOs to designate one or two officers who alone may sign for and spend on-campus funds. The slides never mention it. DSAIC should know who these are and record it. [Handbook 24-25]
-- **BS-03 On-campus account mechanics.** Allocations land in an OSE-held account restricted to the allocated items and swept afterward; no deposits; negative balances freeze privileges. This is the real constraint behind "be vague": the funding letter's item names are the spend authorization. [Handbook 24-25]
+- **BS-03 On-campus account mechanics.** Allocations land in an OSE-held account restricted to the allocated items and swept afterward; no deposits; negative balances freeze privileges. This is why item names matter: the funding letter's item names are the spend authorization. [Handbook 24-25]
 - **BS-04 Sales tax.** WMU is a tax-exempt purchaser when OSE buys directly; a member paying out of pocket pays sales tax, and no source in hand says whether OSE reimburses it. Ask the OSE Program Manager. [Inferred]
 - **BS-05 Guiding-principle bans.** Alcohol, controlled substances, weapons, personal benefit, charity, fundraising, political and religious purposes are unfundable. The September 2026 bylaws restate them as Guiding Principles 9 and 10, so this gap is closed. [Bylaws F26, Guiding Principles 9-10] [Handbook 24-25]
-- **BS-06 Subscriptions and memberships.** No written rule found; Cody reports subscriptions were removed, and the OSE card bars auto-recurring payments. Software, cloud credits and API keys, which DSAIC would plausibly want, sit in this gap. [Cody] [Step 7]
+- **BS-06 Subscriptions and memberships.** No written rule found; the team reports subscriptions were removed, and the OSE card bars auto-recurring payments. Software, cloud credits and API keys, which DSAIC would plausibly want, sit in this gap. [DSAIC Team] [Step 7]
 - **BS-07 Conditional approvals.** The bylaws give 24 hours after deliberation to submit required changes, so someone needs to be reachable the day after deliberation. [Bylaws F26 §7.06(c)]
 - **BS-08 Stale public pages.** wmuwsa.org/allocations still headlines Fall 2023 deliberation dates; do not scrape it for dates. [Web: wmuwsa.org/allocations]
 - **BS-09 Officer names.** The WSA site lists a Director of Allocations who graduates in 2026; role mailboxes are stable, names are not. [Web: wmuwsa.org]
@@ -643,13 +643,13 @@ What was checked on 2026-09-24, what changed from the first version of this docu
 - The Judicial Code, the WSAAC Allocations Packet and Toolkit, the OSE WSA Allocations Spending Guide, and the Allocation Distribution Request Form (all behind eLearning or robots-blocked pages).
 - The Fall 2026 deliberation calendar.
 - The meaning of 20.8692, and which OSE finance mailbox is current.
-- Anything from Cody's notes that no official source restates (first-Friday rhythm, CEAS card process, direct deposit for student workers, subscriptions being removed).
+- Anything from the team's practice notes that no official source restates (first-Friday rhythm, CEAS card process, direct deposit for student workers, subscriptions being removed).
 
 ## 15. Sources
 
-- Cody Thornell, WSA brain dump (wsa_brain_dump_1.pdf), September 2026.
+- DSAIC team practice notes on WSA allocations, September 2026.
 - WSAAC Allocations Workshop, Spring 2026: Step 1 Qualifications; Step 2 Funding Opportunities; Step 3 Application; Step 5 Results and Appeals; Step 6 Branding and Event Sharing; Step 7 Payment and Reimbursement.
-- WSAAC, Instructions for WSAAC Budget Proposals (Step 4), as provided by Cody.
+- WSAAC, Instructions for WSAAC Budget Proposals (Step 4), as provided by the DSAIC team.
 - From the WSA eLearning page (exported 2026-09-27): Allocations Workshop Overview; What is the WSA?; Assembly & Good Standing; Common Proposal Mistakes and submission examples; Other Funding Resources (working draft); WSA Allocations Spending Guide 2025-2026 (OSE); RSO Budget Tracker (.xlsx); WSA, WSAAC and SAF Funded logos.
 - Fall 2026 WSAAC proposal templates: Event, Operational, Conference, Collaboration (.xlsx).
 - WSAAC Bylaws, passed by the WSA Assembly 2026-09-09 ("WSAAC Fall 26 Bylaws Current"), from the WSA eLearning page. Kept in the team's shared drive; not reproduced here at WSAAC's request.
