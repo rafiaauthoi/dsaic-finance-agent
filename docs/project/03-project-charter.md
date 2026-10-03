@@ -6,12 +6,12 @@
 
 | | |
 |---|---|
-| **Project**          | DSAIC Finance Agent                                            |
-| **Project lead**     | Rafia Authoi                                                   |
-| **Sponsor**          | Data Science & AI Club (DSAIC) E-Board                         |
-| **Team size**        | 4 to 5 members, including the project lead                     |
-| **Methodology**      | Agile (sprint-based), tracked on a public GitHub project board |
-| **Version / status** | 2.1 \| Draft for team review                                   |
+| **Project**          | DSAIC Finance Agent                                                                     |
+| **Project lead**     | Rafia Authoi                                                                            |
+| **Sponsor**          | Data Science & AI Club (DSAIC) E-Board                                                  |
+| **Team size**        | 7 members, including the project lead                                                   |
+| **Methodology**      | Agile hybrid: phases with milestone gates, 2-week sprints, and a Kanban board on GitHub |
+| **Version / status** | 2.2 \| Roles confirmed October 2, 2026                                                  |
 
 ## 1. Project Overview
 
@@ -75,7 +75,7 @@ A Work Breakdown Structure (WBS) splits the project into smaller, manageable pie
 
 ## 5. Team and Roles
 
-The team is 4 to 5 people. Each person has one primary role, but everyone helps where needed. If the team has 4 members, the Docs & Comms responsibilities are shared between the project lead and the Rules & QA Analyst. Roles are assigned at the first meeting.
+The team has seven members. Each person has one primary role, but everyone helps where needed. Roles were confirmed at the October 2, 2026 team meeting. Three roles build and protect the tool, three represent the finance side (what directors need, the data, and what it shows), and the project lead connects them.
 
 ![Figure 2. Project team structure](images/charter-project-team-structure.png)
 
@@ -87,77 +87,98 @@ The team is 4 to 5 people. Each person has one primary role, but everyone helps 
 
 |   |   |
 |---|---|
-| **Good fit if you...** | Assigned to Rafia Authoi. |
-| **Responsibilities** | Sets priorities, runs meetings, and keeps the project board current<br>Unblocks teammates and makes final decisions on scope and design<br>Reviews and approves pull requests; controls access to real funding documents<br>Coordinates with the DSAIC E-Board, WSA contacts, and the AI Inference Server team |
-| **Deliverables** | Project board and sprint plans<br>Tech stack decision record (Phase 2)<br>Status updates to the E-Board |
+| **Assigned to** | Rafia Authoi |
+| **Responsibilities** | Sets priorities, runs sprint planning, and writes each week's agenda and meeting notes<br>Keeps the project board current, unblocks teammates, and makes final decisions on scope and design<br>Reviews and approves pull requests; keeps the README and guides accurate<br>Coordinates with the DSAIC E-Board, WSA contacts, and the AI Inference Server team |
+| **Deliverables** | Project board and sprint plans<br>Weekly agendas and meeting notes<br>Tech stack decision record (Phase 2)<br>README, guides, and status updates to the E-Board |
 
-#### Data Steward
-
-|   |   |
-|---|---|
-| **Good fit if you...** | You like spreadsheets, organizing things, and noticing details. No coding required. |
-| **Responsibilities** | Collects past approved WSA requests from the shared drive and tracks what's missing<br>Standardizes line items, categories, dates, and amounts using the clean-data rules<br>Anonymizes requests so samples can safely go in the public repository<br>Maps every field on the WSA request form and what goes in it |
-| **Deliverables** | Tracking sheet of all collected requests<br>Anonymized sample requests for each budget type<br>Form field map (docs/wsa-guidelines/form-fields.md) |
-
-#### Rules & QA Analyst
+#### Systems & Security Lead
 
 |   |   |
 |---|---|
-| **Good fit if you...** | You like reading rules closely and asking "how do we know that's right?" No coding required. |
-| **Responsibilities** | Writes up WSA's rules for all four budget types, with sources<br>Builds a test set: sample requests with known rule problems the checker should catch<br>Reviews the agent's drafts and records what it gets right and wrong<br>Gathers feedback from finance directors during the pilot |
-| **Deliverables** | Rules docs for all four budget types<br>Test set of requests with known issues<br>Draft quality reports each sprint<br>Pilot feedback summary |
+| **Assigned to** | Saad |
+| **Responsibilities** | Controls who can see real funding documents in the private shared drive<br>Reviews repository security: branch rules, code owners, and secret scanning<br>Gives the second-person check on every anonymized sample before it is merged<br>Plans a secure, per-organization setup for deployment to the AI server |
+| **Deliverables** | Access review of the shared drive and repository<br>Sign-off on every anonymized sample<br>Security and deployment checklist (Phase 5) |
 
 #### Agent Developer
 
 |   |   |
 |---|---|
-| **Good fit if you...** | You want to write code, or you want to learn. Some Python helps but isn't required to start. |
-| **Responsibilities** | Runs the Hermes Agent experiment and compares it with other options in Phase 2<br>Builds the drafting agent that turns a director's description into a request<br>Builds the rules checker that reads the rules file and flags problems<br>Works with the project lead to containerize and deploy to the AI server |
-| **Deliverables** | Tech stack experiment write-up<br>Working draft generator<br>Rules checker with tests<br>Deployment container and setup notes |
+| **Assigned to** | Justin |
+| **Responsibilities** | Builds the rules checker that reads the rules file and flags problems<br>Builds the drafting agent that turns a director's description into a request<br>Runs the Hermes Agent experiment with the project lead and compares options in Phase 2<br>Works with the project lead and the Systems & Security Lead to containerize and deploy |
+| **Deliverables** | Rules checker with tests<br>Tech stack experiment write-up<br>Working draft generator<br>Deployment container and setup notes |
 
-#### Docs & Comms Lead
+#### Rules & QA Analyst
 
 |   |   |
 |---|---|
-| **Good fit if you...** | You like writing, organizing, and keeping people in sync. No coding required. |
-| **Responsibilities** | Takes notes at Friday meetings and posts action items<br>Keeps the README, contributing guide, and setup instructions accurate<br>Helps keep issues and the project board tidy and up to date<br>Prepares demo materials and recruiting posts for DSAIC's LinkedIn and Instagram |
-| **Deliverables** | Meeting notes and action items<br>Up-to-date README and guides<br>Final demo and showcase materials |
+| **Assigned to** | Matt |
+| **Responsibilities** | Keeps the WSA rules docs current, with sources, when WSA changes a rule<br>Builds a test set: sample requests with known rule problems the checker should catch<br>Reviews the agent's drafts and records what it gets right and wrong<br>Gathers feedback from finance directors during the pilot |
+| **Deliverables** | Test set of requests with known issues<br>Draft quality reports each sprint<br>Pilot feedback summary |
+
+#### Finance Product Owner
+
+|   |   |
+|---|---|
+| **Assigned to** | Syed |
+| **Responsibilities** | Represents club finance chairs: what they need and what matters most<br>Sets priorities with the project lead during sprint planning<br>Supplies past approved requests and funding letters, and records WSA deadlines<br>Reviews drafts and says whether a finance chair could use them as-is |
+| **Deliverables** | Prioritized list of what finance chairs need<br>Fall 2026 WSAAC deliberation calendar<br>Draft reviews each sprint once drafts exist |
+
+#### Financial Data Analyst
+
+|   |   |
+|---|---|
+| **Assigned to** | Drew |
+| **Responsibilities** | Collects past approved WSA requests and tracks what's missing<br>Records each request and line item in the tracking sheet, including what was cut and why<br>Standardizes line items, categories, dates, and amounts<br>Anonymizes samples using the anonymization checklist and maps every field on the WSA form |
+| **Deliverables** | Tracking sheet of past requests<br>Anonymized sample requests for each budget type<br>Form field map (docs/wsa-guidelines/form-fields.md) |
+
+#### Reporting & Insights Analyst
+
+|   |   |
+|---|---|
+| **Assigned to** | Sami |
+| **Responsibilities** | Turns the tracking sheet into charts that show what WSA funds<br>Tracks approval rates, amounts by budget type, and the most common reasons items get cut<br>Works from the anonymized copy of the tracking sheet<br>Prepares charts for sprint reviews and the end-of-year showcase |
+| **Deliverables** | Funding insights dashboard<br>Charts for sprint reviews and the showcase |
 
 ### 5.2 Responsibility matrix (RACI)
 
 A RACI matrix shows who does what. For each task: R is Responsible (does the work), A is Accountable (owns the outcome and signs off), C is Consulted (gives input), and I is Informed (kept updated).
 
-| **Task**                                   | **Lead** | **Data** | **Rules/QA** | **Dev** | **Docs** |
-|--------------------------------------------|----------|----------|--------------|---------|----------|
-| **Set up shared drive for real documents** | R/A      | C        | I            | I       | I        |
-| **Collect and anonymize past requests**    | A        | R        | C            | I       | I        |
-| **Map WSA form fields**                    | A        | R        | C            | C       | I        |
-| **Document WSA rules**                     | A        | C        | R            | C       | C        |
-| **Choose tasks and tech stack**            | R/A      | C        | C            | R       | I        |
-| **Hermes Agent experiment**                | A        | I        | C            | R       | I        |
-| **Build draft generator**                  | A        | C        | C            | R       | I        |
-| **Build rules checker**                    | A        | I        | C            | R       | I        |
-| **Test drafts and run director pilot**     | A        | C        | R            | C       | I        |
-| **Deploy to AI server**                    | A        | I        | C            | R       | I        |
-| **README, guides, and showcase**           | A        | C        | C            | C       | R        |
+| **Task**                                   | **Lead** | **Security** | **Dev** | **Rules/QA** | **Product** | **Data** | **Insights** |
+|--------------------------------------------|----------|--------------|---------|--------------|-------------|----------|--------------|
+| **Set up shared drive for real documents** | R/A      | C            | I       | I            | I           | I        | I            |
+| **Control data access and repo security**  | A        | R            | C       | I            | I           | I        | I            |
+| **Collect and anonymize past requests**    | A        | C            | I       | C            | C           | R        | I            |
+| **Map WSA form fields**                    | A        | I            | C       | C            | C           | R        | I            |
+| **Document WSA rules**                     | A        | I            | C       | R            | C           | C        | I            |
+| **Set priorities and plan sprints**        | R/A      | C            | C       | C            | R           | C        | C            |
+| **Choose tasks and tech stack**            | R/A      | C            | R       | C            | C           | I        | I            |
+| **Hermes Agent experiment**                | A        | I            | R       | C            | I           | I        | I            |
+| **Build draft generator**                  | A        | I            | R       | C            | C           | C        | I            |
+| **Build rules checker**                    | A        | I            | R       | C            | I           | I        | I            |
+| **Test drafts and run director pilot**     | A        | I            | C       | R            | R           | C        | I            |
+| **Funding insights dashboard**             | A        | I            | I       | I            | C           | C        | R            |
+| **Deploy to AI server**                    | A        | C            | R       | C            | I           | I        | I            |
+| **README, guides, and showcase**           | R/A      | I            | C       | C            | C           | I        | C            |
 
 ## 6. Deliverables
 
 **Deadlines:** all due dates are TBD and will be set during sprint planning. Always check the project board for current deadlines.
 
-| **ID**  | **Deliverable**                 | **Owner**       | **Phase** | **Done when...**                                         | **Due** |
-|---------|---------------------------------|-----------------|-----------|----------------------------------------------------------|---------|
-| **D1**  | Team setup complete             | All             | 0         | Everyone can clone the repo and open a pull request      | TBD     |
-| **D2**  | Shared drive for real documents | Project Lead    | 1         | Private folder exists, access limited to the team        | TBD     |
-| **D3**  | Past request library            | Data Steward    | 1         | Approved requests collected and tracked by budget type   | TBD     |
-| **D4**  | Form field map                  | Data Steward    | 1         | Every WSA form field documented                          | TBD     |
-| **D5**  | WSA rules docs                  | Rules & QA      | 1         | Rules for all four budget types written up with sources  | TBD     |
-| **D6**  | Anonymized samples              | Data Steward    | 1         | At least one per budget type, checked by a second person | TBD     |
-| **D7**  | Tech stack decision             | Lead & Dev      | 2         | Options tested, choice and reasons written in the repo   | TBD     |
-| **D8**  | Event request drafts            | Agent Developer | 3         | Agent drafts event requests that pass the rules checker  | TBD     |
-| **D9**  | All budget types + pilot        | Dev & Rules/QA  | 4         | Finance directors approve drafts with minor edits        | TBD     |
-| **D10** | Deployed agent                  | Agent Developer | 5         | Runs on the AI server, data separated by organization    | TBD     |
-| **D11** | Documentation & showcase        | Docs & Comms    | 5         | A new member can set up the project from the docs alone  | TBD     |
+| **ID**  | **Deliverable**                 | **Owner**                     | **Phase** | **Done when...**                                                    | **Due** |
+|---------|---------------------------------|-------------------------------|-----------|---------------------------------------------------------------------|---------|
+| **D1**  | Team setup complete             | All                           | 0         | Everyone can clone the repo and open a pull request                 | TBD     |
+| **D2**  | Shared drive for real documents | Project Lead                  | 1         | Private folder exists, access limited to the team                   | TBD     |
+| **D3**  | Past request library            | Data Analyst                  | 1         | Approved requests collected and tracked by budget type              | TBD     |
+| **D4**  | Form field map                  | Data Analyst                  | 1         | Every WSA form field documented                                     | TBD     |
+| **D5**  | WSA rules docs                  | Rules & QA                    | 1         | Rules for all four budget types written up with sources             | TBD     |
+| **D6**  | Anonymized samples              | Data Analyst & Security       | 1         | At least one per budget type, checked by the Security Lead          | TBD     |
+| **D7**  | Tech stack decision             | Lead & Dev                    | 2         | Options tested, choice and reasons written in the repo              | TBD     |
+| **D8**  | Event request drafts            | Agent Developer               | 3         | Agent drafts event requests that pass the rules checker             | TBD     |
+| **D9**  | All budget types + pilot        | Dev, Rules/QA & Product Owner | 4         | Finance directors approve drafts with minor edits                   | TBD     |
+| **D10** | Deployed agent                  | Dev & Security                | 5         | Runs on the AI server, data separated by organization               | TBD     |
+| **D11** | Documentation & showcase        | Project Lead                  | 5         | A new member can set up the project from the docs alone             | TBD     |
+| **D12** | Security review                 | Systems & Security            | 0         | Drive access and repository settings reviewed and fixed             | TBD     |
+| **D13** | Funding insights dashboard      | Reporting & Insights          | 1-2       | Shows approval rates and common cut reasons from the tracking sheet | TBD     |
 
 ## 7. Phases and Milestones
 
@@ -175,6 +196,28 @@ The project runs in six phases. Each phase ends at a milestone gate: a clear che
 | **3. First Drafts: Event**  | Draft generator and rules checker for event budgets                              | Event drafts pass the rules checker on the test set            | TBD             |
 | **4. Full Coverage**        | Operational, conference, and collaboration budgets; pilot with finance directors | Directors approve drafts with only minor edits                 | TBD             |
 | **5. Deploy & Handoff**     | Move to the AI server, per-org setup, finish docs                                | Runs on the server; docs verified by a new member              | TBD             |
+
+### 7.1 How we work
+
+We combine three common approaches. Each one solves a different problem for a student team with changing schedules.
+
+- **Phases with milestone gates.** The six phases above set the big picture. A phase doesn't start until the one before it meets its gate, so we never pick tools before we understand the problem.
+
+- **Two-week sprints.** Inside each phase, work happens in two-week sprints that start at a Friday meeting. Short sprints keep tasks small enough to finish around exams and busy weeks. The length can change if the team finds it isn't working.
+
+- **A Kanban board.** Day to day, every task is a card on the GitHub project board that moves from Backlog to Ready to In Progress to In Review to Done. Anyone can see where things stand without asking.
+
+#### The sprint cycle
+
+- **Sprint planning (first Friday of a sprint).** The Project Lead and the Finance Product Owner decide what goes into the sprint, based on what finance chairs need most. Each person then picks their cards from the Ready column.
+
+- **Weekly check-in (every Friday).** A quick round: what you finished, what you're working on next, and anything blocking you.
+
+- **Sprint review and reflection (last Friday of a sprint).** We show what got done, then talk about what went well and what to change for the next sprint.
+
+- **Done means done.** A card only moves to Done when it meets the Definition of Done in section 8.3.
+
+Sprint 1 runs October 2 to October 15, 2026. Current sprint dates are always on the project board.
 
 ## 8. Team Expectations
 
@@ -234,8 +277,8 @@ A risk is something that could go wrong. Listing risks early means we can plan f
 
 | **ID** | **Risk**                                   | **Likelihood** | **Impact** | **Response plan**                                                                                | **Owner**       |
 |--------|--------------------------------------------|----------------|------------|--------------------------------------------------------------------------------------------------|-----------------|
-| **R1** | Past requests are incomplete or messy      | High           | High       | Track what's missing instead of guessing; start with the budget type that has the most examples  | Data Steward    |
-| **R2** | Personal data exposed or mixed across orgs | Low            | High       | Real data only in the private drive; second-person check on every sample; separate setup per org | Project Lead    |
+| **R1** | Past requests are incomplete or messy      | High           | High       | Track what's missing instead of guessing; start with the budget type that has the most examples  | Data Analyst    |
+| **R2** | Personal data exposed or mixed across orgs | Low            | High       | Real data only in the private drive; second-person check on every sample; separate setup per org | Security Lead   |
 | **R3** | A draft breaks a WSA rule unnoticed        | Medium         | High       | Rules enforced by code, not just the AI; test set with known problems; director always reviews   | Rules & QA      |
 | **R4** | Team members get busy mid-semester         | High           | Medium     | Small tasks; early heads-up rule; documented work so others can pick it up                       | Project Lead    |
 | **R5** | AI Inference Server isn't ready on time    | Medium         | Medium     | Keep the laptop version working; coordinate with the server team                                 | Project Lead    |
@@ -243,14 +286,16 @@ A risk is something that could go wrong. Listing risks early means we can plan f
 
 ## 10. Communication Plan
 
-| **What**                          | **Who**                  | **How often**              | **Where**                                                    |
-|-----------------------------------|--------------------------|----------------------------|--------------------------------------------------------------|
-| **Team meeting**                  | Whole team               | Weekly, Fridays at 6:30 PM | Student Center or online                                     |
-| **Sprint review & reflection**    | Whole team               | End of each sprint         | Friday meeting                                               |
-| **Quick questions and updates**   | Whole team               | Anytime                    | Microsoft Teams channel (email the project lead to be added) |
-| **Task discussion**               | Task owner and reviewers | As needed                  | On the GitHub issue or pull request                          |
-| **Status update to sponsor**      | Project Lead to E-Board  | TBD                        | E-Board meetings                                             |
-| **Recruiting and showcase posts** | Docs & Comms Lead        | At milestones              | DSAIC LinkedIn and Instagram                                 |
+| **What**                          | **Who**                                             | **How often**                              | **Where**                                                    |
+|-----------------------------------|-----------------------------------------------------|--------------------------------------------|--------------------------------------------------------------|
+| **Team meeting**                  | Whole team                                          | Weekly, Fridays at 6:30 PM                 | Student Center or online                                     |
+| **Sprint planning**               | Project Lead and Product Owner, with the team       | First Friday of each sprint                | Friday meeting                                               |
+| **Sprint review & reflection**    | Whole team                                          | Last Friday of each sprint                 | Friday meeting                                               |
+| **Agenda and meeting notes**      | Project Lead                                        | Every meeting (agenda before, notes after) | Microsoft Teams channel                                      |
+| **Quick questions and updates**   | Whole team                                          | Anytime                                    | Microsoft Teams channel (email the project lead to be added) |
+| **Task discussion**               | Task owner and reviewers                            | As needed                                  | On the GitHub issue or pull request                          |
+| **Status update to sponsor**      | Project Lead to E-Board                             | TBD                                        | E-Board meetings                                             |
+| **Recruiting and showcase posts** | Project Lead, with charts from Reporting & Insights | At milestones                              | DSAIC LinkedIn and Instagram                                 |
 
 ## 11. Assumptions and Constraints
 
@@ -276,14 +321,16 @@ A risk is something that could go wrong. Listing risks early means we can plan f
 
 By signing, team members confirm they've read this charter and agree to its working agreements and privacy rules.
 
-| **Name**     | **Role**                | **Signature** | **Date** |
-|--------------|-------------------------|---------------|----------|
-| Rafia Authoi | Project Lead            |               |          |
-|              | Data Steward            |               |          |
-|              | Rules & QA Analyst      |               |          |
-|              | Agent Developer         |               |          |
-|              | Docs & Comms Lead       |               |          |
-|              | Sponsor (DSAIC E-Board) |               |          |
+| **Name**     | **Role**                     | **Signature** | **Date** |
+|--------------|------------------------------|---------------|----------|
+| Rafia Authoi | Project Lead                 |               |          |
+|              | Systems & Security Lead      |               |          |
+|              | Agent Developer              |               |          |
+|              | Rules & QA Analyst           |               |          |
+|              | Finance Product Owner        |               |          |
+|              | Financial Data Analyst       |               |          |
+|              | Reporting & Insights Analyst |               |          |
+|              | Sponsor (DSAIC E-Board)      |               |          |
 
 ---
 

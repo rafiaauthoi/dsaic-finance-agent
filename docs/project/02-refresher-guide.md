@@ -9,7 +9,7 @@
 | **Read this if**      | You're joining the team. We assume you've never seen any of this before.            |
 | **How to use it**     | Skim it once before kickoff. Come back to it whenever a word or step is unfamiliar. |
 | **Project lead**      | Rafia Authoi                                                                        |
-| **Version**           | 2.1 \| Draft                                                                        |
+| **Version**           | 2.2 \| Roles confirmed October 2, 2026                                              |
 | **Related documents** | Document 1: Project Brief \| Document 3: Project Charter                            |
 
 ## How This Guide Is Organized
@@ -288,15 +288,17 @@ Every change, whether it's cleaned data, new code, or a documentation update, fo
 
 ### C4. Roles at a glance
 
-Each team member has a primary role. Full responsibilities and deliverables are in Document 3, the Project Charter.
+Each team member has a primary role, confirmed at the October 2, 2026 meeting. Full responsibilities and deliverables are in Document 3, the Project Charter.
 
-| **Role**               | **In one line**                                                       | **Good fit if you...**                               |
-|------------------------|-----------------------------------------------------------------------|------------------------------------------------------|
-| **Project Lead**       | Plans the work, unblocks the team, makes final calls                  | (Rafia Authoi)                                       |
-| **Data Steward**       | Collects and anonymizes past approved requests                        | Like spreadsheets, organizing, and details           |
-| **Rules & QA Analyst** | Documents WSA rules and checks whether the agent's drafts follow them | Like reading rules closely and asking "are we sure?" |
-| **Agent Developer**    | Builds the drafting agent and the rules checker                       | Want to code, or want to learn                       |
-| **Docs & Comms Lead**  | Keeps guides, meeting notes, and the project board up to date         | Like writing, organizing, and keeping people in sync |
+| **Role**                         | **In one line**                                                 | **Assigned to** |
+|----------------------------------|-----------------------------------------------------------------|-----------------|
+| **Project Lead**                 | Plans the work, runs sprint planning, makes final calls         | Rafia           |
+| **Systems & Security Lead**      | Keeps real data private and the repository secure               | Saad            |
+| **Agent Developer**              | Builds the rules checker and the drafting agent                 | Justin          |
+| **Rules & QA Analyst**           | Tests whether the agent catches what WSA would reject           | Matt            |
+| **Finance Product Owner**        | Speaks for finance chairs: what they need and what matters most | Syed            |
+| **Financial Data Analyst**       | Organizes past approved requests in the tracking sheet          | Drew            |
+| **Reporting & Insights Analyst** | Turns the tracking sheet into charts of what WSA funds          | Sami            |
 
 ### C5. Meetings and communication
 
