@@ -6,6 +6,7 @@ Reference material the Finance Agent is built on: how WSA allocations work, the 
 |---|---|
 | [wsa-club-finance-domain.md](wsa-club-finance-domain.md) | The canonical reference, written for people. Every fact carries a source tag and a rule ID (for example `EVT-03`). |
 | [wsa-club-finance-rules.yaml](wsa-club-finance-rules.yaml) | The same facts as structured data, for the agent's rules checker. Its `rules_index` is rebuilt from the markdown, so edit the markdown first. |
+| [allocations-quiz-guide.md](allocations-quiz-guide.md) | Study guide for WSAAC's Final Allocations Quiz. A club's rep must score 80% or higher before any funding request can be submitted, every school year and after any bylaws change. |
 
 ## Ground rules
 

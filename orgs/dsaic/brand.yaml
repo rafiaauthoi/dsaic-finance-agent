@@ -1,0 +1,10 @@
+name: Data Science & AI Club
+short_name: DSAIC
+logo: logo.png
+colors:
+  primary: "25197A"
+  accent: "7346C2"
+  on_primary: "FFFFFF"
+  on_accent: "FFFFFF"
+font: null
+members: []

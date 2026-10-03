@@ -1,0 +1,10 @@
+name: Developer Club
+short_name: Dev Club
+logo: logo.png
+colors:
+  primary: "735E59"
+  accent: "FFDE59"
+  on_primary: "FFFFFF"
+  on_accent: "544541"
+font: null
+members: []
