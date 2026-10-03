@@ -72,7 +72,7 @@ You should now see the project files on the left side: `data`, `docs`, `README.m
 
 ---
 
-## Part 5: Your first contribution: add yourself to the team list
+## Part 5: Your first contribution: fill in your row on the team list
 
 You'll make a small change and send it in the same way every real task works. Here's the path:
 
@@ -85,29 +85,24 @@ A branch is your own safe copy of the project. Nothing you do on it affects anyo
 1. Look at the **bottom-left corner** of VS Code. You'll see the word `main`.
 2. Click `main`. A menu opens at the top.
 3. Click **+ Create new branch...**
-4. Type `docs/add-yourname` (for example, `docs/add-jordan`), all lowercase with no spaces, and press Enter.
+4. Type `docs/update-yourname` (for example, `docs/update-jordan`), all lowercase with no spaces, and press Enter.
 
 The bottom-left corner should now show your branch name instead of `main`.
 
 ### Step 2: Make your change
 
 1. On the left, open the `docs` folder and click `team.md`.
-2. Click at the end of the last line and press Enter to start a new line.
-3. Add a row in the same format as the one above it, with your details:
-
-```
-| Your Name | [@yourusername](https://github.com/yourusername) | Your Role |
-```
-
+2. Find the row with your name. The last column, **Currently working on**, is empty.
+3. Click inside that cell and type your first task in a few words, for example `Rules checker test cases (#25)`. Keep the `|` characters on both sides.
 4. Save the file: `Ctrl+S` (Windows) or `Cmd+S` (Mac).
 
-If you don't have a role yet, write `Team Member`.
+If your name isn't in the list yet, add a new row at the bottom in the same format as the others, and write `Team Member` as your role.
 
 ### Step 3: Save a checkpoint (commit)
 
 1. On the far left edge of VS Code, click the **Source Control** icon. It looks like three dots connected by lines, and it shows a small number badge.
 2. Under **Changes**, you'll see `team.md`. Hover over it and click the **+** that appears. This picks the change to include.
-3. In the **Message** box above, type a short description, like `Add Jordan to team list`.
+3. In the **Message** box above, type a short description, like `Add Jordan's current task to team list`.
 4. Click the **Commit** button.
 
 If VS Code asks "There are no staged changes. Would you like to stage all?", click **Yes**.
@@ -126,7 +121,7 @@ Your branch is now on GitHub.
    - No banner? Click the **Pull requests** tab, then **New pull request**. Leave the left box as `main`, set the right box to your branch, and click **Create pull request**.
 3. The title is filled in from your commit message. Leave it.
 4. The description box already has a template. Fill it in:
-   - **What changed:** `Added myself to the team list.`
+   - **What changed:** `Filled in my current task on the team list.`
    - **Why:** `Practice run of the contribution workflow.`
    - **Closes #:** delete this line.
    - **Checklist:** click each box that applies.
@@ -146,7 +141,7 @@ After your pull request is merged:
 1. In VS Code, click your branch name in the bottom-left corner and choose `main`.
 2. Click the **circular arrows** next to `main` in the bottom-left corner (or the **Sync Changes** button in Source Control). This downloads everyone's latest changes.
 
-Open `docs/team.md`, and your name should be there. **You've made your first contribution.**
+Open `docs/team.md`, and your task should be in your row. **You've made your first contribution.**
 
 ---
 

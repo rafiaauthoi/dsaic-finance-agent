@@ -95,7 +95,7 @@ The team has seven members. Each person has one primary role, but everyone helps
 
 |   |   |
 |---|---|
-| **Assigned to** | Saad |
+| **Assigned to** | Saad Mahmud |
 | **Responsibilities** | Controls who can see real funding documents in the private shared drive<br>Reviews repository security: branch rules, code owners, and secret scanning<br>Gives the second-person check on every anonymized sample before it is merged<br>Plans a secure, per-organization setup for deployment to the AI server |
 | **Deliverables** | Access review of the shared drive and repository<br>Sign-off on every anonymized sample<br>Security and deployment checklist (Phase 5) |
 
@@ -103,7 +103,7 @@ The team has seven members. Each person has one primary role, but everyone helps
 
 |   |   |
 |---|---|
-| **Assigned to** | Justin |
+| **Assigned to** | Justin Tan |
 | **Responsibilities** | Builds the rules checker that reads the rules file and flags problems<br>Builds the drafting agent that turns a director's description into a request<br>Runs the Hermes Agent experiment with the project lead and compares options in Phase 2<br>Works with the project lead and the Systems & Security Lead to containerize and deploy |
 | **Deliverables** | Rules checker with tests<br>Tech stack experiment write-up<br>Working draft generator<br>Deployment container and setup notes |
 
@@ -111,7 +111,7 @@ The team has seven members. Each person has one primary role, but everyone helps
 
 |   |   |
 |---|---|
-| **Assigned to** | Matt |
+| **Assigned to** | Matt Phinney |
 | **Responsibilities** | Keeps the WSA rules docs current, with sources, when WSA changes a rule<br>Builds a test set: sample requests with known rule problems the checker should catch<br>Reviews the agent's drafts and records what it gets right and wrong<br>Gathers feedback from finance directors during the pilot |
 | **Deliverables** | Test set of requests with known issues<br>Draft quality reports each sprint<br>Pilot feedback summary |
 
@@ -119,7 +119,7 @@ The team has seven members. Each person has one primary role, but everyone helps
 
 |   |   |
 |---|---|
-| **Assigned to** | Syed |
+| **Assigned to** | Syed Sobhan |
 | **Responsibilities** | Represents club finance chairs: what they need and what matters most<br>Sets priorities with the project lead during sprint planning<br>Supplies past approved requests and funding letters, and records WSA deadlines<br>Reviews drafts and says whether a finance chair could use them as-is |
 | **Deliverables** | Prioritized list of what finance chairs need<br>Fall 2026 WSAAC deliberation calendar<br>Draft reviews each sprint once drafts exist |
 
@@ -127,7 +127,7 @@ The team has seven members. Each person has one primary role, but everyone helps
 
 |   |   |
 |---|---|
-| **Assigned to** | Drew |
+| **Assigned to** | Drew Lindeboom |
 | **Responsibilities** | Collects past approved WSA requests and tracks what's missing<br>Records each request and line item in the tracking sheet, including what was cut and why<br>Standardizes line items, categories, dates, and amounts<br>Anonymizes samples using the anonymization checklist and maps every field on the WSA form |
 | **Deliverables** | Tracking sheet of past requests<br>Anonymized sample requests for each budget type<br>Form field map (docs/wsa-guidelines/form-fields.md) |
 
@@ -135,7 +135,7 @@ The team has seven members. Each person has one primary role, but everyone helps
 
 |   |   |
 |---|---|
-| **Assigned to** | Sami |
+| **Assigned to** | Sami Sarker |
 | **Responsibilities** | Turns the tracking sheet into charts that show what WSA funds<br>Tracks approval rates, amounts by budget type, and the most common reasons items get cut<br>Works from the anonymized copy of the tracking sheet<br>Prepares charts for sprint reviews and the end-of-year showcase |
 | **Deliverables** | Funding insights dashboard<br>Charts for sprint reviews and the showcase |
 
@@ -321,16 +321,16 @@ A risk is something that could go wrong. Listing risks early means we can plan f
 
 By signing, team members confirm they've read this charter and agree to its working agreements and privacy rules.
 
-| **Name**     | **Role**                     | **Signature** | **Date** |
-|--------------|------------------------------|---------------|----------|
-| Rafia Authoi | Project Lead                 |               |          |
-|              | Systems & Security Lead      |               |          |
-|              | Agent Developer              |               |          |
-|              | Rules & QA Analyst           |               |          |
-|              | Finance Product Owner        |               |          |
-|              | Financial Data Analyst       |               |          |
-|              | Reporting & Insights Analyst |               |          |
-|              | Sponsor (DSAIC E-Board)      |               |          |
+| **Name**       | **Role**                     | **Signature** | **Date** |
+|----------------|------------------------------|---------------|----------|
+| Rafia Authoi   | Project Lead                 |               |          |
+| Saad Mahmud    | Systems & Security Lead      |               |          |
+| Justin Tan     | Agent Developer              |               |          |
+| Matt Phinney   | Rules & QA Analyst           |               |          |
+| Syed Sobhan    | Finance Product Owner        |               |          |
+| Drew Lindeboom | Financial Data Analyst       |               |          |
+| Sami Sarker    | Reporting & Insights Analyst |               |          |
+|                | Sponsor (DSAIC E-Board)      |               |          |
 
 ---
 

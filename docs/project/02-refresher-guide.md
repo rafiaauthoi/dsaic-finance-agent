@@ -292,13 +292,13 @@ Each team member has a primary role, confirmed at the October 2, 2026 meeting. F
 
 | **Role**                         | **In one line**                                                 | **Assigned to** |
 |----------------------------------|-----------------------------------------------------------------|-----------------|
-| **Project Lead**                 | Plans the work, runs sprint planning, makes final calls         | Rafia           |
-| **Systems & Security Lead**      | Keeps real data private and the repository secure               | Saad            |
-| **Agent Developer**              | Builds the rules checker and the drafting agent                 | Justin          |
-| **Rules & QA Analyst**           | Tests whether the agent catches what WSA would reject           | Matt            |
-| **Finance Product Owner**        | Speaks for finance chairs: what they need and what matters most | Syed            |
-| **Financial Data Analyst**       | Organizes past approved requests in the tracking sheet          | Drew            |
-| **Reporting & Insights Analyst** | Turns the tracking sheet into charts of what WSA funds          | Sami            |
+| **Project Lead**                 | Plans the work, runs sprint planning, makes final calls         | Rafia Authoi    |
+| **Systems & Security Lead**      | Keeps real data private and the repository secure               | Saad Mahmud     |
+| **Agent Developer**              | Builds the rules checker and the drafting agent                 | Justin Tan      |
+| **Rules & QA Analyst**           | Tests whether the agent catches what WSA would reject           | Matt Phinney    |
+| **Finance Product Owner**        | Speaks for finance chairs: what they need and what matters most | Syed Sobhan     |
+| **Financial Data Analyst**       | Organizes past approved requests in the tracking sheet          | Drew Lindeboom  |
+| **Reporting & Insights Analyst** | Turns the tracking sheet into charts of what WSA funds          | Sami Sarker     |
 
 ### C5. Meetings and communication
 
