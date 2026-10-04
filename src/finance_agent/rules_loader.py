@@ -1,14 +1,11 @@
-# Pre-reqs
 import yaml
 from collections import Counter
 
-# Import yaml
-with open("docs\\wsa-guidelines\\wsa-club-finance-rules.yaml", "r") as yaml_file:
+with open("docs/wsa-guidelines/wsa-club-finance-rules.yaml", "r", encoding="utf-8") as yaml_file:
     content = yaml.safe_load(yaml_file)
 
 rules = content["rules_index"]
 
-# Count and display rules
 counts = Counter()
 
 for rule in rules:
@@ -21,7 +18,6 @@ print(f"Operational: {counts['OPS']} rules")
 print(f"Conference: {counts['CNF']} rules")
 print(f"Collaboration: {counts['COL']} rules")
 
-# Extra
 main_cat = {"EVT", "OPS", "CNF", "COL"}
 
 print("\nOther Categories:")
