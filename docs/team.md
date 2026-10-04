@@ -4,7 +4,7 @@ The DSAIC Finance Agent team, Fall 2026. Roles are described in the [Project Cha
 
 | Name | GitHub | Role | Currently working on |
 |---|---|---|---|
-| Rafia Authoi | [@rafiaauthoi](https://github.com/rafiaauthoi) | Project Lead | |
+| Rafia Authoi | [@rafiaauthoi](https://github.com/rafiaauthoi) | Project Lead | Shared drive, WSAAC and OSE questions (#6, #18, #19) |
 | Saad Mahmud | [@wolv1ee](https://github.com/wolv1ee) | Systems & Security Lead | |
 | Justin Tan | [@BL4NK3D06](https://github.com/BL4NK3D06) | Agent Developer | |
 | Matt Phinney | [@mattphinney-94](https://github.com/mattphinney-94) | Rules & QA Analyst | |
