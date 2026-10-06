@@ -1,6 +1,6 @@
 # WSA Allocations and RSO Finance: Master Domain Reference
 
-_v4, 2026-09-27. Data Science and AI Club (DSAIC), Western Michigan University. Compiled from the DSAIC team's practice notes (Sept 2026), the WSAAC Bylaws passed by the WSA Assembly on 2026-09-09, the WSAAC eLearning announcement of 2026-09-21, the WSAAC Allocations Workshop modules (Spring 2026, Steps 1 to 7), the Fall 2026 WSAAC proposal templates, the Fall 2024 WSAAC Bylaws, the OSE RSO Handbook 2024 to 2025, and public WMU and WSA web pages checked on 2026-09-24._
+_v4.1, 2026-10-05. Data Science and AI Club (DSAIC), Western Michigan University. Compiled from the DSAIC team's practice notes (Sept 2026), the WSAAC Bylaws passed by the WSA Assembly on 2026-09-09, the WSAAC eLearning announcement of 2026-09-21, the WSAAC Allocations Workshop modules (Spring 2026, Steps 1 to 7), the Fall 2026 WSAAC proposal templates, the Fall 2024 WSAAC Bylaws, the OSE RSO Handbook 2024 to 2025, a written reply from OSE's finance team (2026-10-05), and public WMU and WSA web pages checked on 2026-09-24._
 
 > Machine-readable companion: `wsa-club-finance-rules.yaml` holds the same caps, deadlines, contacts, template schema and open questions as structured data. A formatted Word copy lives in the team's shared drive. All versions come from one content model; this markdown file is the canonical text.
 
@@ -26,6 +26,7 @@ Every fact carries a source tag in square brackets. The tags are the whole trust
 | [Budget Tracker] | WSAAC's RSO Budget Tracker spreadsheet, from eLearning. | Official tracking format. |
 | [Web: source] | A public WMU or WSA web page checked on 2026-09-24. | Current as of that date; recheck before relying on a person's name. |
 | [News 09-21] | WSAAC announcement in the eLearning News feed, posted 2026-09-21. | Current official guidance; newer than the Spring 2026 slides. |
+| [OSE Email 10-05] | Written reply from OSE's finance team (ose-financials@wmich.edu) to the DSAIC project lead, 2026-10-05, answering OQ-15 and BS-04. Held by the project lead. | Current official OSE guidance on reimbursement. |
 | [DSAIC Team] | The DSAIC team's practice notes from running RSO finances (Sept 2026). | How it actually works. Describes practice, does not create permissions. |
 | [Inferred] | A reading of the sources that no source states outright. | Low. Confirm before acting. |
 | [Unconfirmed] | Stated by someone, not verified. | Low. Listed again in section 13. |
@@ -44,7 +45,7 @@ Every fact carries a source tag in square brackets. The tags are the whole trust
 - **Rhythm:** proposal due (in practice: first Friday), deliberation the next Friday, funding letter about a week later. [DSAIC Team] [Step 5 schedule example]
 - **Lead time:** an event or conference must be at least 10 business days after the deliberation. [Step 2, Art. 6.02, 6.03]
 - **Money never touches the club:** everything is paid by reimbursement or by OSE directly, against the funding letter. [Step 7, Art. 8]
-- **Receipts:** reimbursement documents to OSE within 10 days after the event or conference; operational paperwork by the last day of the semester the funding was issued. Reimbursement takes 3 to 6 weeks. [Bylaws F26 §7.05(a), 8.03] [Step 7]
+- **Receipts:** reimbursement documents to OSE within 10 calendar days after the event or conference; operational paperwork by the last day of the semester the funding was issued. Sales tax a member pays is reimbursed. Reimbursement takes 3 to 6 weeks. [Bylaws F26 §7.05(a), 8.03] [Step 7] [OSE Email 10-05]
 - **Food:** events only, on campus only, max $20 per expected attendee; never for operational or conference. [Step 2, Art. 6.03]
 - **Branding:** WSA, SAF Funded and WSAAC logos on funded promo materials and at the event; public ExperienceWMU event link emailed within 3 business days of deliberation. [Step 6, Art. 6, 9]
 - **Wording:** name items clearly at the level you will buy them ("Bags", not "Custom Embroidery Backpack"), with a real vendor quote attached and the justification in the notes. [DSAIC Team]
@@ -300,7 +301,7 @@ The Spring 2026 schedule that WSAAC posted on Instagram shows the rhythm: Januar
 | Event or conference date | At least 10 business days after the deliberation in which funding was requested. | [Step 2, Art. 6.02, 6.03] |
 | ExperienceWMU event link | Create a public event and email the link to the Director and Assistant Director by the end of the 3rd business day after deliberation. Failure may earn a strike. | [Step 6, Art. 9; GP §3] |
 | Post-event report | None. The Fall 2024 report or survey requirement is gone; the September 2026 bylaws put the ExperienceWMU link in its place (row above). | [Bylaws F26 §7.05(b)] |
-| Reimbursement documents | Within 10 days after the event or conference; operational by the last day of the semester the funding was issued. Missing it can mean strikes. The Spring 2026 slides said 10 days from the date of purchase; the bylaws win. | [Bylaws F26 §7.05(a), 8.03] [Step 5] |
+| Reimbursement documents | Within 10 calendar days after the event or conference; operational by the last day of the semester the funding was issued. Missing it can mean strikes. The Spring 2026 slides said 10 days from the date of purchase; the bylaws win. | [Bylaws F26 §7.05(a), 8.03] [Step 5] [OSE Email 10-05] |
 | Reimbursement processing | Typically 3 to 6 weeks. | [Step 7, OSE Spending Guide] [DSAIC Team] |
 | Appeal | Email intent to appeal to both wsa-directorallocations@wmich.edu and wsa-adallocate@wmich.edu within 10 business days of notification. | [Bylaws F26 §8.04(a)(i)] |
 | Quiz | 80% minimum, passed before submitting; retake whenever the bylaws change. | [Bylaws F26 §4.01(e), 5.04(a)(i)] [News 09-21] |
@@ -426,8 +427,8 @@ Approved allocations are not issued to the RSO. Funds are accessed through OSE b
 
 ### 9.1 Route 1: pay up front, get reimbursed
 
-- **PAY-01** An RSO member pays out of pocket and submits: an itemized receipt, proof of payment, and documentation matching the approved items. If proof of payment is missing, a bank statement screenshot is required in addition to the receipt. [Step 7, OSE Spending Guide; Art. 8]
-- **PAY-02** Deadline: reimbursement documents to OSE within 10 days after the event or conference; for operational funding, by the last day of the semester it was issued. Missed deadlines can bring strikes and sanctions. The Spring 2026 slides said 10 days from the purchase date, so submitting soon after buying keeps both readings satisfied. [Bylaws F26 §7.05(a), 8.03] [Step 5, Art. 8]
+- **PAY-01** An RSO member pays out of pocket and submits: an itemized receipt, proof of payment, and documentation matching the approved items. If proof of payment is missing, a bank statement screenshot is required in addition to the receipt. Sales tax the member paid is reimbursed along with the item. [Step 7, OSE Spending Guide; Art. 8] [OSE Email 10-05]
+- **PAY-02** Deadline: reimbursement documents to OSE within 10 calendar days after the event or conference; for operational funding, by the last day of the semester it was issued. Missed deadlines can bring strikes and sanctions. OSE says running a little past 10 days is not a big problem; the rule exists to stop members from holding receipts for weeks or months and turning them all in at once. The Spring 2026 slides said 10 days from the purchase date, so submitting soon after buying keeps both readings satisfied. [Bylaws F26 §7.05(a), 8.03] [Step 5, Art. 8] [OSE Email 10-05]
 - **PAY-03** Typical processing time: 3 to 6 weeks. [Step 7, OSE Spending Guide] [DSAIC Team]
 - **PAY-04** Send questions, receipts and documents to the OSE Program Manager at ose-financials@wmich.edu. [Step 7]
 - **PAY-05** Only a designated Student Financial Manager (an officer) may sign for and spend RSO account funds. [Handbook 24-25]
@@ -500,7 +501,7 @@ Approved allocations are not issued to the RSO. Funds are accessed through OSE b
 | Results and funding letters | Within five university business days after deliberation | [Step 5] [Bylaws F26 §8.01] |
 | Event or conference timing | At least 10 business days after deliberation | [Step 2, Art. 6.02, 6.03] |
 | ExperienceWMU event link | By end of 3rd business day after deliberation | [Step 6, Art. 9] |
-| Reimbursement documents to OSE | Within 10 days after the event or conference; operational by end of semester | [Bylaws F26 §7.05(a), 8.03] |
+| Reimbursement documents to OSE | Within 10 calendar days after the event or conference; operational by end of semester | [Bylaws F26 §7.05(a), 8.03] [OSE Email 10-05] |
 | Reimbursement processing | 3 to 6 weeks | [Step 7, Spending Guide] |
 | Appeal window | 10 business days from notification | [Bylaws F26 §8.04(a)(i)] |
 | Assembly appeal threshold | Two-thirds majority to overturn | [Step 5, Art. 8] |
@@ -521,7 +522,7 @@ The same ground covered from both sides, so the differences are visible in one p
 | Deliberation | A session where funding decisions are made; required RSOs attend and hear results there; no-shows are not considered. [Step 5] [Bylaws F26 §7.04(a)] | A virtual call. Quick club intro, explain the items, answer whatever they flag (logo on items, subscriptions no longer allowed). Tech clubs are usually approved. [DSAIC Team] |
 | Item descriptions | Itemized, clearly described, vendor quote attached, items matched to the category. [Step 3] | Clear item names at the level you will buy ("Bags"), a real vendor quote, justification in the notes; operational amounts can shift with approval (OPS-07). [DSAIC Team] |
 | Who reviews vs who buys | WSAAC deliberates and issues the letter; OSE processes payment against the approved items. [Step 5] [Step 7] | Two separate groups of people; write for both. [DSAIC Team] |
-| Reimbursement | Itemized receipt, proof of payment, matching documentation, within 10 days, 3 to 6 weeks. [Step 5] [Step 7] | Own card, keep receipts, submit the form. Direct deposit if you are a student worker, otherwise a check. Use it when there is no time to coordinate. [DSAIC Team] |
+| Reimbursement | Itemized receipt, proof of payment, matching documentation, within 10 calendar days, sales tax included, 3 to 6 weeks. [Step 5] [Step 7] [OSE Email 10-05] | Own card, keep receipts, submit the form. Direct deposit if you are a student worker, otherwise a check. Use it when there is no time to coordinate. [DSAIC Team] |
 | Direct payment | OSE Program Manager buys online, curbside groceries, invoiced vendors; no restaurants, individuals or recurring payments. [Step 7] | Book time with the OSE Program Manager or send them an Amazon wishlist. [DSAIC Team] |
 | College funding | Not covered. | CEAS funding via the CEAS funding coordinator; check out the CEAS card after sending the funding letter; keep receipts. [DSAIC Team] |
 | Learning from history | Not covered. | Study past requests to learn what passes; ours were not perfect; other clubs' data would help. [DSAIC Team] |
@@ -572,7 +573,7 @@ This section is kept as history; section 12a covers the September 2026 bylaws, w
 
 ## 13. Open questions, blind spots and gaps
 
-Each item has an ID so it can be tracked to closure. Status is as of 2026-09-24.
+Each item has an ID so it can be tracked to closure. Status is as of 2026-10-05.
 
 ### Resolved by this pass
 
@@ -585,6 +586,7 @@ Each item has an ID so it can be tracked to closure. Status is as of 2026-09-24.
 - **OQ-13 (resolved)** The 24-hour conditional window and the 5-business-day submission rule remain; the $1,250 threshold and the post-event report are gone. [Bylaws F26 §5.04(a), 7.06(c), 7.08, 7.05]
 - **OQ-16 (resolved)** The September 2026 bylaws are in hand and this file has been checked against them; see section 12a. [Bylaws F26]
 - **OQ-17 (resolved)** The current eLearning templates are byte-identical to the ones read for section 6.2. [News 09-21] [Templates F26]
+- **OQ-15 (resolved)** The 10 days for reimbursement documents are calendar days, counted from the event or conference. OSE says going a little past it is not a big problem; the point is to stop members from holding receipts for weeks or months and submitting them all at once. [Bylaws F26 §7.05(a)] [OSE Email 10-05]
 
 ### Still open
 
@@ -595,14 +597,13 @@ Each item has an ID so it can be tracked to closure. Status is as of 2026-09-24.
 - **OQ-10** Whether rounding Amount Requesting above Cost is accepted practice (WSAAC's own example does it). [Step 3]
 - **OQ-11** The Fall 2026 calendar: actual dropbox due dates, deliberation dates and letter dates (eLearning News or Instagram). [Step 5]
 - **OQ-14** Who DSAIC's Assembly rep, Allocations rep and Student Financial Managers are this semester, and whether the Fall 2026 quiz is done. [Handbook 24-25] [Step 1]
-- **OQ-15** The bylaws now count the 10 days from the event or conference rather than from purchase, but still do not say calendar or business days. Treat it as calendar days to be safe. [Bylaws F26 §7.05(a)] [Step 5]
 
 ### Blind spots the slides never cover
 
 - **BS-01 Second funding source.** GSA's GFAC funds mixed RSOs (under 50% graduate members) up to $500 operational and $3,000 for events per academic year, if the RSO has been active eight weeks, completed RSO Orientation, and sends a rep to GSA General Assembly (one absence per semester allowed). But WSAAC's rule ELG-07 excludes RSOs that directly receive SAF funding through another SAF agency, and GSA is a SAF agency. Whether GFAC money trips that rule is unanswered; the handbook shows RSOs can hold both a WSAAC (52 627) and a GFAC (52 624) on-campus account, which suggests it is allowed in practice. Ask WSAAC before applying to GFAC. [Web: wmich.edu/gsa] [Step 1] [Handbook 24-25] [Inferred]
 - **BS-02 Student Financial Managers.** The handbook requires SAF-funded RSOs to designate one or two officers who alone may sign for and spend on-campus funds. The slides never mention it. DSAIC should know who these are and record it. [Handbook 24-25]
 - **BS-03 On-campus account mechanics.** Allocations land in an OSE-held account restricted to the allocated items and swept afterward; no deposits; negative balances freeze privileges. This is why item names matter: the funding letter's item names are the spend authorization. [Handbook 24-25]
-- **BS-04 Sales tax.** WMU is a tax-exempt purchaser when OSE buys directly; a member paying out of pocket pays sales tax, and no source in hand says whether OSE reimburses it. Ask the OSE Program Manager. [Inferred]
+- **BS-04 Sales tax.** WMU is a tax-exempt purchaser when OSE buys directly; a member paying out of pocket pays sales tax. OSE confirmed it reimburses that tax, so this gap is closed. [OSE Email 10-05]
 - **BS-05 Guiding-principle bans.** Alcohol, controlled substances, weapons, personal benefit, charity, fundraising, political and religious purposes are unfundable. The September 2026 bylaws restate them as Guiding Principles 9 and 10, so this gap is closed. [Bylaws F26, Guiding Principles 9-10] [Handbook 24-25]
 - **BS-06 Subscriptions and memberships.** No written rule found; the team reports subscriptions were removed, and the OSE card bars auto-recurring payments. Software, cloud credits and API keys, which DSAIC would plausibly want, sit in this gap. [DSAIC Team] [Step 7]
 - **BS-07 Conditional approvals.** The bylaws give 24 hours after deliberation to submit required changes, so someone needs to be reachable the day after deliberation. [Bylaws F26 §7.06(c)]
