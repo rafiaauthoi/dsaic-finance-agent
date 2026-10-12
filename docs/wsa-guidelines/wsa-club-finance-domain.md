@@ -1,6 +1,6 @@
 # WSA Allocations and RSO Finance: Master Domain Reference
 
-_v4.1, 2026-10-05. Data Science and AI Club (DSAIC), Western Michigan University. Compiled from the DSAIC team's practice notes (Sept 2026), the WSAAC Bylaws passed by the WSA Assembly on 2026-09-09, the WSAAC eLearning announcement of 2026-09-21, the WSAAC Allocations Workshop modules (Spring 2026, Steps 1 to 7), the Fall 2026 WSAAC proposal templates, the Fall 2024 WSAAC Bylaws, the OSE RSO Handbook 2024 to 2025, a written reply from OSE's finance team (2026-10-05), and public WMU and WSA web pages checked on 2026-09-24._
+_v4.2, 2026-10-11. Data Science and AI Club (DSAIC), Western Michigan University. Compiled from the DSAIC team's practice notes (Sept 2026), the WSAAC Bylaws passed by the WSA Assembly on 2026-09-09, the WSAAC eLearning announcement of 2026-09-21, the WSAAC Allocations Workshop modules (Spring 2026, Steps 1 to 7), the Fall 2026 WSAAC proposal templates, the Fall 2024 WSAAC Bylaws, the OSE RSO Handbook 2024 to 2025, a written reply from OSE's finance team (2026-10-05), a written reply from the WSAAC Director of Allocations (2026-10-11), and public WMU and WSA web pages checked on 2026-09-24._
 
 > Machine-readable companion: `wsa-club-finance-rules.yaml` holds the same caps, deadlines, contacts, template schema and open questions as structured data. A formatted Word copy lives in the team's shared drive. All versions come from one content model; this markdown file is the canonical text.
 
@@ -27,6 +27,7 @@ Every fact carries a source tag in square brackets. The tags are the whole trust
 | [Web: source] | A public WMU or WSA web page checked on 2026-09-24. | Current as of that date; recheck before relying on a person's name. |
 | [News 09-21] | WSAAC announcement in the eLearning News feed, posted 2026-09-21. | Current official guidance; newer than the Spring 2026 slides. |
 | [OSE Email 10-05] | Written reply from OSE's finance team (ose-financials@wmich.edu) to the DSAIC project lead, 2026-10-05, answering OQ-15 and BS-04. Held by the project lead. | Current official OSE guidance on reimbursement. |
+| [WSAAC Email 10-11] | Written reply from the WSAAC Director of Allocations to the DSAIC project lead, 2026-10-11, answering OQ-01, OQ-09, OQ-10 and BS-06. Held by the project lead. | Current official WSAAC guidance. |
 | [DSAIC Team] | The DSAIC team's practice notes from running RSO finances (Sept 2026). | How it actually works. Describes practice, does not create permissions. |
 | [Inferred] | A reading of the sources that no source states outright. | Low. Confirm before acting. |
 | [Unconfirmed] | Stated by someone, not verified. | Low. Listed again in section 13. |
@@ -40,7 +41,7 @@ Every fact carries a source tag in square brackets. The tags are the whole trust
 - **Money source:** the Student Assessment Fee (SAF), $62.00 per student per semester for Fall 2026 and Spring 2027, paid by undergraduate and graduate students. [Web: wmich.edu cost of attendance]
 - **Yearly cap:** $6,500 per RSO per fiscal year across all categories, described as a dynamic cap based on the SAF WSAAC takes in and the RSOs it serves; collaboration is a separate $1,500. [Bylaws F26 §6.03(a)] [DSAIC Team]
 - **Fiscal year:** July 1 to June 30. Caps and strikes reset on it. [Bylaws F26 §5.02(a)]
-- **Rounds:** one dropbox and one deliberation per month, with at least three deliberations each semester. The September 2026 bylaws set no limit on how many months an RSO may apply; the older two-cycles rule is gone from the text, though the team reports it in practice (OQ-01). [Step 3] [Bylaws F26 §5.01] [DSAIC Team]
+- **Rounds:** one dropbox and one deliberation per month, with at least three deliberations each semester. There is no limit on how many times an RSO may apply in a semester; only the $6,500 yearly cap limits it. The older two-cycles rule is gone (OQ-01). [Step 3] [Bylaws F26 §5.01] [WSAAC Email 10-11]
 - **Outside funding:** every proposal must include proof the RSO has sought other money (fundraising, dues, sponsorship outreach, or a written statement of attempts). Missing it is grounds for denial. [Bylaws F26 §5.04(g), 7.07(e)]
 - **Rhythm:** proposal due (in practice: first Friday), deliberation the next Friday, funding letter about a week later. [DSAIC Team] [Step 5 schedule example]
 - **Lead time:** an event or conference must be at least 10 business days after the deliberation. [Step 2, Art. 6.02, 6.03]
@@ -222,7 +223,7 @@ The Commission shall not fund:
 
 > **In practice (DSAIC Team):** Operational is the general semester-round purchase round. The committee's main concerns at deliberation are things like "are you putting your logo on this?" and "we are removing the ability to do subscriptions", so branded merch and anything subscription-shaped are the two things to expect questions on. For tech clubs they often approve. [DSAIC Team]
 
-> **Note:** Subscriptions are not named anywhere in the slides or the Fall 2024 bylaws. The nearest written rule is the OSE card's "no auto-recurring payments" [Step 7]. Treat subscriptions as unfundable on the team's report until a written rule turns up. [DSAIC Team] [Inferred]
+> **Note:** WSAAC confirmed that software subscriptions, memberships and anything else with an automatic recurring payment cannot be funded, because OSE policy does not allow them (PRO-12). This matches the OSE card's "no auto-recurring payments" rule. [WSAAC Email 10-11] [Step 7]
 
 ### 4.3 Conference funding in detail
 
@@ -268,6 +269,7 @@ The September 2026 bylaws restate these as Guiding Principles 9 and 10, so they 
 - **PRO-09** Fundraisers, and materials used in fundraisers. [Bylaws F26, Guiding Principle 10(a)]
 - **PRO-10** Anything where an RSO advisor or WMU faculty or staff member is the beneficiary. [Bylaws F26, Guiding Principle 10(b)]
 - **PRO-11** Expected rather than required: use local vendors where possible to reduce costs and support the community. [Bylaws F26, Guiding Principle 6]
+- **PRO-12** Software subscriptions, memberships, and any other automatic recurring payment or service. OSE policy does not allow them, so WSAAC cannot fund them. [WSAAC Email 10-11]
 
 ## 5. The monthly cycle: deadlines, deliberation, results
 
@@ -289,7 +291,7 @@ The Spring 2026 schedule that WSAAC posted on Instagram shows the rhythm: Januar
 
 > **In practice (DSAIC Team):** Funding submissions are due the first Friday of the month. The following Friday is the deliberation session: a virtual call with the committee where they flag anything they want to talk about. You give a quick intro of the club and explain the items. The Friday after that we get the green light to purchase and the funding letter. You can only submit two month-cycles per semester. [DSAIC Team]
 
-> **Note:** The two-cycles-per-semester limit was in the Fall 2024 bylaws but is not in the September 2026 bylaws. The team's note may describe older practice; ask WSAAC before planning more than two rounds in a semester (OQ-01). [Bylaws F24 §4.01(g)] [Bylaws F26] [DSAIC Team]
+> **Note:** The two-cycles-per-semester limit was in the Fall 2024 bylaws but is not in the September 2026 bylaws, and WSAAC confirmed there is no per-semester limit on applications; only the $6,500 cap applies. The team's note describes older practice (OQ-01). [Bylaws F24 §4.01(g)] [Bylaws F26] [WSAAC Email 10-11]
 
 ### Timing rules that hang off the deliberation date
 
@@ -332,7 +334,7 @@ All four templates are one worksheet named "Proposal" inside a colored border, w
 | Totals (auto, column L) | L11 non-food = SUM(F20:F200); L12 food = SUM(L20:L200); L14 total = L11+L12; L15 Total SAFs Used = L14/20.8692 | L11 = SUM(F20:F200); L12 fixed at 0 with the note "The commission shall not fund food for Conference expenses."; L14 = L11; L15 = L14/20.8692 | Same as Conference, worded for Operational | Same as Event |
 
 - **TPL-01** The affirmation text on every form: "I hereby affirm that all the information provided is accurate and that no items requested have yet been purchased." [Templates F26]
-- **TPL-02** Cost vs Amount Requesting: cost is what the item costs, amount requesting is what you are asking WSAAC for. In WSAAC's own worked example a $29.99 projector is requested at $30.00 and $89.99 of popcorn buckets at $95.00, so modest rounding up appears to be accepted. [Step 3] [Inferred]
+- **TPL-02** Cost vs Amount Requesting: cost is what the item costs, amount requesting is what you are asking WSAAC for. In WSAAC's own worked example a $29.99 projector is requested at $30.00 and $89.99 of popcorn buckets at $95.00, so modest rounding up is accepted. WSAAC confirms rounding up is acceptable and sometimes encouraged, so the approved amount covers the real price without anyone paying out of pocket. Do not round up too far: unused funds cannot be reallocated, and money requested but not spent is lost and cannot be requested again. [Step 3] [WSAAC Email 10-11]
 - **TPL-03** Total SAFs Used divides the total by 20.8692. Neither the templates nor the slides explain the number. It is not the current SAF ($62.00) or the FY2025 SAF ($55.00); the older example on the slides implied a divisor near 66 ($225 shown as 3.41 SAFs). Treat the cell as informational. [Templates F26] [Step 3] [Web: wmich.edu] [Unconfirmed]
 - **TPL-04** Yes or no questions (already happened, entrance fee, donations, philanthropic) are there to catch ineligible events early. Date and location cannot be "to be determined" and estimated attendance is required. [Step 3] [Templates F26]
 - **TPL-05** Amounts use the accounting number format ($ #,##0.00); the SUM ranges run to row 200 even though only 30 gold rows exist, so extra rows would total but would violate the do-not-modify rule. [Templates F26] [Step 4 instr]
@@ -373,7 +375,7 @@ These are WSAAC's instructions, grouped the way they group them. WSAAC reposted 
 
 > **In practice (DSAIC Team):** Name each item clearly at the level you will actually buy it, like "Bags" rather than "Custom Embroidery Backpack", and attach a real vendor quote for a representative product. Plans change between submission and purchase, and the funding letter's item names are what OSE matches receipts against, so an item name that is accurate but not tied to one exact product leaves room to adjust. Put the justification in the Optional Notes box. The people who review the proposal are separate from the people who process the purchase, so the request needs to read clearly to both. Studying past approved requests, ours and other clubs', is the best way to learn what level of detail works. [DSAIC Team]
 
-> **Note:** This fits the rules: SUB-02 and SUB-03 want every item itemized, clearly described and backed by a vendor quote, and a clear item name with a real quote does exactly that. Item names that are too vague get rejected (SUB-25), so "Supplies" alone is not enough; "Bags", "Sensors" or "Dev boards" with a quote is. For operational funding, the September 2026 bylaws also allow shifting amounts between approved line items within the letter's total, with prior approval (OPS-07). The on-campus account can only be spent on the allocated items [Handbook 24-25]. How specific a name needs to be is OQ-09. [Bylaws F26 §6.03(a)(iii)(4)] [Inferred]
+> **Note:** This fits the rules: SUB-02 and SUB-03 want every item itemized, clearly described and backed by a vendor quote, and a clear item name with a real quote does exactly that. Item names that are too vague get rejected (SUB-25), so "Supplies" alone is not enough; "Bags", "Sensors" or "Dev boards" with a quote is. For operational funding, the September 2026 bylaws also allow shifting amounts between approved line items within the letter's total, with prior approval (OPS-07). The on-campus account can only be spent on the allocated items [Handbook 24-25]. WSAAC's answer to OQ-09 is that more specific is better, especially with links or screenshots placed in the open Excel space below the template; a name that is not specific enough leads to a resubmission request, an invitation to deliberation, or denial. So keep names accurate and specific, and back them with a quote or link. [Bylaws F26 §6.03(a)(iii)(4)] [WSAAC Email 10-11]
 
 ### 6.5 Common mistakes that get proposals rejected
 
@@ -518,7 +520,7 @@ The same ground covered from both sides, so the differences are visible in one p
 | --- | --- | --- |
 | Categories | Seven categories with their own rules and caps. [Step 2] | Three we use: Operational (semester-round purchases), Conference (a trip), Event (on campus). [DSAIC Team] |
 | Deadlines | Monthly dropbox with a posted due date, five business days before deliberation; late is not considered. [Step 3] [Bylaws F26 §5.04(a)] | Due first Friday of the month; deliberation the following Friday; green light plus funding letter the Friday after. [DSAIC Team] |
-| How many rounds | No per-RSO limit in the September 2026 bylaws; at least three deliberations per semester. The Fall 2024 text allowed two months plus a third after a denial. [Bylaws F26 §5.01] [Bylaws F24 §4.01(g)] | Two month-cycles per semester. [DSAIC Team] |
+| How many rounds | No per-RSO limit in the September 2026 bylaws; at least three deliberations per semester. The Fall 2024 text allowed two months plus a third after a denial. [Bylaws F26 §5.01] [Bylaws F24 §4.01(g)] | Two month-cycles per semester (older practice; WSAAC says there is no limit, see OQ-01). [DSAIC Team] |
 | Deliberation | A session where funding decisions are made; required RSOs attend and hear results there; no-shows are not considered. [Step 5] [Bylaws F26 §7.04(a)] | A virtual call. Quick club intro, explain the items, answer whatever they flag (logo on items, subscriptions no longer allowed). Tech clubs are usually approved. [DSAIC Team] |
 | Item descriptions | Itemized, clearly described, vendor quote attached, items matched to the category. [Step 3] | Clear item names at the level you will buy ("Bags"), a real vendor quote, justification in the notes; operational amounts can shift with approval (OPS-07). [DSAIC Team] |
 | Who reviews vs who buys | WSAAC deliberates and issues the letter; OSE processes payment against the approved items. [Step 5] [Step 7] | Two separate groups of people; write for both. [DSAIC Team] |
@@ -573,7 +575,7 @@ This section is kept as history; section 12a covers the September 2026 bylaws, w
 
 ## 13. Open questions, blind spots and gaps
 
-Each item has an ID so it can be tracked to closure. Status is as of 2026-10-05.
+Each item has an ID so it can be tracked to closure. Status is as of 2026-10-11.
 
 ### Resolved by this pass
 
@@ -586,15 +588,15 @@ Each item has an ID so it can be tracked to closure. Status is as of 2026-10-05.
 - **OQ-13 (resolved)** The 24-hour conditional window and the 5-business-day submission rule remain; the $1,250 threshold and the post-event report are gone. [Bylaws F26 §5.04(a), 7.06(c), 7.08, 7.05]
 - **OQ-16 (resolved)** The September 2026 bylaws are in hand and this file has been checked against them; see section 12a. [Bylaws F26]
 - **OQ-17 (resolved)** The current eLearning templates are byte-identical to the ones read for section 6.2. [News 09-21] [Templates F26]
+- **OQ-01 (resolved)** No per-semester limit on how many times an RSO can apply; only the $6,500 yearly cap. [WSAAC Email 10-11]
+- **OQ-09 (resolved)** The more specific the item name, the better, ideally with links or screenshots in the open space below the template. Too vague means a resubmission request, a deliberation invite, or denial. [WSAAC Email 10-11]
+- **OQ-10 (resolved)** Rounding Amount Requesting up from Cost is acceptable and sometimes encouraged, but keep it modest: unspent money is lost and cannot be reallocated or requested again. [WSAAC Email 10-11]
 - **OQ-15 (resolved)** The 10 days for reimbursement documents are calendar days, counted from the event or conference. OSE says going a little past it is not a big problem; the point is to stop members from holding receipts for weeks or months and submitting them all at once. [Bylaws F26 §7.05(a)] [OSE Email 10-05]
 
 ### Still open
 
-- **OQ-01 (reopened)** Two cycles per semester: the rule was in the Fall 2024 bylaws §4.01(g) but is not in the September 2026 bylaws. Ask WSAAC whether any per-RSO limit still applies in practice. [Bylaws F24] [Bylaws F26] [DSAIC Team]
 - **OQ-06** CEAS card: which money it spends, and the CEAS funding coordinator's exact process. [DSAIC Team]
 - **OQ-07** What 20.8692 represents in "Total SAFs Used". [Templates F26]
-- **OQ-09** Where the line sits between a usefully general item name and one too vague to fund. Needs real examples: past DSAIC proposals with their funding letters, and other clubs' data. [DSAIC Team]
-- **OQ-10** Whether rounding Amount Requesting above Cost is accepted practice (WSAAC's own example does it). [Step 3]
 - **OQ-11** The Fall 2026 calendar: actual dropbox due dates, deliberation dates and letter dates (eLearning News or Instagram). [Step 5]
 - **OQ-14** Who DSAIC's Assembly rep, Allocations rep and Student Financial Managers are this semester, and whether the Fall 2026 quiz is done. [Handbook 24-25] [Step 1]
 
@@ -605,7 +607,7 @@ Each item has an ID so it can be tracked to closure. Status is as of 2026-10-05.
 - **BS-03 On-campus account mechanics.** Allocations land in an OSE-held account restricted to the allocated items and swept afterward; no deposits; negative balances freeze privileges. This is why item names matter: the funding letter's item names are the spend authorization. [Handbook 24-25]
 - **BS-04 Sales tax.** WMU is a tax-exempt purchaser when OSE buys directly; a member paying out of pocket pays sales tax. OSE confirmed it reimburses that tax, so this gap is closed. [OSE Email 10-05]
 - **BS-05 Guiding-principle bans.** Alcohol, controlled substances, weapons, personal benefit, charity, fundraising, political and religious purposes are unfundable. The September 2026 bylaws restate them as Guiding Principles 9 and 10, so this gap is closed. [Bylaws F26, Guiding Principles 9-10] [Handbook 24-25]
-- **BS-06 Subscriptions and memberships.** No written rule found; the team reports subscriptions were removed, and the OSE card bars auto-recurring payments. Software, cloud credits and API keys, which DSAIC would plausibly want, sit in this gap. [DSAIC Team] [Step 7]
+- **BS-06 Subscriptions and memberships.** WSAAC confirmed these are not fundable because OSE does not allow automatic recurring payments or services (PRO-12), so this gap is closed. One-time purchases such as prepaid cloud credits are not covered by that answer; ask before requesting them. [WSAAC Email 10-11]
 - **BS-07 Conditional approvals.** The bylaws give 24 hours after deliberation to submit required changes, so someone needs to be reachable the day after deliberation. [Bylaws F26 §7.06(c)]
 - **BS-08 Stale public pages.** wmuwsa.org/allocations still headlines Fall 2023 deliberation dates; do not scrape it for dates. [Web: wmuwsa.org/allocations]
 - **BS-09 Officer names.** The WSA site lists a Director of Allocations who graduates in 2026; role mailboxes are stable, names are not. [Web: wmuwsa.org]
