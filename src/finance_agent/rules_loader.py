@@ -1,26 +1,39 @@
 import yaml
 from collections import Counter
 
-with open("docs/wsa-guidelines/wsa-club-finance-rules.yaml", "r", encoding="utf-8") as yaml_file:
-    content = yaml.safe_load(yaml_file)
+def load_rules():
+    with open("docs/wsa-guidelines/wsa-club-finance-rules.yaml", "r", encoding="utf-8") as yaml_file:
+        content = yaml.safe_load(yaml_file)
 
-rules = content["rules_index"]
+    rules = [rule for rule in content["rules_index"] if not rule["id"].startswith(("OQ", "BS"))]
 
-counts = Counter()
+    return rules
 
-for rule in rules:
-    category = rule["id"].split("-")[0]
-    counts[category] += 1
+def count_by_category(rules):
+    counts = Counter()
 
-print(f"Loaded {len(rules)} rules from docs/wsa-guidelines/wsa-club-finance-rules.yaml")
-print(f"Event: {counts['EVT']} rules")
-print(f"Operational: {counts['OPS']} rules")
-print(f"Conference: {counts['CNF']} rules")
-print(f"Collaboration: {counts['COL']} rules")
+    for rule in rules:
+        category = rule["id"].split("-")[0]
+        counts[category] += 1
 
-main_cat = {"EVT", "OPS", "CNF", "COL"}
+    return counts
 
-print("\nOther Categories:")
-for category, count in counts.items():
-    if category not in main_cat:
-        print(f"Found {count} rules in category {category}")
+def main():
+    rules = load_rules()
+    counts = count_by_category(rules)
+
+    print(f"Loaded {len(rules)} rules from docs/wsa-guidelines/wsa-club-finance-rules.yaml")
+    print(f"Event: {counts['EVT']} rules")
+    print(f"Operational: {counts['OPS']} rules")
+    print(f"Conference: {counts['CNF']} rules")
+    print(f"Collaboration: {counts['COL']} rules")
+
+    main_cat = {"EVT", "OPS", "CNF", "COL"}
+
+    print("\nOther Categories:")
+    for category, count in counts.items():
+        if category not in main_cat:
+            print(f"Found {count} rules in category {category}")
+
+if __name__ == "__main__":
+    main()
