@@ -1,8 +1,10 @@
+from pathlib import Path
 import yaml
 from collections import Counter
 
 def load_rules():
-    with open("docs/wsa-guidelines/wsa-club-finance-rules.yaml", "r", encoding="utf-8") as yaml_file:
+    rule_file = (Path(__file__).resolve().parents[2] / "docs" / "wsa-guidelines" / "wsa-club-finance-rules.yaml")
+    with open(rule_file, "r", encoding="utf-8") as yaml_file:
         content = yaml.safe_load(yaml_file)
 
     rules = [rule for rule in content["rules_index"] if not rule["id"].startswith(("OQ", "BS"))]
