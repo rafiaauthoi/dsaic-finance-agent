@@ -1,0 +1,38 @@
+name: data-check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  scan-samples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Look for personal data in data/
+        run: |
+          # Emails, 9-digit ID-like numbers (WIN), and US phone numbers
+          pattern='[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}|\b[0-9]{9}\b|\(?\b[0-9]{3}\)?[-. ][0-9]{3}[-. ][0-9]{4}\b'
+          if grep -rnIE "$pattern" data/ \
+              --include='*.csv' --include='*.tsv' --include='*.md' \
+              --include='*.txt' --include='*.json' --include='*.yaml' --include='*.yml'; then
+            echo "::error::Possible personal data found under data/. Re-check docs/anonymization-checklist.md."
+            exit 1
+          fi
+          echo "No emails, ID numbers, or phone numbers found under data/."
+
+      - name: Block spreadsheets and PDFs outside data/sample and docs/wsa-guidelines
+        run: |
+          bad=$(git ls-files | grep -iE '\.(csv|tsv|xlsx|xls|xlsm|pdf|docx)$' \
+                | grep -vE '^(data/sample/|docs/wsa-guidelines/)' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::Data files committed outside allowed folders:"
+            echo "$bad"
+            exit 1
+          fi
+          echo "No stray data files."
