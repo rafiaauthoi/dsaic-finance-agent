@@ -157,6 +157,8 @@ It's the same path every time:
 
 **Never put real funding documents, names, or account numbers in the project.** Real documents live in the team's private shared drive, never on GitHub.
 
+**Never put API keys or passwords in the project either.** They go in a local `.env` file. Read the [Security Guide](security.md) before your first task that needs a key.
+
 ---
 
 ## Troubleshooting

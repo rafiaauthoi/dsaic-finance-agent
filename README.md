@@ -63,6 +63,7 @@ This repository is public, so real financial data never enters it.
 - **Anonymization checklist** with a two-person check before any sample is committed
 - **Least-privilege access:** real funding documents live in a restricted shared drive, separate from team-wide files
 - **WSA's bylaws and slides are cited by section,** never copied in
+- **API keys and passwords** stay in a local `.env` file, never in code. See [docs/security.md](docs/security.md)
 
 ## Add-ons
 
@@ -76,6 +77,7 @@ This repository is public, so real financial data never enters it.
 | [Refresher Guide](docs/project/02-refresher-guide.md) | WSA funding, Git and GitHub, and how the team works, explained from zero |
 | [Project Charter](docs/project/03-project-charter.md) | Roles, expectations, deliverables, phases, and risks |
 | [WSA Guidelines](docs/wsa-guidelines/README.md) | WSA's funding rules, checked against the current bylaws |
+| [Security Guide](docs/security.md) | Where API keys go, how to load them, and what to do if one leaks |
 
 ## Repository structure
 
